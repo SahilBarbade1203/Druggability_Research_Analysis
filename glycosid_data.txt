@@ -1,0 +1,2933 @@
+--------------------------------------------------------------------------------
+        UniProt - Swiss-Prot Protein Knowledgebase
+        SIB Swiss Institute of Bioinformatics; Geneva, Switzerland
+        European Bioinformatics Institute (EBI); Hinxton, United Kingdom
+        Protein Information Resource (PIR); Washington DC, USA
+--------------------------------------------------------------------------------
+
+Description: Glycosyl hydrolase families: classification and list of entries
+Name:        glycosid.txt
+Release:     2024_01 of 24-Jan-2024
+
+--------------------------------------------------------------------------------
+
+This document provides both a brief description of the classification of
+glycosyl hydrolases into families as developed by Bernard Henrissat as well as
+the list, classified by family, of the glycosyl hydrolases entries in
+UniProtKB/Swiss-Prot.
+
+Comments about the glycosyl hydrolases families classification should be sent
+to:
+
+         Bernard Henrissat
+         AFMB-CNRS
+         31 Chemin Joseph Aiguier
+         13402 Marseille cedex 20
+         France
+
+         E-mail: bernie@afmb.cnrs-mrs.fr
+
+
+CAZy, a WWW resource on glycosyl hydrolases, is available at:
+
+http://www.cazy.org/
+
+
+
+                       ============================
+                       Glycosyl hydrolases families
+                       ============================
+
+Introduction
+------------
+
+O-Glycosyl hydrolases (EC 3.2.1.-) are a widespread group of enzymes which
+hydrolyse the glycosidic bond between two or more carbohydrates or between a
+carbohydrate and a non-carbohydrate moiety. The IUB-MB Enzyme nomenclature of
+glycosyl hydrolases is based on their substrate specificity and occasionally on
+their molecular mechanism; such a classification does not reflect (and was not
+intended to) the structural features of these enzymes. A classification of
+glycosyl hydrolases in families based on amino acid sequence similarities has
+been proposed a few years ago. Because there is a direct relationship between
+sequence and folding similarities, such a classification is expected to: (i)
+reflect the structural features of these enzymes better than their sole
+substrate specificity, (ii) help to reveal the evolutionary relationships
+between these enzymes and (iii) provide a convenient tool to derive mechanistic
+information [1-2]. This document provides an updated list of the glycosyl
+hydrolase families. Because the fold of proteins is better conserved than their
+sequences, some of the families can be grouped in 'clans' (i) when new sequences
+are found to be related to more than one family, (ii) when the sensitivity of
+sequence comparison methods is increased or (iii) when structural determinations
+demonstrate the resemblance between members of different families [3]. The
+established 'clans' are also listed in this document.
+
+
+Catalytic mechanism
+-------------------
+
+Enzymatic hydrolysis of the glycosidic bond takes place via general acid
+catalysis that requires two critical residues: a proton donor and a
+nucleophile/base [4]. This hydrolysis occurs via two major mechanisms giving
+rise to either an overall retention, or an inversion, of anomeric
+configuration. For each families listed in this document we indicate, when it is
+known, the stereochemical outcome of the reaction catalyzed as well as the type
+of amino-acid residues acting as a nucleophile/base and as a proton donor.
+
+
+Clans
+-----
+
+Name   Families belonging to the clan
+----   --------------------------------
+GH-A   1,2,5,10,17,26,30,35,39,42,51,53
+GH-B   7,16
+GH-C   11,12
+GH-D   27,36
+GH-E   33,34
+GH-F   43,62
+GH-G   37,63
+GH-H   13,70
+
+
+Note
+----
+
+Some glycosyl hydrolases are multifunctional enzymes that contain catalytic
+domains that belong to different GH families. The Swiss-Prot entries for these
+proteins are therefore mentionned in each of the relevant list of family
+members.
+
+
+References
+----------
+
+[ 1] Henrissat B.
+     A classification of glycosyl hydrolases based on amino-acid sequence
+     similarities.
+     Biochem. J. 280:309-316(1991).
+
+[ 2] Henrissat B., Bairoch A.
+     New families in the classification of glycosyl hydrolases based on amino-
+     acid sequence similarities.
+     Biochem. J. 293:781-788(1993).
+
+[ 3] Henrissat B., Bairoch A.
+     Updating the sequence-based classification of glycosyl hydrolases.
+     Biochem. J. 316:695-696(1996).
+
+[ 4] Davies G., Henrissat B.
+     Structures and mechanisms of glycosyl hydrolases.
+     Structure 3:853-859(1995).
+
+
+     ---------------------------------------------------------------
+
+
+               ==========================================
+               Swiss-Prot entries for glycosyl hydrolases
+               ==========================================
+
+
+========
+Family 1
+========
+
+Description: Mainly beta-glucosidases (EC 3.2.1.21); 6-phospho-beta-
+             galactosidases (EC 3.2.1.85); 6-phospho-beta-glucosidases
+             (EC 3.2.1.86); lactase-phlorizin hydrolases (EC 3.2.1.108);
+             and myrosinases (EC 3.2.3.1).
+PROSITE: PDOC00495
+3D structure status: Available
+Reaction stereochemical outcome: Retained anomeric configuration
+Catalytic nucleophile/base: Glu (experimental)
+Catalytic proton donor: Glu (experimental) but absent in myrosinases
+Clan: GH-A.
+Known taxonomic range: eukaryota, bacteria, archaea.
+
+AA5GT_DIACA (E3W9M2)    , AA7GT_DELGR (E3W9M3)    , ABGA_CLOLO  (Q46130)    ,
+ARBB_DICCH  (P26206)    , ASCB_ECOLI  (P24240)    , AVCO1_AVESA (Q38786)    ,
+AVCO2_AVESA (Q9ZP27)    , BAGBG_DALNI (A3RF67)    , BGAL_PYRWO  (O52629)    ,
+BGAL_SACS2  (P22498)    , BGAL_SACSH  (P50388)    , BGAL_SULAC  (P14288)    ,
+BGL01_ARATH (Q3ECW8)    , BGL01_ORYSJ (Q5QMT0)    , BGL02_ARATH (Q9FMD8)    ,
+BGL02_ORYSJ (B7F8N7)    , BGL03_ARATH (O65458)    , BGL03_ORYSJ (Q8RZL1)    ,
+BGL04_ARATH (Q9ZUI3)    , BGL04_ORYSJ (Q5N863)    , BGL05_ARATH (Q8RXN9)    ,
+BGL05_ORYSJ (Q5JK35)    , BGL06_ARATH (Q682B4)    , BGL06_ORYSJ (Q8L7J2)    ,
+BGL07_ARATH (Q9LZJ1)    , BGL07_ORYSJ (Q75I93)    , BGL08_ARATH (Q67XN2)    ,
+BGL08_ORYSJ (Q75I94)    , BGL09_ARATH (Q9STP4)    , BGL09_ORYSJ (B7ECS8)    ,
+BGL10_ARATH (Q93ZI4)    , BGL10_ORYSJ (Q7F9K4)    , BGL11_ARATH (B3H5Q1)    ,
+BGL11_ORYSJ (Q7XKV5)    , BGL12_ARATH (Q9FH03)    , BGL12_ORYSI (B8AVF0)    ,
+BGL12_ORYSJ (Q7XKV4)    , BGL13_ARATH (Q9LU02)    , BGL13_ORYSJ (Q7XKV2)    ,
+BGL14_ARATH (Q9SLA0)    , BGL14_ORYSJ (Q7XPY7)    , BGL15_ARATH (O64879)    ,
+BGL15_ORYSJ (Q7XPY5)    , BGL16_ARATH (Q9M1D0)    , BGL16_ORYSJ (Q7XSK2)    ,
+BGL17_ARATH (O64882)    , BGL17_ORYSJ (Q7XSK1)    , BGL18_ARATH (Q9SE50)    ,
+BGL18_ORYSJ (Q7XSK0)    , BGL19_ARATH (Q9LIF9)    , BGL19_ORYSJ (Q0DIT2)    ,
+BGL1A_PHACH (Q25BW5)    , BGL1B_PHACH (Q25BW4)    , BGL20_ARATH (Q84WV2)    ,
+BGL20_ORYSJ (B9FHH2)    , BGL21_ARATH (Q9C525)    , BGL21_ORYSJ (Q60DY1)    ,
+BGL22_ARATH (Q9C8Y9)    , BGL22_ORYSJ (Q60DX8)    , BGL23_ARATH (Q9SR37)    ,
+BGL23_ORYSJ (Q6L597)    , BGL24_ARATH (Q9LKR7)    , BGL24_ORYSJ (Q5Z9Z0)    ,
+BGL25_ARATH (O82772)    , BGL25_ORYSJ (Q0DA21)    , BGL26_ARATH (O64883)    ,
+BGL26_ORYSJ (A3BMZ5)    , BGL27_ARATH (Q9M1D1)    , BGL27_ORYSJ (Q84YK7)    ,
+BGL28_ARATH (Q4V3B3)    , BGL28_ORYSJ (Q7EXZ4)    , BGL29_ARATH (Q8GXT2)    ,
+BGL29_ORYSJ (A3C053)    , BGL30_ARATH (Q9M1C9)    , BGL30_ORYSJ (Q0J0N4)    ,
+BGL31_ARATH (Q9FLU9)    , BGL31_ORYSJ (B7F7K7)    , BGL32_ARATH (Q9FLU8)    ,
+BGL32_ORYSJ (Q0J0G2)    , BGL33_ARATH (O48779)    , BGL33_ORYSJ (Q0J0G1)    ,
+BGL34_ARATH (Q8GRX1)    , BGL34_ORYSJ (Q339X2)    , BGL35_ARATH (Q3ECS3)    ,
+BGL35_ORYSJ (Q53NF0)    , BGL36_ARATH (Q9C8K1)    , BGL37_ARATH (Q9C5C2)    ,
+BGL38_ARATH (P37702)    , BGL38_ORYSJ (Q2QSR8)    , BGL39_ARATH (Q3E8E5)    ,
+BGL40_ARATH (Q9FZE0)    , BGL41_ARATH (Q9FIU7)    , BGL42_ARATH (Q9FIW4)    ,
+BGL43_ARATH (Q9LV34)    , BGL44_ARATH (Q9LV33)    , BGL45_ARATH (O80689)    ,
+BGL46_ARATH (O80690)    , BGL47_ARATH (Q9SVS1)    , BGLA_ACET2  (P26208)    ,
+BGLA_BACSU  (P42973)    , BGLA_ECOLI  (Q46829)    , BGLA_ENTAG  (Q59437)    ,
+BGLA_NIACI  (Q03506)    , BGLA_PAEPO  (P22073)    , BGLA_THEMA  (Q08638)    ,
+BGLA_THENE  (P0C946)    , BGLA_THENN  (B9K7M5)    , BGLB_ECOLI  (P11988)    ,
+BGLB_PAEPO  (P22505)    , BGLB_THEBI  (P38645)    , BGLC_BACSU  (P42403)    ,
+BGLC_OLEEU  (Q8GVD0)    , BGLFU_BIFBR (P94248)    , BGLH_BACSU  (P40740)    ,
+BGLS_AGRSA  (P12614)    , BGLS_CALSA  (P10482)    , BGLS_TRIRP  (P26204)    ,
+BGLT_TRIRP  (P26205)    , CASB_KLEOX  (Q48409)    , CBG_PINCO   (Q9ZT64)    ,
+F26G_HELSP  (Q42707)    , FURH_VIBFR  (Q75W17)    , GBA3_CAVPO  (P97265)    ,
+GBA3_HUMAN  (Q9H227)    , GBA3_PONAB  (Q5RF65)    , GH1A_CALOW  (E4Q361)    ,
+GMUD_BACSU  (O05508)    , HGGL1_MAIZE (P49235)    , HGGL2_MAIZE (Q41761)    ,
+HGGL_SECCE  (Q9FYS3)    , HGL1A_WHEAT (Q1XIR9)    , HGL1B_WHEAT (Q1XH05)    ,
+HGL1C_WHEAT (Q1XH04)    , HGL1D_WHEAT (D5MTF8)    , HIUH_SOYBN  (Q8S3J3)    ,
+KLOTB_HUMAN (Q86Z14)    , KLOTB_MOUSE (Q99N32)    , KLOT_HUMAN  (Q9UEF7)    ,
+KLOT_MACFA  (Q8WP17)    , KLOT_MOUSE  (O35082)    , KLOT_RAT    (Q9Z2Y9)    ,
+LACG1_STRPN (Q97SA9)    , LACG1_STRR6 (Q8DQZ1)    , LACG2_STRPN (Q97QL9)    ,
+LACG2_STRR6 (Q8DPP6)    , LACG_CLOAB  (Q97EZ2)    , LACG_LACAI  (P50977)    ,
+LACG_LACCA  (P14696)    , LACG_LACCB  (B3W7I3)    , LACG_LACLL  (P11546)    ,
+LACG_LACRH  (Q29ZJ1)    , LACG_LEPBD  (C7N8L9)    , LACG_STAA1  (A7X569)    ,
+LACG_STAA2  (A6U3R9)    , LACG_STAA3  (Q2FEU3)    , LACG_STAA8  (Q2G2D5)    ,
+LACG_STAA9  (A5IUX8)    , LACG_STAAB  (Q2YYJ9)    , LACG_STAAC  (Q5HE16)    ,
+LACG_STAAE  (A6QJ33)    , LACG_STAAM  (P67767)    , LACG_STAAN  (P67768)    ,
+LACG_STAAR  (Q6GEP0)    , LACG_STAAS  (Q6G7C5)    , LACG_STAAT  (A8YYF6)    ,
+LACG_STAAU  (P11175)    , LACG_STAAW  (P67769)    , LACG_STAEQ  (Q5HM41)    ,
+LACG_STAES  (Q8CNF8)    , LACG_STAHJ  (Q4L868)    , LACG_STRA3  (Q8E4S2)    ,
+LACG_STREM  (B4U1G6)    , LACG_STRGC  (Q9EV38)    , LACG_STRMU  (P50978)    ,
+LACG_STRP1  (Q99Y18)    , LACG_STRP3  (P0DB40)    , LACG_STRP6  (Q5X9Y7)    ,
+LACG_STRP8  (Q8NZE1)    , LACG_STRPB  (Q1J9V2)    , LACG_STRPC  (Q1JK01)    ,
+LACG_STRPD  (Q1JEZ3)    , LACG_STRPF  (Q1J4Q7)    , LACG_STRPG  (A2RGE8)    ,
+LACG_STRPJ  (B8ZQ59)    , LACG_STRPM  (Q48RC8)    , LACG_STRPQ  (P0DB41)    ,
+LACG_STRS7  (C0MDS5)    , LACG_STRSV  (A3CPH0)    , LACG_STRU0  (B9DU98)    ,
+LACG_STRZJ  (C1CEE7)    , LCTL_HUMAN  (Q6UWM7)    , LCTL_MOUSE  (Q8K1F9)    ,
+LPH_HUMAN   (P09848)    , LPH_RABIT   (P09849)    , LPH_RAT     (Q02401)    ,
+LPH_SHEEP   (W5PLZ6)    , MYR1_SINAL  (P29737)    , MYR2_SINAL  (P29738)    ,
+MYR3_SINAL  (P29092)    , MYRA_SINAL  (P29736)    , MYRO1_BREBR (Q95X01)    ,
+MYRO2_BREBR (P83179)    , MYRO_BRANA  (Q00326)    , RG1_RAUSE   (Q9SPP9)    ,
+SFR2_ARATH  (Q93Y07)    , SFR2_ORYSJ  (Q8L6H7)    , SG1_RAUSE   (Q8GU20)    ,
+VICHY_VICSN (A2SY66)    
+
+
+========
+Family 2
+========
+
+Description: Mainly beta-galactosidases (EC 3.2.1.23), beta-glucuronidases
+             (EC 3.2.1.31) and beta-mannosidases (EC 3.2.1.25).
+PROSITE: PDOC00531
+3D structure status: Available
+Reaction stereochemical outcome: Retained anomeric configuration
+Catalytic nucleophile/base: Glu (experimental)
+Catalytic proton donor: Glu (experimental)
+Clan: GH-A.
+Known taxonomic range: eukaryota, bacteria.
+
+BGA2_ECOLI  (P06864)    , BGAC_BIFAA  (A1A3T0)    , BGAL1_ENTCL (Q47077)    ,
+BGAL1_KLEP7 (A6T8X0)    , BGAL1_KLEPN (P06219)    , BGAL2_ENTCL (Q2XQU3)    ,
+BGAL2_KLEP7 (A6TI29)    , BGAL2_KLEPN (A7KGA5)    , BGAL_ACTPL  (P70753)    ,
+BGAL_AERHH  (A0KQH4)    , BGAL_ALTMD  (B4S2K9)    , BGAL_ARTSB  (Q59140)    ,
+BGAL_CITK8  (A8AKB8)    , BGAL_CLOAT  (P24131)    , BGAL_CROS8  (A7MN76)    ,
+BGAL_ECO24  (A7ZI91)    , BGAL_ECO27  (B7UJI9)    , BGAL_ECO57  (Q8X685)    ,
+BGAL_ECO5E  (B5Z2P7)    , BGAL_ECOHS  (A7ZWZ1)    , BGAL_ECOK1  (A1A831)    ,
+BGAL_ECOL5  (Q0TKT1)    , BGAL_ECOL6  (Q8FKG6)    , BGAL_ECOLC  (B1J0T5)    ,
+BGAL_ECOLI  (P00722)    , BGAL_ECOLU  (B7N8Q1)    , BGAL_ECOLX  (Q8VNN2)    ,
+BGAL_ECOSM  (B1LIM9)    , BGAL_ECOUT  (Q1RFJ2)    , BGAL_ENT38  (A4W7D2)    ,
+BGAL_ENTAG  (A3FEW8)    , BGAL_ERWT9  (B2VHN8)    , BGAL_HALH5  (Q9K9C6)    ,
+BGAL_KLEP3  (B5XQY2)    , BGAL_KLULA  (P00723)    , BGAL_LACAC  (O07684)    ,
+BGAL_LACDA  (Q1G9Z4)    , BGAL_LACDE  (P0C1Y0)    , BGAL_LACHE  (Q7WTB4)    ,
+BGAL_LACLA  (Q48727)    , BGAL_LATSK  (Q48846)    , BGAL_LEULA  (Q02603)    ,
+BGAL_LEUMM  (Q03WL0)    , BGAL_OENOB  (Q04F24)    , BGAL_PECAS  (Q6D736)    ,
+BGAL_PHOPR  (Q6LL68)    , BGAL_PRIM3  (O52847)    , BGAL_PSEHA  (P81650)    ,
+BGAL_PSYIN  (A1SWB8)    , BGAL_RHIML  (Q59750)    , BGAL_RHIRD  (P30812)    ,
+BGAL_SALAR  (A9MQ82)    , BGAL_SERP5  (A8GGN3)    , BGAL_SHIDS  (Q32JB6)    ,
+BGAL_SHISS  (Q3Z583)    , BGAL_STAXY  (O33815)    , BGAL_STRTR  (P23989)    ,
+BGAL_THEMA  (Q56307)    , BGAL_THEP3  (P77989)    , BGAL_THETU  (P26257)    ,
+BGAL_VIBC3  (A5F5U6)    , BGAL_VIBVU  (Q8D4H3)    , BGAL_VIBVY  (Q7MG04)    ,
+BGAL_YERE8  (A1JTC4)    , BGAL_YERP3  (A7FH78)    , BGAL_YERPA  (Q1C6T8)    ,
+BGAL_YERPB  (B2K6E6)    , BGAL_YERPE  (Q7CIZ3)    , BGAL_YERPG  (A9R0J8)    ,
+BGAL_YERPN  (Q1CI76)    , BGAL_YERPP  (A4TLL5)    , BGAL_YERPS  (Q669R9)    ,
+BGAL_YERPY  (B1JI86)    , BGH2A_BACO1 (A7LXS9)    , BGLR_BACFN  (Q5LIC7)    ,
+BGLR_CANLF  (O18835)    , BGLR_CHLAE  (O77695)    , BGLR_CLOPE  (Q8XP19)    ,
+BGLR_ECOLI  (P05804)    , BGLR_FELCA  (O97524)    , BGLR_HUMAN  (P08236)    ,
+BGLR_MOUSE  (P12265)    , BGLR_PIG    (Q4FAT7)    , BGLR_PONAB  (Q5R5N6)    ,
+BGLR_RAT    (P06760)    , BGLR_STRA5  (Q8E0N2)    , BGP11_HUMAN (Q6P575)    ,
+EBDG_AMYOR  (Q56F26)    , EBDG_ARTBC  (D4AUH1)    , EBDG_HYPJE  (Q4R1C4)    ,
+EBDG_HYPVI  (C0LRA7)    , EBDG_STRAW  (Q82NR8)    , EBM_ARATH   (Q75W54)    ,
+EBM_LILLO   (Q5H7P5)    , GUSP1_HUMAN (Q15486)    , MANBA_ASPAC (O74168)    ,
+MANBA_ASPCL (A1CTM5)    , MANBA_ASPFC (B0Y7S2)    , MANBA_ASPFN (B8NP78)    ,
+MANBA_ASPFU (Q4WMS9)    , MANBA_ASPNC (A2QWU9)    , MANBA_ASPNG (Q9UUZ3)    ,
+MANBA_ASPOR (Q2UN00)    , MANBA_ASPTN (Q0CI48)    , MANBA_BOVIN (Q29444)    ,
+MANBA_CAEEL (Q93324)    , MANBA_CAPHI (Q95327)    , MANBA_EMENI (Q5BCI8)    ,
+MANBA_HUMAN (O00462)    , MANBA_MOUSE (Q8K2I4)    , MANBA_NEOFI (A1DMT2)    ,
+MANBA_RAT   (Q4FZV0)    , MANBB_ASPCL (A1CGA8)    , MANBB_ASPFC (B0YBU9)    ,
+MANBB_ASPFN (B8NW36)    , MANBB_ASPFU (Q4WAH4)    , MANBB_ASPNC (A2QYN2)    ,
+MANBB_ASPOR (Q2TXB7)    , MANBB_ASPTN (Q0CCA0)    , MANBB_EMENI (Q5B7W2)    ,
+MANBB_NEOFI (A1D911)    , MANBB_THETO (I2C092)    , PLH15_FORAG (T2KNA8)    ,
+PLH16_FORAG (T2KM09)    , PLH17_FORAG (T2KN75)    , PLH8_FORAG  (T2KPJ7)    
+
+
+========
+Family 3
+========
+
+Description: Mainly beta-glucosidases (EC 3.2.1.21).
+PROSITE: PDOC00621
+3D structure status: Not available
+Reaction stereochemical outcome: Retained anomeric configuration
+Catalytic nucleophile/base: ?
+Catalytic proton donor: ?
+Clan: None
+Known taxonomic range: eukaryota, bacteria.
+Note: an Asp is proposed as a catalytic residue, but it is not known if it is
+      the nucleophile or the proton donor.
+
+APY_BIFBA   (F6C6C1)    , APY_BIFLN   (E7CY69)    , BGH3A_BACO1 (A7LXS8)    ,
+BGH3B_BACO1 (A7LXU3)    , BGL1_ASPAC  (P48825)    , BGL1_SACFI  (P22506)    ,
+BGL2_SACFI  (P22507)    , BGL3_ASPWE  (P29090)    , BGLA_ARTBC  (D4AN50)    ,
+BGLA_ASPCL  (A1CR85)    , BGLA_ASPFC  (B0XPE1)    , BGLA_ASPFN  (B8NRX2)    ,
+BGLA_ASPFU  (Q4WJJ3)    , BGLA_ASPKW  (P87076)    , BGLA_ASPNC  (A2RAL4)    ,
+BGLA_ASPOR  (Q2UUD6)    , BGLA_ASPTE  (D0VKF5)    , BGLA_ASPTN  (Q0CTD7)    ,
+BGLA_EMENI  (Q5B5S8)    , BGLA_NEOFI  (A1D451)    , BGLB_ACET2  (P14002)    ,
+BGLB_EMENI  (Q5BFG8)    , BGLC_ASPFN  (B8NGU6)    , BGLC_ASPOR  (Q2UFP8)    ,
+BGLC_EMENI  (Q5BCC6)    , BGLD_ASPFN  (B8NJF4)    , BGLD_ASPNC  (A2QPK4)    ,
+BGLD_ASPOR  (Q2UNR0)    , BGLD_EMENI  (Q5AUW5)    , BGLE_ASPCL  (A1CMH6)    ,
+BGLE_ASPFC  (B0YD91)    , BGLE_ASPFU  (Q4WD56)    , BGLE_ASPOR  (Q2UTX5)    ,
+BGLE_EMENI  (Q5AYH8)    , BGLE_NEOFI  (A1DLJ5)    , BGLF_ASPFC  (B0Y7Q8)    ,
+BGLF_ASPFN  (B8NP65)    , BGLF_ASPFU  (Q4WMU3)    , BGLF_ASPOR  (Q2UN12)    ,
+BGLF_ASPTN  (Q0CI67)    , BGLF_EMENI  (Q5B6C6)    , BGLF_NEOFI  (A1DMR8)    ,
+BGLG_ASPFN  (B8NMR5)    , BGLG_ASPOR  (Q2U325)    , BGLG_ASPTN  (Q0CUC1)    ,
+BGLG_EMENI  (Q5B0F4)    , BGLG_NEOFI  (A1DC16)    , BGLH_ASPCL  (A1CUR8)    ,
+BGLH_ASPFC  (B0XM94)    , BGLH_ASPFN  (B8NPL7)    , BGLH_ASPFU  (Q4WL79)    ,
+BGLH_ASPOR  (Q2U9M7)    , BGLH_EMENI  (Q5B6C7)    , BGLH_NEOFI  (A1DPG0)    ,
+BGLI_ASPCL  (A1CA51)    , BGLI_ASPFC  (B0Y3M6)    , BGLI_ASPFN  (B8NDE2)    ,
+BGLI_ASPFU  (Q4WU49)    , BGLI_ASPNC  (A2R989)    , BGLI_ASPOR  (Q2U8Y5)    ,
+BGLI_ASPTN  (Q0CAF5)    , BGLI_EMENI  (Q5BB53)    , BGLI_NEOFI  (A1DFA8)    ,
+BGLJ_ASPFC  (B0Y8M8)    , BGLJ_ASPFU  (Q4WLY1)    , BGLJ_EMENI  (Q5AV15)    ,
+BGLJ_NEOFI  (A1DNN8)    , BGLK_ASPFC  (B0YBJ3)    , BGLK_ASPFU  (Q4WA69)    ,
+BGLK_EMENI  (Q5BA18)    , BGLL_ASPFC  (B0YB65)    , BGLL_ASPFU  (Q4WGT3)    ,
+BGLL_ASPTN  (Q0CEF3)    , BGLL_EMENI  (Q5B9F2)    , BGLL_NEOFI  (A1DCV5)    ,
+BGLM_ASPFC  (B0XPB8)    , BGLM_ASPFN  (B8N5S6)    , BGLM_ASPFU  (Q4WR62)    ,
+BGLM_ASPNC  (A5ABF5)    , BGLM_ASPOR  (Q2UDK7)    , BGLM_ASPTN  (Q0C7L4)    ,
+BGLM_EMENI  (Q5AWD4)    , BGLM_NEOFI  (A1D122)    , BGLN_EMENI  (Q5B681)    ,
+BGLO_EMENI  (Q5BG51)    , BGLS_BUTFI  (P16084)    , BGLS_KLUMA  (P07337)    ,
+BGLS_RHIRD  (P27034)    , BGLS_RUMAL  (P15885)    , BGLS_SCHCO  (P29091)    ,
+BGLS_SCHPO  (Q9P6J6)    , BGLS_WICAO  (P06835)    , BGLX_DICCH  (Q46684)    ,
+BGLX_ECOLI  (P33363)    , BGLX_SALTY  (Q56078)    , BXL1_ARATH  (Q9FGY1)    ,
+BXL2_ARATH  (Q94KD8)    , BXL3_ARATH  (Q9LXD6)    , BXL4_ARATH  (Q9FLG1)    ,
+BXL5_ARATH  (Q9LJN4)    , BXL6_ARATH  (Q9LXA8)    , BXL7_ARATH  (Q9SGZ5)    ,
+BXLB_ASPCL  (A1CCL9)    , BXLB_ASPFC  (B0Y0I4)    , BXLB_ASPFN  (B8NYD8)    ,
+BXLB_ASPFU  (Q4WFI6)    , BXLB_ASPOR  (Q2TYT2)    , BXLB_ASPTN  (Q0CB82)    ,
+BXLB_EMENI  (Q5ATH9)    , CEL3A_PYRO7 (G4NI45)    , CEL3B_PYRO7 (G4N7Z0)    ,
+F26G_SOLTO  (P0DKH4)    , GLUA_DICDI  (Q23892)    , HEXA_ARTBC  (D4AQ52)    ,
+HEXA_PSEO7  (P48823)    , LPQI_MYCBP  (A0A0H3M1P5), LPQI_MYCTU  (L7N6B0)    ,
+NAG3_CELFI  (Q7WUL3)    , NAGZ_ACTP2  (A3N1B7)    , NAGZ_ACTP7  (B3GXZ7)    ,
+NAGZ_ACTPJ  (B0BQ51)    , NAGZ_ACTSZ  (A6VKU4)    , NAGZ_ALKEH  (Q0A911)    ,
+NAGZ_AROAE  (Q5P081)    , NAGZ_BACSU  (P40406)    , NAGZ_BORA1  (Q2KXM7)    ,
+NAGZ_BORBR  (Q7WH65)    , NAGZ_BORPA  (Q7W9J5)    , NAGZ_BORPE  (Q7VWV8)    ,
+NAGZ_CHRVO  (Q7NWB7)    , NAGZ_CROS8  (A7MFT1)    , NAGZ_ECO24  (A7ZKL1)    ,
+NAGZ_ECO27  (B7UPC3)    , NAGZ_ECO45  (B7MJ94)    , NAGZ_ECO55  (B7LG40)    ,
+NAGZ_ECO57  (P58067)    , NAGZ_ECO5E  (B5YVX6)    , NAGZ_ECO7I  (B7NKH2)    ,
+NAGZ_ECO81  (B7MTN7)    , NAGZ_ECO8A  (B7LX41)    , NAGZ_ECOBW  (C4ZS47)    ,
+NAGZ_ECODH  (B1XA17)    , NAGZ_ECOHS  (A7ZZ65)    , NAGZ_ECOK1  (A1AA01)    ,
+NAGZ_ECOL6  (Q8FIN2)    , NAGZ_ECOLC  (B1IUF8)    , NAGZ_ECOLI  (P75949)    ,
+NAGZ_ECOLU  (B7NAY5)    , NAGZ_ECOSE  (B6I9I5)    , NAGZ_ECOSM  (B1LI37)    ,
+NAGZ_ECOUT  (Q1RD47)    , NAGZ_EDWI9  (C5BFM6)    , NAGZ_ERWT9  (B2VDM3)    ,
+NAGZ_ESCF3  (B7LT32)    , NAGZ_GLAP5  (B8F5N0)    , NAGZ_HAEDU  (Q7VNI8)    ,
+NAGZ_HAEI8  (Q4QLU8)    , NAGZ_HAEIE  (A5UDA9)    , NAGZ_HAEIN  (P44955)    ,
+NAGZ_HISS1  (Q0I414)    , NAGZ_HISS2  (B0UTC6)    , NAGZ_HYDCU  (Q31G32)    ,
+NAGZ_IDILO  (Q5QUZ5)    , NAGZ_KLEP3  (B5XXG4)    , NAGZ_MANSM  (Q65VK7)    ,
+NAGZ_METCA  (Q606N2)    , NAGZ_METFK  (Q1H075)    , NAGZ_NEIG1  (Q5FA94)    ,
+NAGZ_NEIG2  (B4RQ67)    , NAGZ_NEIM0  (A9M1Z4)    , NAGZ_NEIMA  (Q9JVT3)    ,
+NAGZ_NEIMB  (Q9K0Q4)    , NAGZ_NEIMF  (A1KSD9)    , NAGZ_NITEC  (Q0AF74)    ,
+NAGZ_NITEU  (Q82SJ8)    , NAGZ_NITMU  (Q2Y863)    , NAGZ_NITOC  (Q3J953)    ,
+NAGZ_PASMU  (Q9CPH0)    , NAGZ_PECAS  (Q6D674)    , NAGZ_PECCP  (C6DKR8)    ,
+NAGZ_PHOLL  (Q7N397)    , NAGZ_PHOPR  (Q6LJ30)    , NAGZ_PROMH  (B4EVE7)    ,
+NAGZ_PSEA8  (B7UYS5)    , NAGZ_PSEAB  (Q02PG9)    , NAGZ_PSEAE  (Q9HZK0)    ,
+NAGZ_PSYIN  (A1SW90)    , NAGZ_SALA4  (B5F8E5)    , NAGZ_SALCH  (Q57QE6)    ,
+NAGZ_SALDC  (B5FK98)    , NAGZ_SALEP  (B5QXC7)    , NAGZ_SALG2  (B5RB93)    ,
+NAGZ_SALHS  (B4TFI4)    , NAGZ_SALNS  (B4T3P6)    , NAGZ_SALPA  (Q5PGT0)    ,
+NAGZ_SALPB  (A9N5J6)    , NAGZ_SALSV  (B4TTH9)    , NAGZ_SALTI  (Q8Z7I6)    ,
+NAGZ_SALTY  (Q8ZQ06)    , NAGZ_SHEFN  (Q080R9)    , NAGZ_SHEON  (Q8EEW2)    ,
+NAGZ_SHESA  (A0KXK3)    , NAGZ_SHESM  (Q0HJG7)    , NAGZ_SHESR  (Q0HVQ8)    ,
+NAGZ_SHIB3  (B2U513)    , NAGZ_SHIBS  (Q31ZG4)    , NAGZ_SHIDS  (Q32EW7)    ,
+NAGZ_SHIFL  (Q7UCW4)    , NAGZ_SHISS  (Q3Z310)    , NAGZ_STRM5  (B4SRK3)    ,
+NAGZ_STRMK  (B2FPW9)    , NAGZ_THIDA  (Q3SKU2)    , NAGZ_THISH  (B8GSD2)    ,
+NAGZ_TOLAT  (C4LEY6)    , NAGZ_VIBC3  (A5F8Y1)    , NAGZ_VIBCH  (Q9KU37)    ,
+NAGZ_VIBCM  (C3LSU7)    , NAGZ_VIBFU  (P96157)    , NAGZ_XANAC  (Q8PMU1)    ,
+NAGZ_XANC5  (Q3BVU6)    , NAGZ_XANC8  (Q4USG7)    , NAGZ_XANCB  (B0RX17)    ,
+NAGZ_XANCP  (Q8PB42)    , NAGZ_XANOM  (Q2P4L0)    , NAGZ_XANOR  (Q5H1Q0)    ,
+NAGZ_XYLF2  (B2I6G9)    , NAGZ_XYLFA  (Q9PAZ0)    , NAGZ_XYLFM  (B0U3L0)    ,
+NAGZ_XYLFT  (Q87BR5)    , NAGZ_YERE8  (A1JME4)    , NAGZ_YERP3  (A7FH41)    ,
+NAGZ_YERPB  (B2K731)    , NAGZ_YERPE  (Q8ZFS3)    , NAGZ_YERPS  (Q669N5)    ,
+NAGZ_YERPY  (B1JI47)    , PLH24_FORAG (T2KMH0)    , PLH34_FORAG (T2KMH9)    ,
+XYL3A_PRER2 (D5EY15)    , XYNB_PRUPE  (P83344)    , XYND_ASPAC  (C0STH4)    ,
+XYND_ASPAW  (Q4AEG8)    , XYND_ASPCL  (A1CND4)    , XYND_ASPFC  (B0XP71)    ,
+XYND_ASPFN  (B8MYV0)    , XYND_ASPFU  (Q4WRB0)    , XYND_ASPJA  (B6EY09)    ,
+XYND_ASPNC  (A2QA27)    , XYND_ASPNG  (O00089)    , XYND_ASPOR  (Q2UR38)    ,
+XYND_ASPTN  (Q0CMH8)    , XYND_EMENI  (Q5BAS1)    , XYND_NEOFI  (A1DJS5)    
+
+
+========
+Family 4
+========
+
+Description: Bacterial alpha-galactosidases (EC 3.2.1.22), 6-phospho-beta-
+             glucosidases (EC 3.2.1.86) and 6-phospho-alpha-D-glucosidases
+             (EC 3.2.1.122).
+PROSITE: PDOC01027
+3D structure status: Not available
+Reaction stereochemical outcome: Not known
+Catalytic nucleophile/base: Glu (experimental)
+Catalytic proton donor: Glu (experimental)
+Clan: None
+Known taxonomic range: bacteria.
+
+AGAL_BACSU  (O34645)    , AGAL_ECOLI  (P06720)    , AGAL_RHIME  (Q9X4Y0)    ,
+AGAL_SALTY  (P30877)    , AGLA_THEMA  (O33830)    , AGLA_THENE  (O86960)    ,
+AGLB_KLEPN  (Q9AGA6)    , BGLT_THEMA  (Q9X108)    , CHBF_ECOLI  (P17411)    ,
+GLVA_BACSU  (P54716)    , GLVG_ECOLI  (P31450)    , LICH_BACSU  (P46320)    ,
+LPLD_BACSU  (P39130)    , LPLD_LACP7  (A9KTB9)    , LPLD_THEIA  (D3T426)    ,
+LPLD_THESW  (I3VRU1)    , MALH_CLOAB  (Q97LM4)    , MALH_FUSMR  (O06901)    ,
+PAGL1_LACP3 (Q03C44)    , PAGL2_LACP3 (Q034G9)    , PAGL_CLOAB  (Q97DP6)    ,
+PAGL_LEPBD  (C7NB67)    , PALH_ERWRD  (Q9AI65)    
+
+
+========
+Family 5
+========
+
+Description: Mainly endoglucanases (EC 3.2.1.4). Contains also beta-mannanases
+             (EC 3.2.1.78) and exo-1,3-glycanases (EC 3.2.1.58).
+PROSITE: PDOC00565
+3D structure status: Available
+Reaction stereochemical outcome: Retained anomeric configuration
+Catalytic nucleophile/base: Glu (experimental)
+Catalytic proton donor: Glu (experimental)
+Clan: GH-A
+Known taxonomic range: eukaryota, bacteria.
+Note: formerly known as cellulase family A.
+
+6GAL_HYPRU  (Q76FP5)    , BGH5A_BACO1 (A7LXT7)    , CELDZ_THESZ (A0A0U4EBH5),
+EG5A_PHACH  (Q66NB7)    , EGCR1_ASPFM (H1AE13)    , EGCR1_CRYNH (H1AE12)    ,
+EGCR1_RHIO9 (I1BTD7)    , EGCSE_CYANO (Q9GV16)    , EGCSE_HYDVU (Q6L6S1)    ,
+EGCSE_RHOH1 (A0A3S5YBC7), EGH1_YEAST  (P40566)    , EGLA_EMENI  (Q5BDU5)    ,
+EGLB_ASPFN  (B8MW97)    , EGLB_ASPKW  (Q96WQ8)    , EGLB_ASPNC  (A2QPC3)    ,
+EGLB_ASPNG  (O74706)    , EGLB_ASPOR  (Q2UPQ4)    , EGLB_EMENI  (Q1HFS8)    ,
+EGLB_NEOFI  (A1DME8)    , EXG1_ARTBC  (D4AJL7)    , EXG1_CANAL  (P29717)    ,
+EXG1_SCHPO  (Q9URU6)    , EXG1_WICAO  (O93939)    , EXG1_YEAST  (P23776)    ,
+EXG2_CANAL  (Q5AIA1)    , EXG2_SCHPO  (Q10444)    , EXG2_WICAO  (O93983)    ,
+EXG2_YEAST  (P52911)    , EXG3_SCHPO  (O74799)    , EXGA_ASPCL  (A1CRV0)    ,
+EXGA_ASPFC  (B0XN12)    , EXGA_ASPFN  (B8N151)    , EXGA_ASPFU  (Q4WK60)    ,
+EXGA_ASPNC  (A2RAR6)    , EXGA_ASPOR  (Q7Z9L3)    , EXGA_ASPTN  (Q0CR35)    ,
+EXGA_EMENI  (Q5B5X8)    , EXGA_NEOFI  (A1D4Q5)    , EXGB_ASPFC  (B0XRX9)    ,
+EXGB_ASPFN  (B8NBJ4)    , EXGB_ASPFU  (Q4X1N4)    , EXGB_ASPOR  (Q2TZQ9)    ,
+EXGB_ASPTN  (Q0C8Z0)    , EXGB_EMENI  (Q5B6Q3)    , EXGB_NEOFI  (A1DGM6)    ,
+EXGD_ASPCL  (A1CTI3)    , EXGD_ASPFC  (B0Y7W2)    , EXGD_ASPFN  (B8NNK9)    ,
+EXGD_ASPFU  (Q4WMP0)    , EXGD_ASPNC  (A2QX52)    , EXGD_ASPOR  (Q2UMV7)    ,
+EXGD_ASPTN  (Q0CHZ8)    , EXGD_EMENI  (Q5AVZ7)    , EXGD_NEOFI  (A1DMX4)    ,
+EXG_BLUGR   (Q96V64)    , EXG_CANOL   (Q8NKF9)    , EXG_KLULA   (Q12628)    ,
+EXG_LACK1   (Q875R9)    , EXG_PICAN   (Q12626)    , EXG_PSEMZ   (P85924)    ,
+EXG_SACU7   (Q876J3)    , EXG_SCHOC   (Q12700)    , EXG_YARLI   (Q12725)    ,
+GH5FP_CHAOB (C0HLA0)    , GUN1_ACIC1  (P54583)    , GUN1_ACRSP  (P82288)    ,
+GUN1_BACIU  (P07983)    , GUN1_BUTFI  (P20847)    , GUN1_EVAC2  (P06566)    ,
+GUN1_FOMML  (C0HLV0)    , GUN1_RUMAL  (P16216)    , GUN1_SAIFL  (Q04469)    ,
+GUN2_BACSU  (P10475)    , GUN2_EVAC2  (P06565)    , GUN2_HYPJE  (P07982)    ,
+GUN2_HYPJR  (A0A024SH20), GUN3_BACIU  (P23549)    , GUN3_EVAC2  (P19570)    ,
+GUN3_FIBSS  (P14250)    , GUN3_HUMIN  (Q12624)    , GUN3_NEUCR  (Q7SDR1)    ,
+GUN4_RUMAL  (Q07940)    , GUN5_MICS2  (A0A8A1G1R1), GUN5_SALAG  (O85465)    ,
+GUN5_THEFU  (Q01786)    , GUNA_BUTFI  (P22541)    , GUNA_CLOLO  (P54937)    ,
+GUNA_GLOTR  (P84194)    , GUNA_PAEBA  (O08342)    , GUNA_RUMAL  (P23660)    ,
+GUNA_RUMCH  (P17901)    , GUNA_RUMFL  (P16169)    , GUNA_STRLI  (P27035)    ,
+GUNA_XANCP  (P19487)    , GUNB_ACET2  (P04956)    , GUNB_CLOC7  (P28621)    ,
+GUNB_NEOPA  (Q12647)    , GUNB_PAELA  (P23550)    , GUNB_RUMAL  (P23661)    ,
+GUNC_ACET2  (A3DJ77)    , GUNC_ACETH  (P0C2S3)    , GUNC_CELJU  (P27033)    ,
+GUNC_CLOSF  (P23340)    , GUND_CELFI  (P50400)    , GUND_CLOC7  (P28623)    ,
+GUND_RUMCH  (P25472)    , GUNG_ACET2  (Q05332)    , GUNN_PECAT  (Q59394)    ,
+GUNV_PECCC  (Q47096)    , GUNW_PECPM  (Q59395)    , GUNZ_DICD3  (P07103)    ,
+GUN_BACS6   (P19424)    , GUN_CLOSA   (P15704)    , GUN_HALA3   (P06564)    ,
+GUN_MAREN   (A0A023VXA2), GUN_PAEPO   (P23548)    , GUN_RALN1   (P58599)    ,
+GUN_RALSL   (P17974)    , GUN_ROBSP   (P23044)    , GUN_SCHCO   (P81190)    ,
+MAN1_ARATH  (Q9FZ29)    , MAN1_ORYSJ  (Q0JKM9)    , MAN1_SOLLC  (O48540)    ,
+MAN2_ARATH  (Q7Y223)    , MAN2_ORYSJ  (Q0JJD4)    , MAN2_SOLLC  (Q9FZ03)    ,
+MAN3_ARATH  (Q9SG94)    , MAN3_ORYSJ  (Q0DM48)    , MAN3_SOLLC  (Q9FUQ6)    ,
+MAN4_ARATH  (Q9SG95)    , MAN4_ORYSJ  (Q10B67)    , MAN4_SOLLC  (Q8L5J1)    ,
+MAN5_ARATH  (Q9M0H6)    , MAN5_CELJU  (B3PF24)    , MAN5_ORYSJ  (Q5W6G0)    ,
+MAN5_SALAG  (G1K3N4)    , MAN5_SOLLC  (Q6YM50)    , MAN6_ARATH  (Q9LZV3)    ,
+MAN6_ORYSJ  (Q0DCM5)    , MAN7_ARATH  (Q9FJZ3)    , MAN7_ORYSJ  (Q2RBB1)    ,
+MAN8_ORYSJ  (Q0IQJ7)    , MAN9_ORYSJ  (Q6Z310)    , MANA1_ASPTN (Q0CCD0)    ,
+MANA2_ASPTN (Q0CUG5)    , MANA_ASPAC  (Q00012)    , MANA_ASPCL  (A1CGC6)    ,
+MANA_ASPFN  (B8NVK8)    , MANA_ASPNC  (A2QKT4)    , MANA_ASPOR  (Q2TXJ2)    ,
+MANA_CRYAT  (B4XC07)    , MANA_EMENI  (Q5B7X2)    , MANA_HYPJR  (Q99036)    ,
+MANA_MYTED  (Q8WPJ2)    , MANA_NEOFI  (A1D8Y6)    , MANA_PODAN  (B2B3C0)    ,
+MANA_STRLI  (P51529)    , MANB_EMENI  (Q5B833)    , MANC_ASPTN  (Q0C8J3)    ,
+MANC_EMENI  (Q5AZ53)    , MAND_EMENI  (Q5AVP1)    , MANF_ASPCL  (A1C8U0)    ,
+MANF_ASPFC  (B0Y9E7)    , MANF_ASPFN  (B8NIV9)    , MANF_ASPFU  (Q4WBS1)    ,
+MANF_ASPOR  (Q2U2I3)    , MANF_EMENI  (Q5AR04)    , MANF_NEOFI  (A1DBV1)    ,
+MANP_ARATH  (Q9LW44)    , SPR1_SACU7  (Q876J2)    , SPR1_YEAST  (P32603)    ,
+XYL5_PHACH  (W8QRE4)    , YBQ6_YEAST  (P38081)    
+
+
+========
+Family 6
+========
+
+Description: Endoglucanases (EC 3.2.1.4) and cellobiohydrolases (EC 3.2.1.91).
+PROSITE: PDOC00563
+3D structure status: Available
+Reaction stereochemical outcome: Inverted anomeric configuration
+Catalytic nucleophile/base: Asp (experimental)
+Catalytic proton donor: Asp (experimental)
+Clan: None
+Known taxonomic range: eukaryota, bacteria.
+Note: formerly known as cellulase family B.
+
+CBHC_ASPCL  (A1CCN4)    , CBHC_ASPFC  (B0XWL3)    , CBHC_ASPFU  (Q4WFK4)    ,
+CBHC_ASPNC  (A2QYR9)    , CBHC_ASPTN  (Q0CFP1)    , CBHC_EMENI  (Q5B2E8)    ,
+CBHC_NEOFI  (A1DJQ7)    , CEL6A_PODAN (B2ABX7)    , CEL6A_PYRO7 (G4MM92)    ,
+CEL6B_PODAN (B2AC20)    , CEL6C_PODAN (B2AE04)    , GH6D_PODAN  (B2ADA5)    ,
+GUN1_STRHA  (P33682)    , GUN1_STRSS  (P13933)    , GUN2_THEFU  (P26222)    ,
+GUN6_HUMIN  (Q7SIG5)    , GUNA_CELFI  (P07984)    , GUNA_THEBI  (P26414)    ,
+GUNB_FUSOX  (P46236)    , GUX2_HYPJE  (P07987)    , GUX2_HYPJR  (A0A024SH76),
+GUX3_AGABI  (P49075)    , GUX6_HUMIN  (Q9C1S9)    , GUXA_CELFA  (P50401)    
+
+
+========
+Family 7
+========
+
+Description: Endoglucanases (EC 3.2.1.4) and cellobiohydrolases (EC 3.2.1.91).
+PROSITE: None
+3D structure status: Available
+Reaction stereochemical outcome: Retained anomeric configuration
+Catalytic nucleophile/base: Glu (experimental)
+Catalytic proton donor: Glu (experimental)
+Clan: GH-B
+Known taxonomic range: eukaryota.
+Note: formerly known as cellulase family C.
+
+CBHA_ASPCL  (A1CE97)    , CBHA_ASPFC  (B0Y793)    , CBHA_ASPFN  (B8N7G5)    ,
+CBHA_ASPFU  (Q4WNA2)    , CBHA_ASPNC  (A2QPG2)    , CBHA_ASPNG  (Q9UVS9)    ,
+CBHA_ASPOR  (Q2UBM3)    , CBHA_ASPTN  (Q0CRF7)    , CBHA_EMENI  (Q5B2Q4)    ,
+CBHA_NEOFI  (A1DMA5)    , CBHB_ASPAC  (O59843)    , CBHB_ASPCL  (A1CU44)    ,
+CBHB_ASPFC  (B0Y8K2)    , CBHB_ASPFU  (Q4WM08)    , CBHB_ASPNC  (A2QAI7)    ,
+CBHB_ASPNG  (Q9UVS8)    , CBHB_ASPTN  (Q0CMT2)    , CBHB_EMENI  (Q8NK02)    ,
+CBHB_NEOFI  (A1DNL0)    , CEL7A_THET4 (G2QCS4)    , CEL7B_PYRO7 (G4NK46)    ,
+CELB_ASPCL  (A1CG87)    , CELB_ASPFC  (B0YBX0)    , CELB_ASPFN  (B8NW70)    ,
+CELB_ASPFU  (Q4WAJ6)    , CELB_ASPOR  (Q2TX26)    , CELB_ASPTN  (Q0CC84)    ,
+CELB_EMENI  (Q5B7R2)    , CELB_NEOFI  (A1D932)    , GH7B_LIMQU  (D4HRL0)    ,
+GUN1_HUMGT  (Q12622)    , GUN1_HUMIN  (P56680)    , GUN1_HYPJE  (P07981)    ,
+GUN1_HYPJR  (A0A024SNB7), GUN1_TRILO  (Q12714)    , GUNC_FUSOX  (P46237)    ,
+GUX1A_NEUCR (Q7SA23)    , GUX1B_NEUCR (P38676)    , GUX1_COCCA  (Q00328)    ,
+GUX1_CRYPA  (Q00548)    , GUX1_HUMGT  (P15828)    , GUX1_HYPJE  (P62694)    ,
+GUX1_HYPJR  (A0A024RXP8), GUX1_HYPRU  (P19355)    , GUX1_PENJA  (Q06886)    ,
+GUX1_PHACH  (P13860)    , GUX1_TRIHA  (Q9P8P3)    , GUX1_TRIKO  (P62695)    ,
+GUX2_AGABI  (Q92400)    , GUXC_FUSOX  (P46238)    , XYNA_TALFU  (Q8WZJ4)    
+
+
+========
+Family 8
+========
+
+Description: Mostly endoglucanases (EC 3.2.1.4).
+PROSITE: PDOC00640
+3D structure status: Available
+Reaction stereochemical outcome: Inverted anomeric configuration
+Catalytic nucleophile/base: Asp (inferred)
+Catalytic proton donor: Glu (experimental)
+Clan: None
+Known taxonomic range: bacteria.
+Note: formerly known as cellulase family D.
+
+GUB_NIACI   (P19254)    , GUN2_RUMJO  (P37701)    , GUNA_ACET2  (A3DC29)    ,
+GUNA_ACETH  (P0C2S2)    , GUNA_NOVHA  (P37696)    , GUNC_RUMCH  (P37699)    ,
+GUNY_DICD3  (P27032)    , GUN_BACSZ   (P29019)    , GUN_CELUD   (P18336)    ,
+GUN_ECO57   (Q8X5L9)    , GUN_ECOLI   (P37651)    , GUN_PSEFS   (Q8RSY9)    ,
+GUN_SALTI   (Q8Z289)    , GUN_SALTY   (Q8ZLB7)    , GUN_XANAC   (P58935)    ,
+REOX_BIFAA  (A1A048)    , REOX_HALH5  (Q9KB30)    , REX8A_PAEBA (A0A0S2UQQ5)
+
+
+========
+Family 9
+========
+
+Description: Mostly endoglucanases (EC 3.2.1.4).
+PROSITE: PDOC00511
+3D structure status: Available
+Reaction stereochemical outcome: Inverted anomeric configuration
+Catalytic nucleophile/base: Asp (experimental)
+Catalytic proton donor: Glu (experimental)
+Clan: None
+Known taxonomic range: eukaryota, bacteria.
+Note: formerly known as cellulase family E.
+
+BGH9A_BACO1 (A7LXT3)    , CELK_ACET2  (A3DCH1)    , CELK_ACETH  (P0C2S1)    ,
+GUN10_ARATH (Q8LCP6)    , GUN10_ORYSJ (Q84R49)    , GUN11_ARATH (O48766)    ,
+GUN11_ORYSJ (Q7XTH4)    , GUN12_ARATH (O64889)    , GUN12_ORYSJ (Q7XUK4)    ,
+GUN13_ARATH (O64890)    , GUN13_ORYSI (A2XYW8)    , GUN13_ORYSJ (Q0J930)    ,
+GUN14_ARATH (Q8S8Q4)    , GUN14_ORYSJ (P0C1U5)    , GUN15_ARATH (O80497)    ,
+GUN15_ORYSJ (Q6L4I2)    , GUN16_ARATH (Q8VYG3)    , GUN16_ORYSJ (Q654U4)    ,
+GUN17_ARATH (O81416)    , GUN17_ORYSJ (Q652F9)    , GUN18_ARATH (Q9SZ90)    ,
+GUN18_ORYSJ (Q5Z9P8)    , GUN19_ARATH (Q8L7I0)    , GUN19_ORYSJ (Q6YXT7)    ,
+GUN1_ARATH  (Q9SRX3)    , GUN1_ORYSJ  (Q5NAT8)    , GUN1_PERAE  (P05522)    ,
+GUN1_STRRE  (Q05156)    , GUN20_ARATH (Q9SUS0)    , GUN20_ORYSJ (Q6ZA06)    ,
+GUN21_ARATH (Q9STW8)    , GUN21_ORYSJ (Q84Q51)    , GUN22_ARATH (Q9SVJ4)    ,
+GUN22_ORYSJ (Q6H3Z9)    , GUN23_ARATH (Q8GY58)    , GUN23_ORYSJ (Q69NF5)    ,
+GUN24_ARATH (Q93YQ7)    , GUN24_ORYSJ (Q69SG5)    , GUN25_ARATH (Q38890)    ,
+GUN2_ARATH  (Q9FXI9)    , GUN2_ORYSJ  (Q5NAT0)    , GUN2_PERAE  (P23666)    ,
+GUN3_ARATH  (Q2V4L8)    , GUN3_ORYSJ  (Q8LQ92)    , GUN4_ARATH  (O49296)    ,
+GUN4_BACS5  (P28622)    , GUN4_ORYSJ  (Q6Z715)    , GUN4_THEFU  (P26221)    ,
+GUN5_ARATH  (Q9M995)    , GUN5_ORYSJ  (Q67UW5)    , GUN6_ARATH  (Q42059)    ,
+GUN6_DICDI  (P22699)    , GUN6_ORYSJ  (Q6Z2J3)    , GUN7_ARATH  (O04478)    ,
+GUN7_ORYSJ  (Q6Z5P2)    , GUN8_ARATH  (Q9CAC1)    , GUN8_ORYSJ  (Q6K7G9)    ,
+GUN9_ARATH  (Q9C9H5)    , GUN9_ORYSJ  (P0C1U4)    , GUNA_BACPU  (Q5YLG1)    ,
+GUNA_CELJU  (P10476)    , GUNA_FIBSU  (P23665)    , GUNB_CELFI  (P26225)    ,
+GUNC_BUTFI  (P23658)    , GUNC_CELFA  (P14090)    , GUND_ACET2  (A3DDN1)    ,
+GUND_ACETH  (P0C2S4)    , GUNF_ACET2  (P26224)    , GUNG_RUMCH  (P37700)    ,
+GUNI_ACET2  (Q02934)    , GUNX_PRUPE  (P38534)    , GUNZ_THEST  (P23659)    ,
+GUN_PHAVU   (P22503)    
+
+
+=========
+Family 10
+=========
+
+Description: Mostly xylanases (EC 3.2.1.8).
+PROSITE: PDOC00510
+3D structure status: Available
+Reaction stereochemical outcome: Retained anomeric configuration
+Catalytic nucleophile/base: Glu (experimental)
+Catalytic proton donor: Glu (experimental)
+Clan: GH-A
+Known taxonomic range: eukaryota, bacteria.
+Note: formerly known as cellulase family F.
+
+CEXY_THEST  (P40942)    , GUNF_FUSOX  (P46239)    , GUX_CELFI   (P07986)    ,
+XIN1_USTMA  (Q4P902)    , XLNA_AGABI  (O60206)    , XY10C_CELJA (Q59675)    ,
+XYN1_ARATH  (A0A1P8AWH8), XYN1_GEOSE  (P40943)    , XYN1_GIBZE  (I1RQU5)    ,
+XYN1_HUMGT  (P79046)    , XYN1_RHIOR  (W0HFK8)    , XYN2_ARATH  (O80596)    ,
+XYN2_AURPU  (Q2PGV8)    , XYN2_CLAPU  (O74717)    , XYN2_GEOSE  (P45703)    ,
+XYN2_PYRGI  (Q01176)    , XYN2_PYRO7  (G4MTF8)    , XYN3_ARATH  (F4JG10)    ,
+XYN3_HYPJQ  (G0RA32)    , XYN3_HYPJR  (A0A024SIB3), XYN4_ARATH  (Q680B7)    ,
+XYN4_CALSA  (P23557)    , XYN5L_ARATH (Q84WT5)    , XYN5_ARATH  (A0A1P8B8F8),
+XYN5_PYRGI  (Q8J1Y4)    , XYN5_PYRO7  (G4MLU0)    , XYN6_PYRGI  (Q8NJ73)    ,
+XYN6_PYRO7  (G4MPQ7)    , XYNA1_PAESJ (C6CRV0)    , XYNA_ASPAC  (O59859)    ,
+XYNA_ASPKW  (P33559)    , XYNA_BACOV  (P49942)    , XYNA_BUTFI  (P23551)    ,
+XYNA_CALSA  (P23556)    , XYNA_CALSR  (P40944)    , XYNA_CELJU  (P14768)    ,
+XYNA_DICB4  (P80718)    , XYNA_DICTH  (Q12603)    , XYNA_FUSO4  (B3A0S5)    ,
+XYNA_GLOTR  (P84195)    , XYNA_HALH5  (P07528)    , XYNA_NAGAL  (P07529)    ,
+XYNA_PENCH  (P29417)    , XYNA_PENCN  (Q5S7A8)    , XYNA_PENSI  (P56588)    ,
+XYNA_PHACH  (Q9HEZ1)    , XYNA_PRERU  (P48789)    , XYNA_STRLI  (P26514)    ,
+XYNA_STRSQ  (B4XVN1)    , XYNA_TALPU  (Q9P8J1)    , XYNA_THEAU  (P23360)    ,
+XYNA_THEMA  (Q60037)    , XYNA_THENE  (Q60042)    , XYNA_THESA  (P36917)    ,
+XYNB_BUTFI  (P26223)    , XYNB_CELJU  (P23030)    , XYNB_DICB4  (P80717)    ,
+XYNB_NEOPA  (Q02290)    , XYNB_PAEBA  (O69231)    , XYNB_THENE  (Q60041)    ,
+XYNC_ASPCL  (A1CHQ0)    , XYNC_ASPFC  (B0Y6E0)    , XYNC_ASPFU  (Q0H904)    ,
+XYNC_ASPNC  (A2QFV7)    , XYNC_ASPNG  (C5J411)    , XYNC_ASPTE  (Q4JHP5)    ,
+XYNC_ASPTN  (Q0CBM8)    , XYNC_EMENI  (Q00177)    , XYNC_GIBZE  (I1S3T9)    ,
+XYNC_NEOFI  (A1CX14)    , XYNC_PAEBA  (O69230)    , XYNC_PHACH  (B7SIW2)    ,
+XYND_GIBZE  (I1S3C6)    , XYND_TALFU  (Q5ZNB1)    , XYNF1_ASPFN (B8NER4)    ,
+XYNF1_ASPOR (O94163)    , XYNF3_ASPFN (B8NXJ2)    , XYNF3_ASPOR (Q96VB6)    ,
+XYNX_ACETH  (P38535)    , XYNY_ACETH  (P51584)    , XYNZ_ACET2  (P10478)    ,
+XYN_PENCH   (Q6PRW6)    
+
+
+=========
+Family 11
+=========
+
+Description: Mostly xylanases (EC 3.2.1.8).
+PROSITE: PDOC00622
+3D structure status: Available
+Reaction stereochemical outcome: Retained anomeric configuration
+Catalytic nucleophile/base: Glu (experimental)
+Catalytic proton donor: Glu (experimental)
+Clan: GH-C
+Known taxonomic range: eukaryota, bacteria.
+Note: formerly known as cellulase family G.
+
+424Y_VERDV  (G2X4G0)    , XY11A_BOTFB (B3VSG7)    , XY11A_BOTFU (Q2LMP0)    ,
+XY11A_PSEXY (P83513)    , XY11A_USTMA (Q4P0L3)    , XY11B_CELJA (Q8VP72)    ,
+XYN11_PAEBA (V9TXH2)    , XYN1_AURPU  (Q96TR7)    , XYN1_CLAPU  (O74716)    ,
+XYN1_COCCA  (Q06562)    , XYN1_HUMIN  (P55334)    , XYN1_HYPJQ  (G0R947)    ,
+XYN1_HYPJR  (P36218)    , XYN1_LEUGO  (A6YAP7)    , XYN1_PYRGI  (P0CT48)    ,
+XYN1_PYRO7  (P0CT49)    , XYN2_HUMGT  (Q9HGE1)    , XYN2_HYPJQ  (G0RUP7)    ,
+XYN2_HYPJR  (P36217)    , XYN2_RHIOR  (W0HJ53)    , XYN2_TRIHA  (B5A7N4)    ,
+XYN3_ASPKW  (P33557)    , XYN3_PYRGI  (Q92244)    , XYN3_PYRO7  (G4MWS3)    ,
+XYN4_ASPNG  (Q12550)    , XYN4_PYRGI  (Q92245)    , XYN4_PYRO7  (G4NA54)    ,
+XYN5_ASPNC  (A2R4D1)    , XYN5_ASPNG  (Q12549)    , XYN6_ASPNG  (Q6QJ75)    ,
+XYNA1_THEST (Q8GJ44)    , XYNA2_THEST (P33558)    , XYNA_ASPAW  (P55328)    ,
+XYNA_ASPCL  (A1CCU0)    , XYNA_ASPFC  (B0XXF3)    , XYNA_ASPFN  (B8NKE9)    ,
+XYNA_ASPFU  (Q4WG11)    , XYNA_ASPNG  (P55329)    , XYNA_ASPOR  (Q9HFA4)    ,
+XYNA_ASPTN  (Q0CFS3)    , XYNA_ASPTU  (P55331)    , XYNA_AURPU  (Q12562)    ,
+XYNA_BACPU  (P00694)    , XYNA_BACSU  (P18429)    , XYNA_BYSSP  (P81536)    ,
+XYNA_CLOSA  (P17137)    , XYNA_EMENI  (P55332)    , XYNA_GEOSE  (P45705)    ,
+XYNA_GIBZE  (I1S2K3)    , XYNA_NEOFI  (A1DJ52)    , XYNA_NEOPA  (P29127)    ,
+XYNA_NIACI  (P09850)    , XYNA_PENCI  (Q2PGY1)    , XYNA_PIRSP  (Q12667)    ,
+XYNA_SCHCO  (P35809)    , XYNA_THELA  (O43097)    , XYNB_ASPCL  (A1CU59)    ,
+XYNB_ASPFC  (B0Y8Q8)    , XYNB_ASPFN  (B8NJ86)    , XYNB_ASPFU  (Q4WLV2)    ,
+XYNB_ASPKW  (P48824)    , XYNB_ASPNC  (A2Q7I0)    , XYNB_ASPNG  (P55330)    ,
+XYNB_ASPOR  (P87037)    , XYNB_EMENI  (P55333)    , XYNB_GIBZE  (I1RII8)    ,
+XYNB_NEOFI  (A1DNU5)    , XYNB_PENOX  (E7EF85)    , XYNB_PHACH  (B7SIW1)    ,
+XYNB_STRLI  (P26515)    , XYNB_STRSQ  (D7EZJ3)    , XYNB_TALFU  (Q8J0K5)    ,
+XYNB_TALPU  (Q96W72)    , XYNC_FIBSS  (P35811)    , XYNC_NEOPA  (Q9UV68)    ,
+XYNC_STRCO  (Q9RI72)    , XYNC_STRLI  (P26220)    , XYNC_TALFU  (Q9HFH0)    ,
+XYND_CELFI  (P54865)    , XYNG_VERDA  (Q0ZHI9)    , XYN_PHACE   (O97402)    ,
+XYN_TRIHA   (P48793)    , XYS20_NEOPA (A8TGA1)    
+
+
+=========
+Family 12
+=========
+
+Description: Endoglucanases (EC 3.2.1.4).
+PROSITE: None
+3D structure status: Not available
+Reaction stereochemical outcome: Retained anomeric configuration
+Catalytic nucleophile/base: Glu (inferred)
+Catalytic proton donor: Glu (inferred)
+Clan: GH-C
+Known taxonomic range: eukaryota, bacteria.
+Note: formerly known as cellulase family H.
+
+CE12A_PYRO7 (G4NAZ1)    , CE12B_PYRO7 (G4N5V2)    , CE12C_PYRO7 (G4NBX2)    ,
+GUNA_ASPKW  (Q12679)    , GUNB_GLOTR  (P84196)    , GUNS_PECPM  (P16630)    ,
+GUN_ASPAC   (P22669)    , XEG1_PHYPN  (W2PEP3)    , XEG1_PHYSP  (G4ZHR2)    ,
+XGEA_ASPAC  (O94218)    , XGEA_ASPCL  (A1CRJ0)    , XGEA_ASPFC  (B0XNQ1)    ,
+XGEA_ASPFN  (B8N3L3)    , XGEA_ASPFU  (Q4WJU8)    , XGEA_ASPNC  (A2Q877)    ,
+XGEA_ASPNG  (A1XP58)    , XGEA_ASPOR  (Q2UK93)    , XGEA_ASPTN  (Q0CRC9)    ,
+XGEA_EMENI  (Q5BG78)    , XGEA_NEOFI  (A1D4F1)    , XLP1_PHYPN  (W2PDG1)    ,
+XLP1_PHYSP  (G4ZHR3)    
+
+
+=========
+Family 13
+=========
+
+Description: Mostly alpha-amylases (EC 3.2.1.1); pullulanases (EC 3.2.1.41);
+             cyclomaltodextrin glucanotransferase (EC 2.4.1.19);
+             cyclomaltodextrinase (EC 3.2.1.54); trehalose-6-phosphate
+             hydrolase (EC 3.2.1.93); malto-oligosyltrehalose
+             trehalohydrolase (EC 3.2.1.141).
+PROSITE: None
+3D structure status: Available
+Reaction stereochemical outcome: Retained anomeric configuration
+Catalytic nucleophile/base: Asp (experimental)
+Catalytic proton donor: Glu (experimental)
+Clan: GH-H
+Known taxonomic range: eukaryota, bacteria.
+
+AGLA_RHIME  (Q9Z3R8)    , AGLB_THEMA  (Q9X2F4)    , AGLB_THENE  (O86959)    ,
+AGL_PEDPE   (P43473)    , AM2A5_MOUSE (P00688)    , AMT4_PELSC  (P22963)    ,
+AMT4_STUST  (P13507)    , AMT6_BACS7  (P19571)    , AMY1A_HUMAN (P0DUB6)    ,
+AMY1B_HUMAN (P0DTE7)    , AMY1C_HUMAN (P0DTE8)    , AMY1_AEDAE  (P53354)    ,
+AMY1_AERHY  (P22630)    , AMY1_ARATH  (Q8VZ56)    , AMY1_CAPAA  (P86072)    ,
+AMY1_CAPCH  (P86084)    , AMY1_CYTFI  (C0HJE4)    , AMY1_DROAN  (Q23835)    ,
+AMY1_ECOLI  (P25718)    , AMY1_HORVU  (P00693)    , AMY1_LIPKO  (Q01117)    ,
+AMY1_MOUSE  (P00687)    , AMY1_ORYSJ  (P17654)    , AMY1_SACFI  (P21567)    ,
+AMY1_SCHOC  (P19269)    , AMY1_SCHPO  (O74922)    , AMY2A_ORYSI (A2YGY2)    ,
+AMY2A_ORYSJ (Q0D9J1)    , AMY2B_HUMAN (P19961)    , AMY2_ARATH  (Q8LFG1)    ,
+AMY2_CAPCH  (P86088)    , AMY2_DICT6  (P14898)    , AMY2_DROAN  (O18345)    ,
+AMY2_ECOLI  (P26612)    , AMY2_HORVU  (P04063)    , AMY2_SALTY  (P26613)    ,
+AMY2_SCHOC  (Q08806)    , AMY2_SCHPO  (Q09840)    , AMY3A_ORYSJ (P27932)    ,
+AMY3B_ORYSJ (P27937)    , AMY3C_ORYSJ (P27939)    , AMY3D_ORYSJ (P27933)    ,
+AMY3E_ORYSJ (P27934)    , AMY3_ARATH  (Q94A41)    , AMY3_CAPCH  (P86089)    ,
+AMY3_DICT6  (P14899)    , AMY3_HORVU  (P04747)    , AMY3_SCHPO  (Q9Y7S9)    ,
+AMY3_WHEAT  (P08117)    , AMY4_CAPCH  (P86090)    , AMY4_HORVU  (P04748)    ,
+AMY4_SCHPO  (O42918)    , AMY5_HORVU  (P04749)    , AMY6_HORVU  (P04750)    ,
+AMYA1_ASPOR (P0C1B3)    , AMYA3_ASPOR (P0C1B4)    , AMYA_AERHY  (P41131)    ,
+AMYA_ASPAW  (Q02905)    , AMYA_ASPNG  (P56271)    , AMYA_DROMA  (P54215)    ,
+AMYA_DROME  (P08144)    , AMYA_DROYA  (P83833)    , AMYA_VIGMU  (P17859)    ,
+AMYB_ASPAW  (Q02906)    , AMYB_DROME  (P81641)    , AMYB_DROYA  (Q9BN01)    ,
+AMYC1_ORYSI (A2WPU3)    , AMYC1_ORYSJ (Q0JMV4)    , AMYM_BACAD  (P32818)    ,
+AMYM_BACLI  (Q04977)    , AMYM_GEOSE  (P19531)    , AMYP_HUMAN  (P04746)    ,
+AMYP_PIG    (P00690)    , AMYP_RAT    (P00689)    , AMYP_STRCA  (P83053)    ,
+AMYR_DROAN  (O18344)    , AMYR_DROAP  (O77011)    , AMYR_DROAV  (O77020)    ,
+AMYR_DROBA  (O77019)    , AMYR_DROBC  (O76284)    , AMYR_DROBP  (Q9NJN8)    ,
+AMYR_DRODO  (O77021)    , AMYR_DROEC  (O77012)    , AMYR_DROEL  (Q9NJP0)    ,
+AMYR_DROER  (O76265)    , AMYR_DROJA  (Q9GQV3)    , AMYR_DROKI  (O77013)    ,
+AMYR_DROLN  (O76262)    , AMYR_DROMA  (O77014)    , AMYR_DROME  (O18408)    ,
+AMYR_DROOR  (O77015)    , AMYR_DROPN  (O77022)    , AMYR_DROPS  (O18552)    ,
+AMYR_DROSE  (O76261)    , AMYR_DROSI  (O77016)    , AMYR_DROSR  (O76459)    ,
+AMYR_DROSU  (O18420)    , AMYR_DROTE  (O76260)    , AMYR_DROTK  (O77018)    ,
+AMYR_DROVA  (Q9NJN7)    , AMYR_DROWI  (O76263)    , AMYR_DROYA  (O76264)    ,
+AMYS_NEIME  (Q84HD6)    , AMYS_NEIPO  (Q9ZEU2)    , AMY_ACASI   (B0KZK1)    ,
+AMY_ASPUS   (P30292)    , AMY_BACAM   (P00692)    , AMY_BACLI   (P06278)    ,
+AMY_BACSU   (P00691)    , AMY_BUTFI   (P30269)    , AMY_CAPAN   (P86005)    ,
+AMY_CLOAB   (P23671)    , AMY_DERPT   (P49274)    , AMY_GEOSE   (P06279)    ,
+AMY_HYPHA   (A0A096XJN4), AMY_NIACI   (P08137)    , AMY_ORYLA   (H2N0D4)    ,
+AMY_PECMA   (P91778)    , AMY_PHACE   (O97396)    , AMY_PRIMG   (P20845)    ,
+AMY_PSEHA   (P29957)    , AMY_STRGR   (P30270)    , AMY_STRHY   (P08486)    ,
+AMY_STRLI   (Q05884)    , AMY_STRLM   (P09794)    , AMY_STRTL   (P27350)    ,
+AMY_STRVL   (P22998)    , AMY_TENMO   (P56634)    , AMY_THECU   (P29750)    ,
+AMY_TITSE   (P85843)    , AMY_TRICA   (P09107)    , APU_THEP3   (P38939)    ,
+APU_THESA   (P36905)    , APU_THETU   (P38536)    , APU_THETY   (P16950)    ,
+BBMA_BACIU  (Q9R9H8)    , BBMA_BACSU  (O06988)    , CDAS_BACSP  (Q59226)    ,
+CDAS_GEOTM  (A0A7U9P668), CDAS_LYSSH  (Q08341)    , CDAS_THEP3  (P29964)    ,
+CDGT1_NIACI (P30920)    , CDGT1_PAEMA (P04830)    , CDGT2_NIACI (P43379)    ,
+CDGT2_PAEMA (P31835)    , CDGT_BAC11  (P30921)    , CDGT_BACLI  (P14014)    ,
+CDGT_BACOH  (P27036)    , CDGT_BACS0  (P05618)    , CDGT_BACS2  (P31746)    ,
+CDGT_BACS3  (P09121)    , CDGT_BACS8  (P17692)    , CDGT_BACSS  (P31747)    ,
+CDGT_BREBE  (O30565)    , CDGT_GEOSE  (P31797)    , CDGT_KLEOX  (P08704)    ,
+CDGT_THETU  (P26827)    , DEXB_STREQ  (Q59905)    , DEXB_STRMU  (Q99040)    ,
+DEXB_STRPN  (Q54796)    , GGAP_ALLS1  (D7BAR0)    , GGAP_ECOLI  (P76041)    ,
+GGAP_SPITZ  (G0GBS4)    , GGOP_MARAH  (E4PMA5)    , GLGB1_ARATH (O23647)    ,
+GLGB1_CLOPE (Q8XPA2)    , GLGB1_CLOPS (Q0SWZ1)    , GLGB1_PEA   (Q41058)    ,
+GLGB1_RHIEC (Q2K487)    , GLGB1_RHIJ3 (Q1MBS9)    , GLGB1_STRAW (Q82JF0)    ,
+GLGB1_STRCO (Q59833)    , GLGB1_XANAC (Q8PR13)    , GLGB1_XANC5 (Q3BZE1)    ,
+GLGB1_XANC8 (Q4V0E2)    , GLGB1_XANCP (Q8PE48)    , GLGB1_XANOM (Q2P9F7)    ,
+GLGB1_XANOR (Q5H6H2)    , GLGB2_ARATH (Q9LZS3)    , GLGB2_CLOPE (Q8XK15)    ,
+GLGB2_CLOPS (Q0SSN2)    , GLGB2_PEA   (Q41059)    , GLGB2_RHIEC (Q2JZ21)    ,
+GLGB2_RHIJ3 (Q1M3A7)    , GLGB2_STRAW (Q825Q8)    , GLGB2_STRCO (Q59832)    ,
+GLGB2_XANAC (Q8PQA2)    , GLGB2_XANC5 (Q3BYI0)    , GLGB2_XANC8 (Q4UZL7)    ,
+GLGB2_XANCP (Q8PDD1)    , GLGB2_XANOM (Q2P949)    , GLGB2_XANOR (Q5H6Q3)    ,
+GLGB3_ARATH (D2WL32)    , GLGB_ACTP2  (A3MZ64)    , GLGB_ACTP7  (B3H0J1)    ,
+GLGB_ACTPJ  (B0BT96)    , GLGB_ACTSZ  (A6VP15)    , GLGB_AGRFC  (Q8U8L4)    ,
+GLGB_ALBFT  (Q21WG7)    , GLGB_ALIF1  (Q5DZB8)    , GLGB_ALKEH  (Q0AA26)    ,
+GLGB_AQUAE  (O66936)    , GLGB_AROAE  (Q5NXV7)    , GLGB_ASPOR  (Q96VA4)    ,
+GLGB_BACAA  (C3PCL8)    , GLGB_BACAC  (C3LC26)    , GLGB_BACAN  (Q81K82)    ,
+GLGB_BACC0  (B7JDF1)    , GLGB_BACC1  (Q72YJ3)    , GLGB_BACC2  (B7IM37)    ,
+GLGB_BACC3  (C1EX54)    , GLGB_BACC4  (B7HBC7)    , GLGB_BACC7  (B7HTX9)    ,
+GLGB_BACCL  (P30537)    , GLGB_BACCN  (A7GUA1)    , GLGB_BACCQ  (B9J2G8)    ,
+GLGB_BACCR  (Q816G6)    , GLGB_BACCZ  (Q632H1)    , GLGB_BACHK  (Q6HC15)    ,
+GLGB_BACLD  (Q65FS4)    , GLGB_BACMK  (A9VMV8)    , GLGB_BACSU  (P39118)    ,
+GLGB_BERDE  (Q9RQI5)    , GLGB_BIFLO  (Q8G5L0)    , GLGB_BORBR  (Q7WII7)    ,
+GLGB_BORPA  (Q7W6L4)    , GLGB_BORPE  (Q7VYK0)    , GLGB_BRADU  (Q89FD3)    ,
+GLGB_BRASB  (A5EPZ7)    , GLGB_BRASO  (A4Z005)    , GLGB_BURCH  (A0KDG4)    ,
+GLGB_BURCM  (Q0B3Y4)    , GLGB_BURL3  (Q39N89)    , GLGB_BURO1  (Q1BVW7)    ,
+GLGB_BURP0  (A3NU16)    , GLGB_BURP1  (Q3JTG5)    , GLGB_BURP6  (A3N8B3)    ,
+GLGB_BURPS  (Q63T91)    , GLGB_BURTA  (Q2T6R3)    , GLGB_BURVG  (A4JR39)    ,
+GLGB_BUTFI  (P30539)    , GLGB_CANGA  (Q6FJV0)    , GLGB_CELJU  (B3PGN4)    ,
+GLGB_CERS1  (A3PIQ5)    , GLGB_CERS4  (Q3J3M6)    , GLGB_CHESB  (Q11EX1)    ,
+GLGB_CHLAB  (Q5L6K4)    , GLGB_CHLCV  (Q823Y5)    , GLGB_CHLFF  (Q253M6)    ,
+GLGB_CHLMU  (Q9PL51)    , GLGB_CHLPN  (Q9Z876)    , GLGB_CHLT2  (B0B998)    ,
+GLGB_CHLTA  (Q3KKH0)    , GLGB_CHLTB  (B0BAX7)    , GLGB_CHLTR  (O84874)    ,
+GLGB_CITK8  (A8AQY3)    , GLGB_CLOP1  (Q0TQ16)    , GLGB_CORDI  (Q6NHR6)    ,
+GLGB_COREF  (Q8FQ12)    , GLGB_CORGL  (Q8NR40)    , GLGB_CORJK  (Q4JUK5)    ,
+GLGB_CRYNB  (P0CN83)    , GLGB_CRYNJ  (P0CN82)    , GLGB_CUPNH  (Q0K0X8)    ,
+GLGB_CUPPJ  (Q46TF2)    , GLGB_CUTAK  (Q6A8Q7)    , GLGB_DEBHA  (Q6BXN1)    ,
+GLGB_DECAR  (Q47II8)    , GLGB_DEIGD  (Q1IZQ3)    , GLGB_DEIRA  (Q9RTB7)    ,
+GLGB_DESHY  (Q24VW3)    , GLGB_DESVH  (Q729V5)    , GLGB_DESVV  (A1VC54)    ,
+GLGB_DICCH  (Q8GQC5)    , GLGB_DICDI  (Q555Q9)    , GLGB_ECO24  (A7ZSW5)    ,
+GLGB_ECO57  (Q8X6X6)    , GLGB_ECOHS  (A8A5P2)    , GLGB_ECOK1  (A1AGW5)    ,
+GLGB_ECOL5  (Q0TC27)    , GLGB_ECOL6  (Q8FCR7)    , GLGB_ECOLC  (B1IP32)    ,
+GLGB_ECOLI  (P07762)    , GLGB_ECOUT  (Q1R5J4)    , GLGB_EMENI  (Q9Y8H3)    ,
+GLGB_ENT38  (A4WFL5)    , GLGB_EREGS  (Q757Q6)    , GLGB_FELCA  (Q6T308)    ,
+GLGB_FRACC  (Q2J6Q9)    , GLGB_FRAP2  (B0TZI5)    , GLGB_FRAT1  (Q14J36)    ,
+GLGB_FRATF  (A7NAI2)    , GLGB_FRATH  (Q2A4U7)    , GLGB_FRATM  (B2SFM7)    ,
+GLGB_FRATN  (A0Q593)    , GLGB_FRATO  (Q0BN67)    , GLGB_FRATT  (Q5NHN4)    ,
+GLGB_FRATW  (A4IZK2)    , GLGB_FUSNN  (Q8RF62)    , GLGB_GEOSE  (P30538)    ,
+GLGB_GLOVI  (Q7NL20)    , GLGB_GRABC  (Q0BU54)    , GLGB_HAEI8  (Q4QK67)    ,
+GLGB_HAEIG  (A5UEJ2)    , GLGB_HAEIN  (P45177)    , GLGB_HALOH  (B8CVY1)    ,
+GLGB_HISS1  (Q0I3H7)    , GLGB_HISS2  (B0UU89)    , GLGB_HORSE  (Q6EAS5)    ,
+GLGB_HUMAN  (Q04446)    , GLGB_HYDCU  (Q31IB6)    , GLGB_JANSC  (Q28MN2)    ,
+GLGB_KITAU  (P52980)    , GLGB_KLEP7  (A6TF51)    , GLGB_KLULA  (Q6CX53)    ,
+GLGB_LACAC  (Q5FL68)    , GLGB_LACPL  (Q890J1)    , GLGB_LEIXX  (Q6AEU4)    ,
+GLGB_LIGS1  (Q1WSM8)    , GLGB_MAGSA  (Q2W2Q6)    , GLGB_MAIZE  (Q08047)    ,
+GLGB_MANSM  (Q65TI0)    , GLGB_MARN8  (A1U0K1)    , GLGB_METCA  (Q608L5)    ,
+GLGB_METFK  (Q1H1K2)    , GLGB_MOUSE  (Q9D6Y9)    , GLGB_MYCBO  (P59816)    ,
+GLGB_MYCBP  (A1KIB6)    , GLGB_MYCPA  (Q73X75)    , GLGB_MYCS2  (A0R1Y4)    ,
+GLGB_MYCSJ  (A3Q396)    , GLGB_MYCSK  (A1UJW9)    , GLGB_MYCSS  (Q1B568)    ,
+GLGB_MYCTA  (A5U226)    , GLGB_MYCTO  (P9WN44)    , GLGB_MYCTU  (P9WN45)    ,
+GLGB_MYCUA  (A0PUI6)    , GLGB_MYXXD  (Q1D654)    , GLGB_NITEC  (Q0AGJ0)    ,
+GLGB_NITEU  (Q81ZU6)    , GLGB_NITHX  (Q1QNB1)    , GLGB_NITMU  (Q2YB47)    ,
+GLGB_NITOC  (Q3JCN0)    , GLGB_NITWN  (Q3STC2)    , GLGB_NOCFA  (Q5Z0W8)    ,
+GLGB_NOSS1  (Q8YYX9)    , GLGB_NOVAD  (Q2G7S5)    , GLGB_OCEIH  (Q8CZE8)    ,
+GLGB_OLEA2  (Q30Z14)    , GLGB_ORYSJ  (Q01401)    , GLGB_PARMW  (Q7U646)    ,
+GLGB_PARUW  (Q6MAB4)    , GLGB_PARXL  (Q13S07)    , GLGB_PASMU  (Q9CN94)    ,
+GLGB_PECAS  (Q6CZK0)    , GLGB_PHOPR  (Q6LHN1)    , GLGB_PICTO  (Q6L2Z9)    ,
+GLGB_PROM0  (A3PBV8)    , GLGB_PROM1  (A2C142)    , GLGB_PROM2  (A8G3V0)    ,
+GLGB_PROM3  (A2CAR9)    , GLGB_PROM4  (A9BAY7)    , GLGB_PROM5  (A2BVP7)    ,
+GLGB_PROM9  (Q31BV0)    , GLGB_PROMA  (Q7VBL4)    , GLGB_PROMM  (Q7V8B5)    ,
+GLGB_PROMP  (Q7V299)    , GLGB_PROMS  (A2BQ65)    , GLGB_PROMT  (Q46LW6)    ,
+GLGB_PSE14  (Q48IE2)    , GLGB_PSEA6  (Q15VD0)    , GLGB_PSEA7  (A6V628)    ,
+GLGB_PSEAE  (Q9I1W2)    , GLGB_PSEF5  (Q4KCQ3)    , GLGB_PSEPF  (Q3KD78)    ,
+GLGB_PSEPK  (Q88FN1)    , GLGB_PSESM  (Q881X0)    , GLGB_PSEU2  (Q4ZTJ2)    ,
+GLGB_RALN1  (Q8XT76)    , GLGB_RHIID  (Q8NKE1)    , GLGB_RHILO  (Q985P4)    ,
+GLGB_RHIME  (Q92M14)    , GLGB_RHIRD  (P52979)    , GLGB_RHOBA  (Q7UVH1)    ,
+GLGB_RHOJR  (Q0SGR9)    , GLGB_RHOMR  (Q93HU3)    , GLGB_RHOP2  (Q2IYX0)    ,
+GLGB_RHOP5  (Q07K87)    , GLGB_RHOPA  (Q6N3P9)    , GLGB_RHOPB  (Q210H1)    ,
+GLGB_RHOPS  (Q133N2)    , GLGB_RHORT  (Q2RR72)    , GLGB_ROSDO  (Q165E2)    ,
+GLGB_RUBXD  (Q1AZ86)    , GLGB_SACD2  (Q21M30)    , GLGB_SALAR  (A9MMA0)    ,
+GLGB_SALCH  (Q57IT8)    , GLGB_SALPA  (Q5PM06)    , GLGB_SALPB  (A9MTV4)    ,
+GLGB_SALRD  (Q2S4A0)    , GLGB_SALTI  (Q8Z235)    , GLGB_SALTY  (Q8ZLG5)    ,
+GLGB_SERP5  (A8GKV0)    , GLGB_SHEB2  (B8EAX1)    , GLGB_SHEB5  (A3D286)    ,
+GLGB_SHEB8  (A6WKY2)    , GLGB_SHEB9  (A9KTJ1)    , GLGB_SHEFN  (Q081Q4)    ,
+GLGB_SHEON  (Q8EGU7)    , GLGB_SHEPC  (A4Y4U3)    , GLGB_SHESM  (Q0HGI8)    ,
+GLGB_SHESR  (Q0HST5)    , GLGB_SHESW  (A1RLX8)    , GLGB_SHIBS  (Q31VJ1)    ,
+GLGB_SHIDS  (Q32AV3)    , GLGB_SHIF8  (Q0SZN2)    , GLGB_SHIFL  (Q83PV3)    ,
+GLGB_SHISS  (Q3YW93)    , GLGB_SOLTU  (P30924)    , GLGB_STRA1  (Q3K1K5)    ,
+GLGB_STRA3  (Q8E5V8)    , GLGB_STRA5  (Q8E081)    , GLGB_STRGC  (A8AYH3)    ,
+GLGB_STRMU  (Q8DT52)    , GLGB_STRP2  (Q04KG8)    , GLGB_STRPN  (Q97QS8)    ,
+GLGB_STRR6  (Q8DPS6)    , GLGB_STRSV  (A3CM01)    , GLGB_SYNE7  (P16954)    ,
+GLGB_SYNJA  (Q2JT08)    , GLGB_SYNJB  (Q2JK68)    , GLGB_SYNP6  (Q5N4W5)    ,
+GLGB_SYNPW  (A5GJR7)    , GLGB_SYNR3  (A5GSG4)    , GLGB_SYNS3  (Q0I8Y2)    ,
+GLGB_SYNS9  (Q3AYE2)    , GLGB_SYNSC  (Q3AKV6)    , GLGB_SYNY3  (P52981)    ,
+GLGB_THEFY  (Q47SE7)    , GLGB_THEVB  (Q8DLB8)    , GLGB_THIDA  (Q3SH78)    ,
+GLGB_TRIEI  (Q114I1)    , GLGB_TRIV2  (Q3M473)    , GLGB_VIBCH  (Q9KNE8)    ,
+GLGB_VIBPA  (Q87FR0)    , GLGB_VIBVU  (Q8D4P0)    , GLGB_VIBVY  (Q7MG90)    ,
+GLGB_YARLI  (Q6CCT1)    , GLGB_YEAST  (P32775)    , GLGB_YERE8  (A1JSJ0)    ,
+GLGB_YERP3  (A7FNX5)    , GLGB_YERPA  (Q1C1D9)    , GLGB_YERPE  (Q8ZA75)    ,
+GLGB_YERPN  (Q1CDL3)    , GLGB_YERPP  (A4TQV2)    , GLGB_YERPS  (Q664I2)    ,
+GLGE1_STRCO (Q9L1K2)    , GLGE2_STRCO (Q9KY04)    , GLGE_ARCHD  (D7BMJ2)    ,
+GLGE_BIFLB  (C6A9K7)    , GLGE_BIFLO  (Q8G784)    , GLGE_CERS4  (Q3J3M8)    ,
+GLGE_CERSP  (Q9JN46)    , GLGE_CHLTE  (Q8KAR6)    , GLGE_CORGL  (Q8NR39)    ,
+GLGE_CORP1  (D9Q7U8)    , GLGE_METI4  (B3DYJ8)    , GLGE_MYCBO  (P63532)    ,
+GLGE_MYCS2  (Q9RP48)    , GLGE_MYCTO  (P9WQ16)    , GLGE_MYCTU  (P9WQ17)    ,
+GLGE_MYXXD  (Q1D651)    , GLGE_PICTO  (Q6L2Z8)    , GLGE_PSEAE  (Q9I1W4)    ,
+GLGE_RHORT  (Q2RTZ1)    , GLGE_SALRD  (Q2S498)    , GLGE_XANCP  (Q8PE50)    ,
+GLGX_CITK8  (A8AQY2)    , GLGX_CROS8  (A7MGF3)    , GLGX_DICCH  (Q8KR69)    ,
+GLGX_ECO24  (A7ZSW4)    , GLGX_ECO27  (B7UKY8)    , GLGX_ECO45  (B7MDR6)    ,
+GLGX_ECO55  (B7L4W3)    , GLGX_ECO57  (Q8X6X8)    , GLGX_ECO5E  (B5YUI7)    ,
+GLGX_ECO7I  (B7NMJ6)    , GLGX_ECO81  (B7N1M3)    , GLGX_ECO8A  (B7M2J4)    ,
+GLGX_ECOBW  (C4ZVY1)    , GLGX_ECODH  (B1X776)    , GLGX_ECOHS  (A8A5P1)    ,
+GLGX_ECOK1  (A1AGW4)    , GLGX_ECOL5  (Q0TC28)    , GLGX_ECOL6  (Q8FCR8)    ,
+GLGX_ECOLC  (B1IP33)    , GLGX_ECOLI  (P15067)    , GLGX_ECOLU  (B7NE41)    ,
+GLGX_ECOSE  (B6I2Z7)    , GLGX_ECOSM  (B1LI92)    , GLGX_ECOUT  (Q1R5J5)    ,
+GLGX_ENT38  (A4WFL4)    , GLGX_ERWT9  (B2VJR7)    , GLGX_ESCF3  (B7LSE2)    ,
+GLGX_HAEIN  (P45178)    , GLGX_KLEP3  (B5XTQ8)    , GLGX_KLEP7  (A6TF50)    ,
+GLGX_MYCBO  (P0A4Y5)    , GLGX_MYCTO  (P9WQ24)    , GLGX_MYCTU  (P9WQ25)    ,
+GLGX_PECAS  (Q6CZK1)    , GLGX_PECCP  (C6DH78)    , GLGX_SALA4  (B5F8Q3)    ,
+GLGX_SALCH  (Q57IT9)    , GLGX_SALDC  (B5FKF6)    , GLGX_SALEP  (B5R396)    ,
+GLGX_SALG2  (B5R7H8)    , GLGX_SALHS  (B4T869)    , GLGX_SALNS  (B4SVN4)    ,
+GLGX_SALPA  (Q5PM07)    , GLGX_SALPB  (A9MTV3)    , GLGX_SALPC  (C0Q0L1)    ,
+GLGX_SALPK  (B5BHI1)    , GLGX_SALSV  (B4TY88)    , GLGX_SALTI  (Q8Z234)    ,
+GLGX_SALTY  (Q8ZLG6)    , GLGX_SERP5  (A8GKU9)    , GLGX_SHIB3  (B2U4G1)    ,
+GLGX_SHIBS  (Q31VJ2)    , GLGX_SHIDS  (Q32AV4)    , GLGX_SHIF8  (Q0SZN3)    ,
+GLGX_SHIFL  (Q83J89)    , GLGX_SHISS  (Q3YW94)    , GLGX_YERE8  (A1JSI8)    ,
+GLGX_YERP3  (A7FNX4)    , GLGX_YERPA  (Q1C1E0)    , GLGX_YERPB  (B2K6G0)    ,
+GLGX_YERPE  (Q8ZA76)    , GLGX_YERPG  (A9R5L9)    , GLGX_YERPN  (Q1CDL4)    ,
+GLGX_YERPP  (A4TQV1)    , GLGX_YERPS  (Q664I3)    , GLGX_YERPY  (B1JHX8)    ,
+IMA2_YEAST  (Q08295)    , IMA5_YEAST  (P40884)    , ISOA1_ARATH (O04196)    ,
+ISOA1_ORYSJ (D0TZF0)    , ISOA2_ARATH (Q8L735)    , ISOA2_ORYSJ (Q6AU80)    ,
+ISOA3_ARATH (Q9M0S5)    , ISOA3_ORYSJ (B9G434)    , ISOA_FLASP  (O32611)    ,
+ISOA_PSEAY  (P10342)    , ISOA_PSEUM  (P26501)    , MAL12_YEAST (P53341)    ,
+MAL1_APIME  (Q17058)    , MAL1_DROME  (P07190)    , MAL1_DROVI  (O16098)    ,
+MAL2_DROME  (P07191)    , MAL2_DROVI  (O16099)    , MAL32_YEAST (P38158)    ,
+MAL3_DROME  (P07192)    , MAL62_YEASX (P07265)    , MALA_HALJT  (L8B068)    ,
+MALT_AEDAE  (P13080)    , MALT_BACTQ  (P80072)    , MALT_CANAX  (Q02751)    ,
+MALT_CULPI  (Q95WY5)    , MALT_SCHPO  (Q9P6J3)    , MALX2_YEAST (P0CW40)    ,
+MALX3_YEAST (P53051)    , MALX4_YEAST (P0CW41)    , MALZ_ECOLI  (P21517)    ,
+MDE5_SCHPO  (O14154)    , MGTA_THEMA  (P80099)    , MGTA_THENE  (O86956)    ,
+NEPU1_THEVU (Q60053)    , NEPU2_THEVU (Q08751)    , NEPU_GEOSE  (P38940)    ,
+O16G1_BACSU (O06994)    , O16G2_BACSU (O34364)    , O16G3_BACSU (O05242)    ,
+O16G_BACCE  (P21332)    , O16G_BACF5  (P29093)    , O16G_HALH5  (Q9K8U9)    ,
+O16G_HEYCO  (Q45101)    , O16G_PARTM  (P29094)    , PULA1_ARATH (Q8GTR4)    ,
+PULA_BACSU  (C0SPA0)    , PULA_KLEAE  (P07811)    , PULA_KLEPN  (P07206)    ,
+PULA_STREE  (Q9F930)    , PULA_STRP2  (A0A0H2ZL64), PULA_STRPN  (A0A0H2UNG0),
+PULA_THEMA  (O33840)    , SU1_MAIZE   (O22637)    , SUCPP_ILUCY (A0A6C7EEG6),
+SUCPP_THETC (D9TT09)    , SUCP_AGRVI  (P33910)    , SUCP_BIFAA  (A0ZZH6)    ,
+SUCP_LEUME  (Q59495)    , SUCP_STRMU  (P10249)    , SUSA_BACTN  (Q8A1G0)    ,
+SUSG_BACTN  (Q8A1G3)    , TREC_BACSU  (P39795)    , TREC_ECOLI  (P28904)    ,
+TRES_MYCS2  (A0R6E0)    , TRES_MYCTO  (P9WQ18)    , TRES_MYCTU  (P9WQ19)    ,
+TRES_PIMSR  (P72235)    , TRES_THETH  (O06458)    , TREY_ARTSQ  (Q44315)    ,
+TREY_MYCTO  (P9WQ20)    , TREY_MYCTU  (P9WQ21)    , TREZ_ARTRM  (Q9AJN6)    ,
+TREZ_ARTSQ  (Q44316)    , TREZ_BREHE  (O52520)    , TREZ_DEIRA  (Q9RX51)    ,
+TREZ_MYCTO  (P9WQ22)    , TREZ_MYCTU  (P9WQ23)    , TREZ_RHIS1  (Q53238)    ,
+TREZ_SACS2  (P95867)    , TREZ_SACSO  (Q55088)    , YEI1_SCHPO  (O13996)    ,
+YQ29_SCHPO  (Q10427)    
+
+
+=========
+Family 14
+=========
+
+Description: Beta-amylases (EC 3.2.1.2)
+PROSITE: PDOC00414
+3D structure status: Available
+Reaction stereochemical outcome: Inverted anomeric configuration
+Catalytic nucleophile/base: ?
+Catalytic proton donor: ?
+Known taxonomic range: eukaryota, bacteria.
+Note: a Glu is proposed as a catalytic residue, but it is not known if it is
+      the nucleophile or the proton donor.
+
+AMYB_BACCE  (P36924)    , AMYB_CYTFI  (P96513)    , AMYB_HORVS  (P82993)    ,
+AMYB_HORVU  (P16098)    , AMYB_IPOBA  (P10537)    , AMYB_MAIZE  (P55005)    ,
+AMYB_MEDSA  (O22585)    , AMYB_NIACI  (P06547)    , AMYB_SECCE  (P30271)    ,
+AMYB_SOYBN  (P10538)    , AMYB_THETU  (P19584)    , AMYB_TRIRP  (O65015)    ,
+AMYB_VIGUN  (O64407)    , AMYB_WHEAT  (P93594)    , BAM1_ARATH  (Q9LIR6)    ,
+BAM2_ARATH  (O65258)    , BAM3_ARATH  (O23553)    , BAM4_ARATH  (Q9FM68)    ,
+BAM5_ARATH  (P25853)    , BAM6_ARATH  (Q8L762)    , BAM7_ARATH  (O80831)    ,
+BAM8_ARATH  (Q9FH80)    , BAM9_ARATH  (Q8VYW2)    , BAMY1_ORYSJ (Q9AV88)    ,
+BAMY2_ORYSJ (Q10RZ1)    
+
+
+=========
+Family 15
+=========
+
+Description: Glucoamylases (EC 3.2.1.3).
+PROSITE: PDOC00646
+3D structure status: Available
+Reaction stereochemical outcome: Inverted anomeric configuration
+Catalytic nucleophile/base: Glu
+Catalytic proton donor: Glu
+Clan: None
+Known taxonomic range: eukaryota, bacteria, archaea.
+
+AMYD_RHIO9  (I1BYW6)    , AMYG_AMORE  (Q03045)    , AMYG_ARTBC  (P0DN29)    ,
+AMYG_ASPAW  (P69327)    , AMYG_ASPKA  (P23176)    , AMYG_ASPNG  (P69328)    ,
+AMYG_ASPOR  (P36914)    , AMYG_ASPUS  (P22832)    , AMYG_BLAAD  (P42042)    ,
+AMYG_CLOS0  (P29761)    , AMYG_NEUCR  (P14804)    , AMYG_RHIOR  (P07683)    ,
+AMYG_SACFI  (P08017)    , AMYG_SCHCM  (D8Q9M3)    , AMYG_SCHPO  (O60087)    ,
+AMYG_YEAST  (P08019)    , AMYH_SACFI  (P26989)    , AMYH_YEASX  (P04065)    ,
+AMYI_YEASX  (P29760)    , IMGH_KRIFD  (D2PPM8)    , TREH1_SULAC (Q4J7W0)    ,
+TREH2_SULAC (Q4J9D4)    , TREH_MYCS2  (A0R0W9)    , TREH_MYCTU  (P71741)    ,
+TREH_THEAC  (Q9HLE2)    , TREH_THEVO  (Q978S7)    , Y1610_METJA (Q59005)    
+
+
+=========
+Family 16
+=========
+
+Description: Mainly bacterial beta-glucanases (EC 3.2.1.73) (lichenases).
+PROSITE: PDOC00794
+3D structure status: Available
+Reaction stereochemical outcome: Retained anomeric configuration
+Catalytic nucleophile/base: Glu (experimental)
+Catalytic proton donor: Glu (experimental)
+Clan: GH-B
+Known taxonomic range: bacteria.
+
+AGA34_AGAAL (P85974)    , AGAA_ZOBGA  (G0L322)    , AGAB_ZOBGA  (Q9RGX8)    ,
+AGAC_ZOBGA  (D7GXG5)    , AGAD_ZOBGA  (D7GXG4)    , AGAR_STRCO  (P07883)    ,
+AGB34_AGAAL (A8W969)    , BAGA_PHOPM  (B5CY73)    , BGBP_PENMO  (Q8N0N3)    ,
+BGBP_PENVA  (P81182)    , CFGA_TACTR  (Q27082)    , CGKA_PSEVC  (P43478)    ,
+CRF1_ASPFU  (Q8J0P4)    , CRF2_ASPFU  (Q4WI46)    , CRH11_ARTBC (D4ALQ5)    ,
+CRH11_CANAL (Q5AFA2)    , CRH12_ARTBC (D4B4J2)    , CRH12_CANAL (Q5AK54)    ,
+CRH1_YEAST  (P53301)    , CRH2_YEAST  (P32623)    , CRR1_EREGS  (Q75A41)    ,
+CRR1_YEAST  (Q05790)    , E13B_CRYAT  (C1IE32)    , E13B_NIACI  (P23903)    ,
+E3GAL_FLAVE (F7J1C8)    , EGLC_RHIME  (Q9Z3Q2)    , EGLX_ARTBC  (D4AJR9)    ,
+EGLX_ASPCL  (A1C7B5)    , EGLX_ASPFC  (B0XTU6)    , EGLX_ASPFN  (B8N7S7)    ,
+EGLX_ASPFU  (Q4X084)    , EGLX_ASPNC  (A2QBQ3)    , EGLX_ASPOR  (Q2UIE6)    ,
+EGLX_EMENI  (Q5BAP5)    , EGLX_NEOFI  (A1DHY9)    , EXOK_RHIME  (P33693)    ,
+EXSH_RHIME  (O33680)    , GUB_ACET2   (A3DBX3)    , GUB_ACETH   (Q84C00)    ,
+GUB_BACAM   (P07980)    , GUB_BACLI   (P27051)    , GUB_BACSU   (P04957)    ,
+GUB_BREBE   (P37073)    , GUB_FIBSS   (P17989)    , GUB_ORPSP   (O14412)    ,
+GUB_PAEMA   (P23904)    , GUB_PAEPO   (P45797)    , GUB_RHOMR   (P45798)    ,
+KSBGL_SPHMU (Q9ZG90)    , PORA_ZOBGA  (D7GXG0)    , PORB_PHOPM  (B5CY92)    ,
+PORB_ZOBGA  (D7GXF9)    , PORC_ZOBGA  (D7GXG1)    , PORD_ZOBGA  (D7GXG2)    ,
+PORE_ZOBGA  (D7GXG3)    , UTR2_CANAL  (Q5AJC0)    , XTH10_ARATH (Q9ZVK1)    ,
+XTH11_ARATH (Q9SMP1)    , XTH12_ARATH (Q9FKL9)    , XTH13_ARATH (Q9FKL8)    ,
+XTH14_ARATH (Q9ZSU4)    , XTH15_ARATH (Q38911)    , XTH16_ARATH (Q8LG58)    ,
+XTH17_ARATH (O80803)    , XTH18_ARATH (Q9M0D2)    , XTH19_ARATH (Q9M0D1)    ,
+XTH1_ARATH  (Q9SV61)    , XTH1_DIOKA  (G5DAC6)    , XTH1_SOLLC  (Q40144)    ,
+XTH1_SOYBN  (Q39857)    , XTH20_ARATH (Q9FI31)    , XTH21_ARATH (Q9ZV40)    ,
+XTH22_ARATH (Q38857)    , XTH23_ARATH (Q38910)    , XTH24_ARATH (P24806)    ,
+XTH25_ARATH (Q38907)    , XTH26_ARATH (Q9SVV2)    , XTH27_ARATH (Q8LDS2)    ,
+XTH28_ARATH (Q38909)    , XTH29_ARATH (Q8L7H3)    , XTH2_ARATH  (Q9SV60)    ,
+XTH2_DIOKA  (G5DAC7)    , XTH2_SOYBN  (P35694)    , XTH30_ARATH (Q38908)    ,
+XTH31_ARATH (P93046)    , XTH32_ARATH (Q9SJL9)    , XTH33_ARATH (Q8LC45)    ,
+XTH34_POPPZ (Q8GZD5)    , XTH3_ARATH  (Q9LJR7)    , XTH4_ARATH  (Q39099)    ,
+XTH5_ARATH  (Q9XIW1)    , XTH6_ARATH  (Q8LF99)    , XTH6_DIOKA  (A0A067XRK9),
+XTH7_ARATH  (Q8LER3)    , XTH7_DIOKA  (A0A067XR63), XTH8_ARATH  (Q8L9A9)    ,
+XTH8_DIOKA  (A0A067YMX8), XTH8_ORYSJ  (Q76BW5)    , XTH9_ARATH  (Q8LDW9)    ,
+XTHA_PHAAN  (Q41638)    , XTHB_PHAAN  (Q8LNZ5)    , XTH_BRAOB   (Q6YDN9)    ,
+XTH_TOBAC   (P93349)    , XTH_WHEAT   (Q41542)    , YHZ7_SCHPO  (Q9USW3)    
+
+
+=========
+Family 17
+=========
+
+Description: Glucan endo-1,3-beta-glucosidases (EC 3.2.1.39) and lichenases
+             (EC 3.2.1.73).
+PROSITE: PDOC00507
+3D structure status: Available
+Reaction stereochemical outcome: Retained anomeric configuration
+Catalytic nucleophile/base: Glu
+Catalytic proton donor: Glu
+Clan: GH-A
+Known taxonomic range: eukaryota.
+Note: currently has only been found in plants and in fungi.
+
+ALL4_OLEEU  (P80741)    , ALL9_OLEEU  (Q94G86)    , BG1_ARATH   (Q9M2M0)    ,
+BG3_ARATH   (F4J270)    , BG4_ARATH   (O49352)    , BG5_ARATH   (O49353)    ,
+BGL2_ARTBC  (D4B2W4)    , BGL2_CANAL  (Q5AMT2)    , BGL2_CANAX  (P43070)    ,
+BGL2_SCHPO  (O13990)    , BGL2_YEAST  (P15703)    , BGNEM_ARATH (Q8VZJ2)    ,
+BTGC_ASPCL  (A1CAI0)    , BTGC_ASPFC  (B0Y429)    , BTGC_ASPFN  (B8NTP7)    ,
+BTGC_ASPFU  (Q4WUK5)    , BTGC_ASPNC  (A2QN74)    , BTGC_ASPOR  (Q2U492)    ,
+BTGC_ASPTN  (Q0CI96)    , BTGC_EMENI  (Q5B430)    , BTGC_NEOFI  (A1DEV5)    ,
+BTGE_ASPCL  (A1C499)    , BTGE_ASPFC  (B0Y9Q9)    , BTGE_ASPFN  (B8MXP5)    ,
+BTGE_ASPFU  (Q4WC60)    , BTGE_ASPOR  (Q2US39)    , BTGE_ASPTN  (Q0CEX9)    ,
+BTGE_EMENI  (Q5BD29)    , BTGE_NEOFI  (A1DBG6)    , E1310_ARATH (Q9FHX5)    ,
+E1311_ARATH (Q8L868)    , E1312_ARATH (Q8VYE5)    , E1313_ARATH (Q9FJU9)    ,
+E1314_ARATH (Q9ZQG9)    , E131_ARATH  (O65399)    , E131_SOLTU  (P52400)    ,
+E132_ARATH  (Q9C7U5)    , E132_SOLTU  (P52401)    , E133_ARATH  (Q9ZU91)    ,
+E133_SOLTU  (P52402)    , E134_ARATH  (Q94CD8)    , E135_ARATH  (Q9M088)    ,
+E136_ARATH  (Q93Z08)    , E137_ARATH  (Q9M069)    , E138_ARATH  (Q6NKW9)    ,
+E139_ARATH  (Q9FGH4)    , E13A_ARATH  (P33157)    , E13A_HORVU  (P34742)    ,
+E13A_SOLLC  (Q01412)    , E13A_SOYBN  (Q03773)    , E13B_BRACM  (P49236)    ,
+E13B_CAPAA  (P86080)    , E13B_HEVBR  (P52407)    , E13B_HORVU  (P15737)    ,
+E13B_MAIZE  (P49237)    , E13B_NICPL  (P23431)    , E13B_PEA    (Q03467)    ,
+E13B_PHAVU  (P23535)    , E13B_PINHA  (P85483)    , E13B_PRUPE  (P52408)    ,
+E13B_SOLLC  (Q01413)    , E13B_SOYBN  (P52395)    , E13B_TOBAC  (P15797)    ,
+E13B_VITRO  (P86102)    , E13B_VITVI  (A7PQW3)    , E13B_WHEAT  (P52409)    ,
+E13C_HORVU  (Q02126)    , E13C_MUSAC  (O22317)    , E13C_TOBAC  (P23432)    ,
+E13D_HORVU  (Q02437)    , E13D_TOBAC  (P23433)    , E13E_HORVU  (Q02438)    ,
+E13E_TOBAC  (P23546)    , E13F_HORVU  (Q02439)    , E13F_TOBAC  (P27666)    ,
+E13G_TOBAC  (P23547)    , E13H_TOBAC  (P36401)    , E13I_TOBAC  (P52396)    ,
+E13J_TOBAC  (P52397)    , E13K_TOBAC  (P52398)    , E13L_TOBAC  (P52399)    ,
+EA6_ARATH   (Q06915)    , EGLC_ASPCL  (A1CD22)    , EGLC_ASPFC  (B0XXF8)    ,
+EGLC_ASPFU  (Q4WG16)    , EGLC_ASPNC  (A2QH21)    , EGLC_ASPOR  (Q2UUZ1)    ,
+EGLC_ASPTN  (Q0C7P6)    , EGLC_EMENI  (Q5AUT0)    , EGLC_NEOFI  (A1DJ47)    ,
+GUB2_HORVU  (P12257)    , GUB_NICPL   (P07979)    , MP65_CANAL  (Q59XX2)    ,
+SCW10_YEAST (Q04951)    , SCW11_YEAST (P53189)    , SCW4_YEAST  (P53334)    
+
+
+=========
+Family 18
+=========
+
+Description: Chitinases (EC 3.2.1.14), endo-beta-n-acetylglucosaminidases
+             (EC 3.2.1.96) and di-N-acetylchitobiases.
+PROSITE: PDOC00839
+3D structure status: Available
+Reaction stereochemical outcome: Retained anomeric configuration
+Catalytic nucleophile/base: carbonyl oxygen of C-2 acetamido group of
+                            substrate
+Catalytic proton donor: Glu
+Clan: None
+Known taxonomic range: eukaryota, bacteria, viridae.
+
+C5210_DROME (Q23997)    , CAI_PHAVU   (P84708)    , CH3L1_BOVIN (P30922)    ,
+CH3L1_BUBBU (Q7YS85)    , CH3L1_CAPHI (Q8SPQ0)    , CH3L1_HUMAN (P36222)    ,
+CH3L1_MOUSE (Q61362)    , CH3L1_PIG   (Q29411)    , CH3L1_PONAB (Q5RBP6)    ,
+CH3L1_RAT   (Q9WTV1)    , CH3L1_SHEEP (Q6TMG6)    , CH3L2_HUMAN (Q15782)    ,
+CHI10_DROME (Q9W5U2)    , CHI11_METAN (O74199)    , CHI18_ENTFA (Q838S2)    ,
+CHI1_APHAL  (P32470)    , CHI1_ARTBC  (D4AT07)    , CHI1_CANAL  (Q5AAH2)    ,
+CHI1_CANAX  (P46876)    , CHI1_COCIM  (Q1E3R8)    , CHI1_COCP7  (C5P230)    ,
+CHI1_COCPS  (P0CB51)    , CHI1_METAN  (O14456)    , CHI1_METRA  (E9ERT9)    ,
+CHI1_PINMG  (H2A0L4)    , CHI1_RHINI  (P29025)    , CHI1_RHIOL  (P29026)    ,
+CHI1_STROI  (P29115)    , CHI1_YERET  (B6A876)    , CHI2_ARTBC  (D4AVJ0)    ,
+CHI2_CANAL  (P40953)    , CHI2_COCIM  (Q1EAR5)    , CHI2_COCP7  (P54197)    ,
+CHI2_METAN  (Q4U4T0)    , CHI2_METRA  (E9F9R9)    , CHI2_PINMG  (H2A0L5)    ,
+CHI2_RHIOL  (P29027)    , CHI2_STROI  (P29116)    , CHI2_YEAST  (Q06350)    ,
+CHI2_YERET  (B6A879)    , CHI33_ARTBC (D4B4X4)    , CHI33_TRIHA (Q12713)    ,
+CHI37_TRIHA (Q8NJQ5)    , CHI3_CANAL  (P40954)    , CHI3_METAN  (Q6QDR4)    ,
+CHI3_METRA  (E9ENC6)    , CHI42_TRIHA (P48827)    , CHI46_TRIHA (A6N6J0)    ,
+CHI4_CANAL  (Q5AM60)    , CHI4_METAN  (C9WJD0)    , CHI4_METRA  (E9F7R6)    ,
+CHI52_PAEXY (A0A8G1A3Q5), CHIA1_ASPFM (Q873Y0)    , CHIA1_ASPFU (Q4WEP7)    ,
+CHIA1_ASPNC (A2QUQ2)    , CHIA1_EMEND (Q92223)    , CHIA1_EMENI (G5EB30)    ,
+CHIA1_NIACI (P20533)    , CHIA_ARATH  (P19172)    , CHIA_BOVIN  (Q95M17)    ,
+CHIA_CICAR  (P36908)    , CHIA_CUCSA  (P17541)    , CHIA_ECOLI  (P13656)    ,
+CHIA_FLAJ1  (A5FB63)    , CHIA_HUMAN  (Q9BZP6)    , CHIA_MOUSE  (Q91XA9)    ,
+CHIA_PHAAN  (P29024)    , CHIA_PSEO7  (P32823)    , CHIA_RAT    (Q6RY07)    ,
+CHIA_SERMA  (P07254)    , CHIA_TOBAC  (P29060)    , CHIB1_ASPFM (Q873X9)    ,
+CHIB1_ASPFU (E9QRF2)    , CHIB1_EMENI (G5EAZ3)    , CHIB_EMEND  (Q92222)    ,
+CHIB_SERMA  (P11797)    , CHIB_TOBAC  (P29061)    , CHIC_ARATH  (O81862)    ,
+CHID1_BOVIN (Q5EAB4)    , CHID1_DANRE (Q7SYK0)    , CHID1_DICDI (Q54G42)    ,
+CHID1_HUMAN (Q9BWS9)    , CHID1_MOUSE (Q922Q9)    , CHID1_PONAB (Q5RFF6)    ,
+CHID1_RAT   (A0JPQ9)    , CHID1_XENLA (Q68EX9)    , CHID1_XENTR (Q66IL0)    ,
+CHID_NIACI  (P27050)    , CHID_VIBFU  (P96156)    , CHIE_BETVU  (P36910)    ,
+CHIL3_MOUSE (O35744)    , CHIL4_MOUSE (Q91Z98)    , CHIT1_HUMAN (Q13231)    ,
+CHIT1_MOUSE (Q9D7Q1)    , CHIT1_TULSB (Q9SLP4)    , CHIT2_DROME (Q9W092)    ,
+CHIT2_TULSB (Q7M443)    , CHIT3_VITVI (P51614)    , CHIT5_LOTJA (A0A1B1J8Z2),
+CHITL_CAEEL (Q18143)    , CHIT_BRUMA  (P29030)    , CHIT_CAEEL  (Q11174)    ,
+CHIT_MANSE  (P36362)    , CHIT_NPVAC  (P41684)    , CHIT_NPVOP  (O10363)    ,
+CHIT_PLAF7  (Q8I4R4)    , CHIT_PUNGR  (G1UH28)    , CHIT_SACEN  (P14529)    ,
+CHIT_STRLI  (P36909)    , CHIT_STRPL  (P11220)    , CHIT_STRVL  (P84754)    ,
+CHIT_YEAST  (P29029)    , CHIT_ZIZMA  (Q2VST0)    , CHIX_STROI  (Q05638)    ,
+CHI_PINMA   (P86955)    , CHL18_DERFA (Q86R84)    , CHL18_DERPT (Q4JK71)    ,
+CHLY_HEVBR  (P23472)    , CHLY_PARTH  (P23473)    , CHT5A_MEDTR (A0A072VEP0),
+CHT5B_MEDTR (A0A072UR65), CONB_CANEN  (P49347)    , DIAC1_DICDI (Q7KWW8)    ,
+DIAC2_DICDI (Q8T293)    , DIAC_BOVIN  (Q01458)    , DIAC_HUMAN  (Q01459)    ,
+DIAC_MOUSE  (Q8R242)    , DIAC_RAT    (Q01460)    , EBA1_ELIME  (P36911)    ,
+EBA2_ELIME  (P36912)    , EBA3_ELIME  (P36913)    , EBAG_FLAST  (P80036)    ,
+EBAG_STRPL  (P04067)    , EBI1_BIFLS  (B7GPC7)    , ENDOS_STRP1 (Q99Y92)    ,
+ENDS2_STRP9 (T1WGN1)    , ENDSD_STRDY (A0A191T6Q6), IDGF1_DROME (Q8MM24)    ,
+IDGF1_DROSI (Q8MX41)    , IDGF1_DROYA (Q8MX40)    , IDGF1_GLOMM (Q2PQN0)    ,
+IDGF2_DROME (Q9V3D4)    , IDGF3_DROME (Q8MLZ7)    , IDGF3_DROSI (Q8MX32)    ,
+IDGF3_DROYA (Q8MX31)    , IDGF4_DROME (Q9W303)    , IDGF4_GLOMM (Q2PQM7)    ,
+IDGF5_DROME (Q8T0R7)    , IDGF5_GLOMM (Q2PQM6)    , IDGFL_BOMMO (Q9GV28)    ,
+IDGF_HELVI  (P86357)    , KTXA_KLULA  (P09805)    , NAHA1_PALCA (P85512)    ,
+NFH1_MEDTR  (U5N4E3)    , OVGP1_BOVIN (Q28042)    , OVGP1_HUMAN (Q12889)    ,
+OVGP1_MESAU (Q60557)    , OVGP1_MOUSE (Q62010)    , OVGP1_PAPAN (P36718)    ,
+OVGP1_PIG   (Q28990)    , OVGP1_SHEEP (Q28542)    , RUAP_SOYBN  (P39657)    ,
+SLEL_BACAN  (P0DPJ9)    , SLEL_BACCE  (Q9K3E4)    , SLEL_BACSU  (P37531)    ,
+XIP1_ORYSJ  (Q7GCM7)    , XIP1_WHEAT  (Q8L5C6)    , XIP2_ORYSJ  (Q53NL5)    ,
+XIP_ORYSJ   (Q5WMW5)    , YDHD_BACSU  (O05495)    , YKT4_SCHPO  (Q9C105)    ,
+YKVQ_BACSU  (O31682)    , YKZR_BACSU  (C0H404)    , YVBX_BACSU  (O32258)    
+
+
+=========
+Family 19
+=========
+
+Description: Chitinases (EC 3.2.1.14).
+PROSITE: PDOC00620
+3D structure status: Available
+Reaction stereochemical outcome: Inverted anomeric configuration
+Catalytic nucleophile/base: ?
+Catalytic proton donor: ?
+Clan: None
+Known taxonomic range: eukaryota, bacteria.
+
+CHI10_ORYSJ (Q5NB11)    , CHI11_ORYSJ (Q10S66)    , CHI12_ORYSJ (P25765)    ,
+CHI1_CAPAA  (P86078)    , CHI1_CAPCH  (P86081)    , CHI1_CASSA  (P29137)    ,
+CHI1_GINBI  (P85343)    , CHI1_GOSHI  (Q39799)    , CHI1_HEVBR  (Q949H3)    ,
+CHI1_HORVU  (P11955)    , CHI1_ORYSJ  (Q42993)    , CHI1_PEA    (P21225)    ,
+CHI1_SOLTU  (P52403)    , CHI1_TAXBA  (P85337)    , CHI1_THECC  (Q41596)    ,
+CHI1_TOBAC  (P08252)    , CHI2_ARAHY  (Q06014)    , CHI2_BRANA  (Q09023)    ,
+CHI2_CAPAA  (P86079)    , CHI2_CAPCH  (P86082)    , CHI2_GOSHI  (Q39785)    ,
+CHI2_HEVBR  (W0IWL0)    , CHI2_HORVU  (P23951)    , CHI2_ORYSJ  (Q7DNA1)    ,
+CHI2_PEA    (P21226)    , CHI2_SOLTU  (P52404)    , CHI2_TAXBA  (P85338)    ,
+CHI2_TOBAC  (P24091)    , CHI3_ARAHY  (Q06015)    , CHI3_ORYSJ  (P24626)    ,
+CHI3_SOLTU  (P52405)    , CHI3_TAXBA  (P85355)    , CHI3_TOBAC  (P29059)    ,
+CHI4_ARAHY  (Q06016)    , CHI4_BRANA  (Q06209)    , CHI4_CRYJA  (Q5NTA4)    ,
+CHI4_ORYSJ  (O04138)    , CHI4_PHAVU  (P27054)    , CHI4_SOLTU  (P52406)    ,
+CHI58_ARATH (O24598)    , CHI59_ARATH (O24658)    , CHI5_ARATH  (Q9M2U5)    ,
+CHI5_ORYSJ  (Q7Y1Z0)    , CHI5_PHAVU  (P36361)    , CHI60_ARATH (O24654)    ,
+CHI61_ARATH (O22842)    , CHI62_ARATH (O22841)    , CHI6_ORYSJ  (Q6K8R2)    ,
+CHI6_POPTR  (P16579)    , CHI7_ORYSI  (Q9SAY3)    , CHI7_ORYSJ  (Q7Y1Z1)    ,
+CHI8_ORYSJ  (Q7XCK6)    , CHI8_POPTR  (P16061)    , CHI9_ORYSJ  (Q688M5)    ,
+CHIA_ARAHY  (Q06012)    , CHIA_MAIZE  (P29022)    , CHIA_SECCE  (Q9FRV1)    ,
+CHIA_SOLCI  (Q40114)    , CHIA_SOLLC  (Q05539)    , CHIB_ARAHY  (Q06013)    ,
+CHIB_ARATH  (P19171)    , CHIB_MAIZE  (P29023)    , CHIB_PEA    (P21227)    ,
+CHIB_POPTR  (P29031)    , CHIB_SOLLC  (Q05540)    , CHIB_VITVI  (P51613)    ,
+CHIC_POPTR  (P29032)    , CHIC_SECCE  (Q9FRV0)    , CHIC_SOLLC  (Q05538)    ,
+CHID_SOLLC  (Q05537)    , CHIL_HEVBR  (Q8GUD7)    , CHIP_BETVU  (P42820)    ,
+CHIP_TOBAC  (P17513)    , CHIQ_TOBAC  (P17514)    , CHIT_ACTCC  (P86473)    ,
+CHIT_AVESA  (P86181)    , CHIT_CARPA  (P85084)    , CHIT_DIOJA  (P80052)    ,
+CHIT_PERAE  (P93680)    , CHIT_PETHY  (P29021)    , CHIT_PHAVU  (P06215)    ,
+CHIT_SOLTU  (P05315)    , CHIT_TRISX  (C0HJM6)    , CHIX_PEA    (P36907)    ,
+CHI_ARATH   (O24603)    , CHLY_CARPA  (P81241)    , CTL1_ARATH  (Q9MA41)    ,
+CTL2_ARATH  (Q9LSP9)    , IAMY_COILA  (P15326)    , Y1415_HAEIN (P44187)    
+
+
+=========
+Family 20
+=========
+
+Description: Beta-hexosaminidases (EC 3.2.1.52) and chitobiases (EC 3.2.1.52).
+PROSITE: None
+3D structure status: Available
+Reaction stereochemical outcome: Retained anomeric configuration
+Catalytic nucleophile/base: carbonyl oxygen of C-2 acetamido group of
+                            substrate
+Catalytic proton donor: Glu
+Clan: None
+Known taxonomic range: eukaryota, bacteria.
+Note: Two Glu are proposed as catalytic residues.
+
+CHB_SERMA   (Q54468)    , CHB_VIBHA   (P13670)    , FDL_DROME   (Q8WSF3)    ,
+H0868_AKKM8 (B2UQG6)    , H2018_AKKM8 (B2UP57)    , H2136_AKKM8 (B2UPR7)    ,
+HEX1_ARTBC  (D4AUH6)    , HEX1_CANAX  (P43077)    , HEX1_COCPS  (E9DFH0)    ,
+HEX1_VIBFU  (P96155)    , HEX20_CELFI (Q7WUL4)    , HEX2_ARTBC  (D4AYT4)    ,
+HEXA1_DICDI (P13723)    , HEXA2_DICDI (Q54SC9)    , HEXA_ASPOZ  (Q8J2T0)    ,
+HEXA_BOVIN  (Q0V8R6)    , HEXA_CAEBR  (Q619W7)    , HEXA_CAEEL  (Q22492)    ,
+HEXA_EMEND  (Q9HGI3)    , HEXA_ENTH1  (P49009)    , HEXA_HUMAN  (P06865)    ,
+HEXA_MOUSE  (P29416)    , HEXA_PONAB  (Q5RC84)    , HEXA_PORGI  (P49008)    ,
+HEXA_RAT    (Q641X3)    , HEXB1_DICDI (Q54K55)    , HEXB2_DICDI (Q54K56)    ,
+HEXB_ENTH1  (Q86M34)    , HEXB_FELCA  (P49614)    , HEXB_HUMAN  (P07686)    ,
+HEXB_MOUSE  (P20060)    , HEXB_PIG    (Q29548)    , HEXB_PSEO7  (P49007)    ,
+HEXB_RAT    (Q6AXR4)    , HEXC_BOMMO  (P49010)    , HEXC_OSTFU  (Q06GJ0)    ,
+HEXD_BOVIN  (A6QNR0)    , HEXD_HUMAN  (Q8WVB3)    , HEXD_MOUSE  (Q3U4H6)    ,
+HEXO1_ARATH (A7WM73)    , HEXO2_ARATH (Q9SYK0)    , HEXO3_ARATH (Q8L7S6)    ,
+HEX_PINMA   (P86956)    , HEX_PINMG   (H2A0L6)    , HEX_VIBVL   (Q04786)    ,
+LNBB_BIFB1  (B3TLD6)    , STRH_STRPN  (P49610)    
+
+
+=========
+Family 21
+=========
+
+Description: DELETED.
+
+
+
+
+=========
+Family 22
+=========
+
+Description: Lysozymes type C (EC 3.2.1.17) and alpha-lactalbumins.
+PROSITE: PDOC00119
+3D structure status: Available
+Reaction stereochemical outcome: Retained anomeric configuration
+Catalytic nucleophile/base: Asp
+Catalytic proton donor: Glu
+Clan: None
+Known taxonomic range: eukaryota.
+
+ILYS2_CAEEL (O76358)    , ILYS3_CAEEL (O76357)    , ILYS6_CAEEL (O02119)    ,
+LALB1_HORSE (P08334)    , LALB2_HORSE (P08896)    , LALBA_BOSMU (Q9TSR4)    ,
+LALBA_BOVIN (P00711)    , LALBA_BUBBU (Q9TSN6)    , LALBA_CAMDR (P00710)    ,
+LALBA_CANLF (Q9N2G9)    , LALBA_CAPHI (P00712)    , LALBA_CAVPO (P00713)    ,
+LALBA_EQUAS (P28546)    , LALBA_FELCA (P37154)    , LALBA_HUMAN (P00709)    ,
+LALBA_MACGI (P19122)    , LALBA_MOUSE (P29752)    , LALBA_NOTEU (Q06655)    ,
+LALBA_NOTRU (P07458)    , LALBA_ORNAN (P30805)    , LALBA_PAPCY (P12065)    ,
+LALBA_PIG   (P18137)    , LALBA_RABIT (P00716)    , LALBA_RAT   (P00714)    ,
+LALBA_SHEEP (P09462)    , LALBA_TACAC (P81646)    , LALBA_TRIVU (Q29145)    ,
+LYS1A_LUCSE (D9J142)    , LYS1B_LUCSE (D9J143)    , LYS1_CRAVI  (P83673)    ,
+LYS1_MUSDO  (Q7YT16)    , LYS2_CRAVI  (Q1XG90)    , LYS2_LUCSE  (C0HLB7)    ,
+LYS3_CRAVI  (B3A003)    , LYSB_DROME  (Q08694)    , LYSC1_ANAPL (P00705)    ,
+LYSC1_ANOGA (Q17005)    , LYSC1_BOVIN (Q06285)    , LYSC1_CANLF (P81708)    ,
+LYSC1_CAPHI (P37713)    , LYSC1_HORSE (P11376)    , LYSC1_PIG   (P12067)    ,
+LYSC1_RAT   (P00697)    , LYSC1_SHEEP (P17607)    , LYSC1_TACAC (P37156)    ,
+LYSC2_BOVIN (Q06283)    , LYSC2_CANLF (P81709)    , LYSC2_CAPHI (P37714)    ,
+LYSC2_HORSE (P81710)    , LYSC2_ONCMY (P11941)    , LYSC2_PIG   (P12068)    ,
+LYSC2_RAT   (Q05820)    , LYSC3_ANAPL (P00706)    , LYSC3_BOVIN (Q06284)    ,
+LYSC3_PIG   (P12069)    , LYSC3_SHEEP (Q9TUN1)    , LYSCK_SHEEP (P80190)    ,
+LYSCN_BOVIN (P80189)    , LYSCT_BOVIN (Q27996)    , LYSC_AIXSP  (Q7LZQ2)    ,
+LYSC_ALLNI  (P79687)    , LYSC_AMYCA  (P85345)    , LYSC_AXIAX  (P12066)    ,
+LYSC_BOVIN  (P04421)    , LYSC_CALCC  (P00699)    , LYSC_CALJA  (P79158)    ,
+LYSC_CAMDR  (P37712)    , LYSC_CATWA  (Q7LZQ0)    , LYSC_CERAT  (P61630)    ,
+LYSC_CHEMY  (P84492)    , LYSC_CHICK  (P00698)    , LYSC_CHLAE  (P61633)    ,
+LYSC_CHRAM  (P22910)    , LYSC_COLAN  (P61631)    , LYSC_COLGU  (P61632)    ,
+LYSC_COLLI  (P00708)    , LYSC_COLVI  (P00700)    , LYSC_COTJA  (P00701)    ,
+LYSC_CRAFA  (Q7LZQ3)    , LYSC_DRONO  (G3XDT7)    , LYSC_EQUAS  (P11375)    ,
+LYSC_ERYPA  (P61634)    , LYSC_FELCA  (P37155)    , LYSC_GORGO  (P79179)    ,
+LYSC_HALGR  (Q659U5)    , LYSC_HUMAN  (P61626)    , LYSC_HYLLA  (P79180)    ,
+LYSC_LEPWE  (Q659U0)    , LYSC_LOPIM  (Q7LZP9)    , LYSC_LOPLE  (P24364)    ,
+LYSC_MACMU  (P30201)    , LYSC_MELGA  (P00703)    , LYSC_MIOTA  (P79806)    ,
+LYSC_NASLA  (P79811)    , LYSC_NUMME  (P00704)    , LYSC_OPIHO  (Q91159)    ,
+LYSC_ORTVE  (P00707)    , LYSC_PANPA  (P61627)    , LYSC_PANTR  (P61628)    ,
+LYSC_PAPAN  (P61629)    , LYSC_PAROL  (Q9DD65)    , LYSC_PAVCR  (P19849)    ,
+LYSC_PELSI  (Q7LZQ1)    , LYSC_PENME  (C1IIX1)    , LYSC_PHACO  (P00702)    ,
+LYSC_PHAVE  (P49663)    , LYSC_PHOVI  (Q659U1)    , LYSC_PONPY  (P79239)    ,
+LYSC_PSEPE  (P21776)    , LYSC_PYGNE  (P79847)    , LYSC_RABIT  (P16973)    ,
+LYSC_SAGOE  (P79268)    , LYSC_SAISC  (P79294)    , LYSC_SCOMX  (Q9PU28)    ,
+LYSC_SEMEN  (P67977)    , LYSC_SYRRE  (P24533)    , LYSC_SYRSO  (P81711)    ,
+LYSC_TAKRU  (P61944)    , LYSC_TITST  (P0C8X2)    , LYSC_TRAFR  (P67980)    ,
+LYSC_TRAOB  (P67979)    , LYSC_TRASA  (Q7LZI3)    , LYSC_TRATE  (Q7LZT2)    ,
+LYSC_TRAVT  (P67978)    , LYSC_TRIVU  (P51782)    , LYSD_DROME  (P83972)    ,
+LYSE_DROME  (P37159)    , LYSI_BOVIN  (Q6B410)    , LYSM_BOVIN  (Q6B411)    ,
+LYSP_DROME  (P29615)    , LYSS_DROME  (P37160)    , LYSX_DROME  (P37161)    ,
+LYS_ANTMY   (Q7SID7)    , LYS_ASTRU   (P37715)    , LYS_BOMMO   (P48816)    ,
+LYS_BUFGA   (P85045)    , LYS_CRAGI   (Q6L6Q6)    , LYS_ESTAC   (P82175)    ,
+LYS_GALME   (P82174)    , LYS_HYACE   (P05105)    , LYS_HYPCU   (P50717)    ,
+LYS_MERLU   (P86383)    , LYS_OSTED   (Q6L6Q5)    , LYS_RUDPH   (Q8IU26)    ,
+LYS_TRINI   (P50718)    , LYZ1_MOUSE  (P17897)    , LYZ2_MOUSE  (P08905)    ,
+LYZL1_BOVIN (A0JNM6)    , LYZL1_HUMAN (Q6UWQ5)    , LYZL1_MOUSE (Q9CPX3)    ,
+LYZL2_HUMAN (Q7Z4W2)    , LYZL4_BOVIN (Q2T9N7)    , LYZL4_HUMAN (Q96KX0)    ,
+LYZL4_MOUSE (Q9D925)    , LYZL4_RAT   (D4ABW7)    , LYZL5_BOVIN (Q32PD6)    ,
+LYZL5_HUMAN (Q96QH8)    , LYZL5_MOUSE (A2AE20)    , LYZL6_BOVIN (Q29RT1)    ,
+LYZL6_HUMAN (O75951)    , LYZL6_MOUSE (Q9DA11)    , SACA3_BOVIN (A6QQ77)    ,
+SACA3_CANLF (B6VH75)    , SACA3_HUMAN (Q8IXA5)    , SACA3_MOUSE (Q9D9X8)    ,
+SACA3_PANTR (B6VH76)    , SACA3_PAPHA (B6VH79)    , SACA3_PONPY (B6VH77)    ,
+SACA3_VULVU (P83198)    , Y1137_DICDI (Q54F36)    , Y8143_DICDI (Q54JC9)    
+
+
+=========
+Family 23
+=========
+
+Description: Lysozymes type G (EC 3.2.1.17).
+PROSITE: None
+3D structure status: Available
+Reaction stereochemical outcome: Not known
+Catalytic nucleophile/base: ?
+Catalytic proton donor: Glu
+Clan: None
+Known taxonomic range: eukaryota.
+Note: only found in birds so far.
+
+LYG1_HUMAN  (Q8N1E2)    , LYG1_MOUSE  (Q9D7Q0)    , LYG2_HUMAN  (Q86SG7)    ,
+LYG2_MOUSE  (Q3V1I0)    , LYG_ANSAN   (P00718)    , LYG_CASCA   (Q7LZR3)    ,
+LYG_CHICK   (P27042)    , LYG_CYGAT   (P00717)    , LYG_CYPCA   (Q8JFR1)    ,
+LYG_DRONO   (G3XDD8)    , LYG_EPICO   (Q90X99)    , LYG_PAROL   (Q90VZ3)    ,
+LYG_STRCA   (P00719)    , LYG_TAKRU   (P61133)    
+
+
+=========
+Family 24
+=========
+
+Description: Phage lysozymes (EC 3.2.1.17).
+PROSITE: None
+3D structure status: Available
+Reaction stereochemical outcome: Inverted anomeric configuration
+Catalytic nucleophile/base: Asp (experimental)
+Catalytic proton donor: Glu (experimental)
+Clan: None
+Known taxonomic range: bacteria, viridae.
+
+ENLYS_BP933 (P68920)    , ENLYS_BPAPS (Q9T1T5)    , ENLYS_BPB03 (Q37896)    ,
+ENLYS_BPH19 (Q9ZXB7)    , ENLYS_BPHC1 (P51728)    , ENLYS_BPKMV (Q7Y2C0)    ,
+ENLYS_BPLC2 (P62692)    , ENLYS_BPMU  (Q9T1X2)    , ENLYS_BPN15 (O64362)    ,
+ENLYS_BPP1  (Q37875)    , ENLYS_BPP2  (P51771)    , ENLYS_BPP21 (P27359)    ,
+ENLYS_BPP22 (P09963)    , ENLYS_BPPA2 (P10439)    , ENLYS_BPPH2 (P11187)    ,
+ENLYS_BPPHV (P62693)    , ENLYS_BPPRD (P13559)    , ENLYS_BPPS1 (O80292)    ,
+ENLYS_BPPS3 (O80288)    , ENLYS_BPPZA (P07540)    , ENLYS_BPT1  (Q6XQ98)    ,
+ENLYS_BPT4  (P00720)    , ENLYS_BPVT2 (P68921)    , ENLYS_LAMBD (P03706)    ,
+LYSD_ECOLI  (P78285)    , LYSQ_ECOLI  (P76159)    , LYST1_DICDI (Q556F2)    ,
+LYST2_DICDI (Q86AA1)    , NEEDL_BPT4  (P16009)    
+
+
+=========
+Family 25
+=========
+
+Description: Lysozymes (EC 3.2.1.17).
+PROSITE: PDOC00737
+3D structure status: Not available
+Reaction stereochemical outcome: Not known
+Catalytic nucleophile/base: ?
+Catalytic proton donor: ?
+Clan: None
+Known taxonomic range: eukaryota, bacteria, viridae.
+
+CF451_DICDI (Q86HE5)    , CF50_DICDI  (Q556R7)    , LYS1_CAEEL  (O62415)    ,
+LYS1_ENTH1  (Q27650)    , LYS2_CAEEL  (O62416)    , LYS3_CAEEL  (Q9XXS1)    ,
+LYS5_CAEEL  (Q20967)    , LYS7_CAEEL  (O16202)    , LYSG2_DICDI (Q86KC1)    ,
+LYSG3_DICDI (Q8T2I5)    , LYSG4_DICDI (Q54BQ8)    , LYSG5_DICDI (Q54BL8)    ,
+LYSM1_STRGL (P25310)    , LYS_ARTBC   (D4ANU4)    , LYS_BPB30   (Q8HA43)    ,
+LYS_BPCP1   (P15057)    , LYS_BPCP7   (P19385)    , LYS_BPCP9   (P19386)    ,
+LYS_BPMV1   (P33486)    , LYS_CHASP   (P00721)    , LYS_CLOAB   (P34020)    ,
+LYS_CLOPE   (P26836)    , YEGX_ECO57  (Q8X7H0)    , YEGX_ECOL6  (Q8FFY2)    ,
+YEGX_ECOLI  (P76421)    
+
+
+=========
+Family 26
+=========
+
+Description: Mainly mannan endo-1,4-beta-mannosidases (EC 3.2.1.78).
+PROSITE: None
+3D structure status: Not available
+Reaction stereochemical outcome: Retained anomeric configuration
+Catalytic nucleophile/base: Glu (experimental)
+Catalytic proton donor: Glu (experimental)
+Clan: GH-A
+Known taxonomic range: eukaryota, bacteria.
+Note: formerly known as cellulase family I.
+
+3XYN1_VIBSX (D5MP61)    , 3XYN2_VIBSX (Q9LCB9)    , 3XYN_ALCSP  (Q8RS40)    ,
+MA26A_ASPNC (A2R6F5)    , MA26A_THET4 (G2Q4H7)    , MANA_BIFAA  (A1A278)    ,
+MANA_CELJU  (P49424)    , MANA_PIRSP  (P55296)    , MANA_RHOM4  (P49425)    ,
+MANB_BACIU  (P55278)    , MANB_BACSU  (O05512)    , MANB_CALM0  (P16699)    ,
+MANB_PIRSP  (P55297)    , MANC_PIRSP  (P55298)    , MANE_EMENI  (Q5AWB7)    
+
+
+=========
+Family 27
+=========
+
+Description: Alpha-galactosidases (EC 3.2.1.22), alpha-N-
+             acetylgalactosaminidases (EC 3.2.1.49) and isomalto-dextranases
+             (EC 3.2.1.94).
+PROSITE: PDOC00443
+3D structure status: Not available
+Reaction stereochemical outcome: Not known
+Catalytic nucleophile/base: ?
+Catalytic proton donor: ?
+Clan: GH-D
+Known taxonomic range: eukaryota, bacteria.
+
+AGAL1_ARATH (Q9FT97)    , AGAL2_ARATH (Q8RX86)    , AGAL2_HYPJE (Q92457)    ,
+AGAL3_ARATH (Q8VXZ7)    , AGAL3_HYPJE (Q92451)    , AGAL8_EMENI (C8VJZ7)    ,
+AGALA_ASPCL (A1CBW8)    , AGALA_ASPFN (B8MWJ5)    , AGALA_ASPFU (Q4WVZ3)    ,
+AGALA_ASPNC (A2QL72)    , AGALA_ASPNG (P28351)    , AGALA_ASPOR (Q2UT06)    ,
+AGALA_ASPTN (Q0CPK2)    , AGALA_NEOFI (A1DDD8)    , AGALB_ASPCL (A1C5D3)    ,
+AGALB_ASPFC (B0Y224)    , AGALB_ASPFN (B8N306)    , AGALB_ASPFU (Q4WE86)    ,
+AGALB_ASPNC (A2QEJ9)    , AGALB_ASPNG (Q9Y865)    , AGALB_ASPOR (Q2UJ97)    ,
+AGALB_EMENI (Q5AVQ6)    , AGALB_NEOFI (A1D0A3)    , AGALB_PENSI (O94221)    ,
+AGALB_TALEM (A7XZT2)    , AGALD_ASPFC (B0YEK2)    , AGALD_ASPFN (B8N7Z0)    ,
+AGALD_ASPFU (A4DA70)    , AGALD_ASPNC (A2R2S6)    , AGALD_ASPOR (Q2UI87)    ,
+AGALD_ASPTN (Q0CVX4)    , AGALD_EMENI (Q5AX28)    , AGALD_NEOFI (A1D9S3)    ,
+AGAL_CAPAA  (P86073)    , AGAL_CELJU  (B3PGJ1)    , AGAL_COFAR  (Q42656)    ,
+AGAL_CYATE  (P14749)    , AGAL_DICDI  (Q55B10)    , AGAL_HUMAN  (P06280)    ,
+AGAL_MOUSE  (P51569)    , AGAL_ORYSJ  (Q9FXT4)    , AGAL_SCHPO  (Q9URZ0)    ,
+IMD_ARTGO   (Q44052)    , MEL1_YEASX  (P04824)    , MEL2_YEASX  (P41945)    ,
+MEL5_YEASX  (P41946)    , MEL6_YEASX  (P41947)    , MEL_LACCI   (Q99172)    ,
+MEL_SACCA   (Q03647)    , MEL_SACMI   (Q11129)    , MEL_SACPA   (Q09187)    ,
+MEL_TORDE   (Q9UVD6)    , MEL_ZYGMR   (Q9P4V4)    , NAGAB_BOSIN (P83127)    ,
+NAGAB_BOVIN (Q58DH9)    , NAGAB_CHICK (Q90744)    , NAGAB_HUMAN (P17050)    ,
+NAGAB_MOUSE (Q9QWR8)    , NAGAB_RAT   (Q66H12)    
+
+
+=========
+Family 28
+=========
+
+Description: Polygalacturonases (EC 3.2.1.15).
+PROSITE: PDOC00415
+3D structure status: Not available
+Reaction stereochemical outcome: Inverted anomeric configuration
+Catalytic nucleophile/base: ?
+Catalytic proton donor: ?
+Clan: None
+Known taxonomic range: eukaryota, bacteria.
+
+ADPG1_ARATH (O23147)    , ADPG2_ARATH (Q8RY29)    , PEHX_DICCH  (P15922)    ,
+PGLR1_ARATH (P49062)    , PGLR1_ASPAC (O74213)    , PGLR1_ASPCL (A1CIV8)    ,
+PGLR1_ASPFN (B8N8M2)    , PGLR1_ASPNC (A2QAH3)    , PGLR1_ASPNG (P26213)    ,
+PGLR1_ASPOR (Q2UHL4)    , PGLR1_ASPTN (Q0CMU3)    , PGLR1_COLLN (Q00446)    ,
+PGLR1_MAIZE (P26216)    , PGLR1_PECCC (P18192)    , PGLR1_PENOL (Q9Y834)    ,
+PGLR1_SCLSC (Q12708)    , PGLR2_ARATH (P49063)    , PGLR2_ASPAC (Q70HJ4)    ,
+PGLR2_ASPAW (Q9P359)    , PGLR2_ASPKW (Q8NK98)    , PGLR2_ASPNA (P26214)    ,
+PGLR2_ASPNC (A2R5S4)    , PGLR2_ASPNG (P0CU55)    , PGLR2_ASPTU (P0CU54)    ,
+PGLR2_CHAOB (Q7M1E7)    , PGLR2_CRYJA (P43212)    , PGLR2_JUNAS (Q9FY19)    ,
+PGLR2_MAIZE (P35338)    , PGLR2_PECPM (P26509)    , PGLR2_PENOL (Q9Y833)    ,
+PGLR2_PLAAC (Q6H9K0)    , PGLR3_ARATH (Q9LW07)    , PGLR3_MAIZE (P35339)    ,
+PGLR4_ARATH (Q949Z1)    , PGLR5_ARATH (Q94AJ5)    , PGLR6_ARATH (O22818)    ,
+PGLRA_ASPAW (Q9P358)    , PGLRA_ASPFA (P41749)    , PGLRA_ASPFC (B0Y4Z4)    ,
+PGLRA_ASPFU (Q4WQT2)    , PGLRA_ASPKW (Q8NK99)    , PGLRA_ASPNC (A2R8F8)    ,
+PGLRA_ASPNG (Q9P4W4)    , PGLRA_ASPPA (P49575)    , PGLRA_NEOFI (A1CVV8)    ,
+PGLRB_ASPFA (P41750)    , PGLRB_ASPFC (B0YAH0)    , PGLRB_ASPFN (B8N7Z8)    ,
+PGLRB_ASPFU (Q4WBE1)    , PGLRB_ASPKA (Q1HAY5)    , PGLRB_ASPNC (A2QCV8)    ,
+PGLRB_ASPNG (Q9P4W3)    , PGLRB_ASPOR (P35335)    , PGLRB_EMENI (Q5B508)    ,
+PGLRB_NEOFI (A1DAQ2)    , PGLRC_ASPAC (Q70HJ3)    , PGLRC_ASPNC (A2QL39)    ,
+PGLRC_ASPNG (Q12554)    , PGLRD_ASPFN (B8MW78)    , PGLRD_ASPNC (A2QTU0)    ,
+PGLRD_ASPNG (Q9P4W2)    , PGLRD_ASPOR (Q2UT29)    , PGLRD_EMENI (Q5AYH4)    ,
+PGLRD_NEOFI (A1DBR6)    , PGLRE_ASPNC (A2QBB6)    , PGLRE_ASPNG (O42809)    ,
+PGLRX_ASPFC (B0YDE8)    , PGLRX_ASPFN (B8NG16)    , PGLRX_ASPFU (Q4WCZ8)    ,
+PGLRX_ASPNC (A2R060)    , PGLRX_ASPNG (Q27UB3)    , PGLRX_ASPTN (Q0CGP0)    ,
+PGLRX_ASPTU (Q00293)    , PGLRX_COCCA (Q00359)    , PGLRX_NEOFI (A1DLC1)    ,
+PGLR_ACTDE  (P35336)    , PGLR_ASPFC  (B0XPA1)    , PGLR_ASPFU  (Q4WR80)    ,
+PGLR_BRANA  (P35337)    , PGLR_COCCA  (P26215)    , PGLR_CUPSE  (C0HKB1)    ,
+PGLR_EMENI  (Q5ATQ3)    , PGLR_GIBFU  (Q07181)    , PGLR_GOSBA  (Q39766)    ,
+PGLR_GOSHI  (Q39786)    , PGLR_MALDO  (P48978)    , PGLR_MEDSA  (Q40312)    ,
+PGLR_NEOFI  (A1D145)    , PGLR_OENOR  (P24548)    , PGLR_PENDI  (Q9Y718)    ,
+PGLR_PENEN  (O59925)    , PGLR_PENGR  (O93883)    , PGLR_PENJA  (O42824)    ,
+PGLR_PERAE  (Q02096)    , PGLR_PHACE  (O97400)    , PGLR_PRUPE  (P48979)    ,
+PGLR_RALN1  (P58598)    , PGLR_RALSL  (P20041)    , PGLR_RHIRD  (P27644)    ,
+PGLR_SOLLC  (P05117)    , PGLR_TOBAC  (Q05967)    , PGLR_VITVI  (A7PZL3)    ,
+PGLR_YEAST  (P47180)    , PGLX1_EMENI (Q5ASG9)    , PGLX2_EMENI (Q5ARN5)    ,
+PGXA_ASPNC  (A2QW66)    , PGXA_ASPNG  (Q27UB2)    , PGXB_ASPFC  (B0YAA4)    ,
+PGXB_ASPFN  (B8NX60)    , PGXB_ASPFU  (Q4WBK6)    , PGXB_ASPNC  (A2QHG0)    ,
+PGXB_ASPNG  (Q27UB1)    , PGXB_ASPOR  (Q2TW03)    , PGXB_ASPTN  (Q0C7H7)    ,
+PGXB_EMENI  (Q873X6)    , PGXB_NEOFI  (A1DAX2)    , PGXC_ASPFC  (B0XYC4)    ,
+PGXC_ASPFN  (B8MZZ6)    , PGXC_ASPFU  (Q4WX94)    , PGXC_ASPNC  (A2QEW2)    ,
+PGXC_ASPNG  (Q27UB0)    , PGXC_ASPOR  (Q2UQ40)    , PGXC_ASPTN  (Q0CXI3)    ,
+PGXC_NEOFI  (A1D7I1)    , QRT2_ARATH  (Q9SFB7)    , QRT3_ARATH  (O49432)    ,
+RGXA_ASPFN  (B8NJB0)    , RGXA_ASPNC  (A2QBB4)    , RGXA_ASPNG  (Q2EQQ2)    ,
+RGXA_ASPOR  (Q2UP32)    , RGXB_ASPNC  (A2QG68)    , RGXC_ASPNC  (A2RAY7)    ,
+RGXC_NEOFI  (A1D415)    , RHGA_ASPAC  (Q00001)    , RHGA_ASPFN  (B8NK45)    ,
+RHGA_ASPNC  (A2QYE5)    , RHGA_ASPNG  (P87160)    , RHGA_ASPOR  (Q2U293)    ,
+RHGA_EMENI  (Q5ARE6)    , RHGB_ASPFC  (B0Y0Q3)    , RHGB_ASPFU  (Q4WV23)    ,
+RHGB_ASPNC  (A2R3G4)    , RHGB_ASPNG  (P87161)    , RHGB_ASPOR  (Q2TWN8)    ,
+RHGB_ASPTN  (Q0CFC7)    , RHGB_NEOFI  (A1DED1)    , RHGC_ASPFN  (B8NGP8)    ,
+RHGC_ASPNC  (A2QLQ5)    , RHGC_ASPOR  (Q2UFD2)    , RHGD_ASPNC  (A2QWT2)    ,
+RHGE_ASPFN  (B8NKB9)    , RHGE_ASPNC  (A2QXE8)    , RHGE_ASPNG  (Q1ZZM3)    ,
+RHGE_ASPOR  (Q2U7A4)    , RPG13_RHIO9 (I1BPS7)    , RPG14_RHIO9 (I1BYN5)    ,
+RPG15_RHIO9 (I1BYM7)    , RPG16_RHIO9 (I1BYN6)    , SALK6_KALTU (W8P8Q3)    ,
+XGHA_ASPFC  (B0Y9F8)    , XGHA_ASPFN  (B8NPS8)    , XGHA_ASPFU  (Q4WBT4)    ,
+XGHA_ASPNC  (A2QK83)    , XGHA_ASPOR  (Q2UBD8)    , XGHA_ASPTU  (Q9UUZ2)    ,
+XGHA_EMENI  (Q5B7U1)    , XGHA_NEOFI  (A1DBT5)    
+
+
+=========
+Family 29
+=========
+
+Description: Alpha-L-fucosidases (EC 3.2.1.51).
+PROSITE: PDOC00385
+3D structure status: Not available
+Reaction stereochemical outcome: Not known
+Catalytic nucleophile/base: ?
+Catalytic proton donor: ?
+Clan: None
+Known taxonomic range: eukaryota.
+
+FUCO1_ARATH (Q8GW72)    , FUCO1_ORYSJ (Q7XUR3)    , FUCO2_HUMAN (Q9BTY2)    ,
+FUCO2_MOUSE (Q99KR8)    , FUCO2_PONAB (Q5RFI5)    , FUCO2_RAT   (Q6AYS4)    ,
+FUCO_BOVIN  (Q2KIM0)    , FUCO_BRAFL  (C3YWU0)    , FUCO_CAEEL  (P49713)    ,
+FUCO_CANLF  (P48300)    , FUCO_DICDI  (P10901)    , FUCO_DROME  (Q9VTJ4)    ,
+FUCO_HUMAN  (P04066)    , FUCO_MACFA  (Q60HF8)    , FUCO_MOUSE  (Q99LJ1)    ,
+FUCO_RAT    (P17164)    
+
+
+=========
+Family 30
+=========
+
+Description: Mammalian glucosylceramidases (EC 3.2.1.45).
+PROSITE: None
+3D structure status: Not available
+Reaction stereochemical outcome: Retained anomeric configuration (probable)
+Catalytic nucleophile/base: Glu (experimental)
+Catalytic proton donor: Glu (inferred)
+Clan: GH-A
+Known taxonomic range: eukaryota.
+
+EXGAL_BIFL2 (A0A401ETL2), GBA1_BOVIN  (Q2KHZ8)    , GBA1_HUMAN  (P04062)    ,
+GBA1_MOUSE  (P17439)    , GBA1_PANTR  (Q9BDT0)    , GBA1_PIG    (Q70KH2)    ,
+GBA1_PONAB  (Q5R8E3)    , GLCM1_CAEEL (O16580)    , GLCM2_CAEEL (O16581)    ,
+GLCM3_CAEEL (G5ECR8)    , GLCM4_CAEEL (Q9UB00)    , GUN16_TRIHA (Q8J0I9)    ,
+NEG1_ASPFU  (Q4WBR2)    , NEG1_NEUCR  (Q7M4T0)    , XY30A_THET4 (G2Q1N4)    ,
+XYNC_BACIU  (Q6YK37)    , XYNC_BACSU  (Q45070)    
+
+
+=========
+Family 31
+=========
+
+Description: Very diverse, contains alpha-glucosidases (EC 3.2.1.20), a
+             glucoamylase (EC 3.2.1.3), sucrase-isomaltases (EC 3.2.1.48 /
+             EC 3.2.1.10).
+PROSITE: PDOC00120
+3D structure status: Not available
+Reaction stereochemical outcome: Retained anomeric configuration
+Catalytic nucleophile/base: ?
+Catalytic proton donor: ?
+Clan: None
+Known taxonomic range: eukaryota, bacteria, archaea.
+
+AGD1_ARTBC  (D4B0X3)    , AGDC_ASPCL  (A1CNK4)    , AGDC_ASPFC  (B0XNL6)    ,
+AGDC_ASPFN  (B8MZ41)    , AGDC_ASPFU  (Q4WRH9)    , AGDC_ASPOR  (Q2UQV7)    ,
+AGDC_ASPTN  (Q0CMA7)    , AGDC_EMENI  (Q5AWI5)    , AGDC_NEOFI  (A1D1E6)    ,
+AGDD_EMENI  (Q5AW25)    , AGL2_BACTQ  (Q9F234)    , AGLU_ASPNG  (P56526)    ,
+AGLU_ASPOR  (Q12558)    , AGLU_BETVU  (O04931)    , AGLU_CANTS  (P29064)    ,
+AGLU_HORVU  (Q43763)    , AGLU_MUCJA  (Q92442)    , AGLU_ORYSJ  (Q653V7)    ,
+AGLU_SACS2  (P0CD66)    , AGLU_SACS9  (D0KQM8)    , AGLU_SCHPO  (Q9C0Y4)    ,
+AGLU_SPIOL  (O04893)    , AGLU_TETPY  (O00906)    , AIMA_KRIFD  (D2PPM7)    ,
+AMYG_CANAL  (O74254)    , AMYG_SCHOC  (P22861)    , GANAB_DICDI (Q94502)    ,
+GANAB_HUMAN (Q14697)    , GANAB_MACFA (Q4R4N7)    , GANAB_MOUSE (Q8BHN3)    ,
+GANAB_PIG   (P79403)    , GANC_HUMAN  (Q8TET4)    , GANC_MACFA  (Q9BE70)    ,
+GANC_MOUSE  (Q8BVW0)    , GH31A_BACO1 (A7LXT0)    , GLU2A_ORYSJ (B9F676)    ,
+GLU2A_SCHPO (Q9US55)    , GLU2A_YEAST (P38138)    , LYAG_BOVIN  (Q9MYM4)    ,
+LYAG_HUMAN  (P10253)    , LYAG_MOUSE  (P70699)    , LYAG_PONAB  (Q5R7A9)    ,
+LYAG_RAT    (Q6P7A9)    , MGAL_HUMAN  (Q2M2H8)    , MGA_HUMAN   (O43451)    ,
+MYORG_HUMAN (Q6NSJ0)    , MYORG_MOUSE (Q69ZQ1)    , OL4AG_CELJU (B3PEE6)    ,
+PSL5_ARATH  (Q9FN05)    , SP15_TETCF  (P19965)    , SQASE_AGRFC (A9CEZ0)    ,
+SQASE_ECOLI (P32138)    , SUIS_HUMAN  (P14410)    , SUIS_PIG    (P56729)    ,
+SUIS_RABIT  (P07768)    , SUIS_RAT    (P23739)    , SUIS_SUNMU  (O62653)    ,
+XYL1_ARATH  (Q9S7Y7)    , XYL2_ARATH  (F4J6T7)    , XYLA_ASPNC  (A2QTU5)    ,
+XYLQ_LACPE  (P96793)    , XYLS_ECOLI  (P31434)    , XYLS_SACS2  (Q9P999)    ,
+YAJ1_SCHPO  (Q09901)    , YCR2_PSEVU  (Q01336)    , YFZB_SCHPO  (Q9URX4)    
+
+
+=========
+Family 32
+=========
+
+Description: Invertases (EC 3.2.1.26), inulinases (EC 3.2.1.7), and levanases
+             (EC 3.2.1.65).
+PROSITE: PDOC00532
+3D structure status: Not available
+Reaction stereochemical outcome: Retained anomeric configuration
+Catalytic nucleophile/base: ?
+Catalytic proton donor: ?
+Clan: None
+Known taxonomic range: eukaryota, bacteria.
+
+1FEH1_WHEAT (Q84PN8)    , 1FEH2_WHEAT (Q84LA1)    , 1FEH3_WHEAT (B6DZC8)    ,
+1FEH_AEGSP  (B6DZD1)    , 1FEH_AEGTA  (B6DZD2)    , 1FEH_BROPI  (D2IGW7)    ,
+1FEH_HORVU  (Q70AT7)    , 1FEH_LEYCH  (B6DXP5)    , 1FEH_TRIUA  (B6DZD0)    ,
+6FEH_BETVU  (Q70XE6)    , 6FEH_WHEAT  (Q2UXF7)    , BFRA_THEMA  (O33833)    ,
+CSCA_ECOLX  (P40714)    , ECDE_ASPRU  (K0E4E1)    , ECDF_ASPRU  (K0E681)    ,
+FRUA_STRMU  (Q03174)    , GFT_ALLCE   (P92916)    , GFT_ASPOF   (Q5FC15)    ,
+INU1_KLUMA  (P28999)    , INU2_ASPFI  (O94220)    , INUA_ASPNC  (A5ABL2)    ,
+INUA_ASPNG  (O74641)    , INUB_ASPNG  (O74642)    , INUE_ASPAW  (Q96TU3)    ,
+INUE_ASPFI  (E1ABX2)    , INUE_ASPNC  (A2R0E0)    , INUE_ASPNG  (Q76HP6)    ,
+INUE_PICGM  (A8W7I5)    , INUE_PICGU  (A5DHM6)    , INV1_ARATH  (Q43866)    ,
+INV1_CAPAN  (P93761)    , INV1_DAUCA  (P26792)    , INV1_MAIZE  (P49175)    ,
+INV1_ORYSI  (A2X5P7)    , INV1_ORYSJ  (Q0E0P0)    , INV1_PEA    (Q43089)    ,
+INV1_SCHPO  (O59852)    , INV1_WICAO  (P40912)    , INV1_YEASX  (P10594)    ,
+INV2_ARATH  (Q1PEF8)    , INV2_DAUCA  (Q39692)    , INV2_ORYSI  (Q01IS7)    ,
+INV2_ORYSJ  (Q0JDC5)    , INV2_YEAST  (P00724)    , INV3_ARATH  (Q67XZ3)    ,
+INV3_DAUCA  (Q39693)    , INV3_ORYSI  (Q01IS8)    , INV3_ORYSJ  (Q0JDC6)    ,
+INV3_YEASX  (P10595)    , INV4_ARATH  (Q8W413)    , INV4_ORYSJ  (Q5JJV0)    ,
+INV4_YEASX  (P10596)    , INV5_ARATH  (Q9LIB9)    , INV5_ORYSJ  (Q56UD1)    ,
+INV5_YEASX  (P10597)    , INV6_ARATH  (Q8W4S6)    , INV6_ORYSJ  (Q56UD0)    ,
+INV7_ORYSI  (A2YZ01)    , INV7_ORYSJ  (Q0J360)    , INV7_YEASX  (P07635)    ,
+INVA3_ARATH (Q43348)    , INVA4_ARATH (Q39041)    , INVA_MAIZE  (P49174)    ,
+INVA_PHAVU  (O24509)    , INVA_SOLLC  (P29000)    , INVA_VICFA  (Q43857)    ,
+INVA_VIGRR  (P29001)    , INVB_DAUCA  (P80065)    , INVX_SCHPO  (O42878)    ,
+INV_DEBHA   (Q6BJW6)    , INV_KLULA   (Q9Y746)    , INV_SCHOC   (P24133)    ,
+LEVB_BACSU  (O07003)    , LEVB_GEOSE  (P94469)    , RAFD_ECOLX  (P16553)    ,
+RHVI1_ROSHC (H2DF87)    , RHVI2_ROSHC (H2DF88)    , SACC_BACL7  (O31411)    ,
+SACC_BACSU  (P05656)    , SCRB_BACSU  (P07819)    , SCRB_FUSMR  (Q09122)    ,
+SCRB_KLEPN  (P27217)    , SCRB_LACLL  (Q04937)    , SCRB_PEDPE  (P43471)    ,
+SCRB_PSYIN  (A1STJ9)    , SCRB_SALTM  (P37075)    , SCRB_STAXY  (Q05936)    ,
+SCRB_STRMU  (P13522)    , SCRB_VIBAL  (P13394)    , SCRB_VIBC3  (A5EZZ8)    ,
+SCRB_VIBCH  (Q9KLT6)    , SCRB_VIBCL  (Q56660)    , SCR_ZYMMA   (F8DVG5)    ,
+SCR_ZYMMO   (P0DJA7)    , SST_FESAR   (Q9FSV7)    
+
+
+=========
+Family 33
+=========
+
+Description: Sialidases (EC 3.2.1.18).
+PROSITE: None
+3D structure status: Available
+Reaction stereochemical outcome: Retained anomeric configuration
+Catalytic nucleophile/base: Tyr+Glu
+Catalytic proton donor: ?
+Clan: GH-E
+Known taxonomic range: eukaryota, bacteria.
+
+8511_TRYCR  (P18269)    , 8512_TRYCR  (P18270)    , 8513_TRYCR  (P18271)    ,
+NANA_STREE  (P62575)    , NANA_STRR6  (P62576)    , NANB_STRPN  (Q54727)    ,
+NANH_BACFR  (P31206)    , NANH_CLOPF  (P10481)    , NANH_CLOSE  (P29767)    ,
+NANH_MICVI  (Q02834)    , NANH_PAESO  (P15698)    , NANH_SALTY  (P29768)    ,
+NANH_VIBC3  (A5F7A4)    , NANH_VIBCH  (P0C6E9)    , NANL_MACDE  (Q27701)    ,
+NEUR1_BOVIN (A6BMK7)    , NEUR1_HUMAN (Q99519)    , NEUR1_MOUSE (O35657)    ,
+NEUR1_PIG   (A5PF10)    , NEUR1_PONAB (Q5RAF4)    , NEUR1_RAT   (Q99PW3)    ,
+NEUR2_CRIGR (Q64393)    , NEUR2_HUMAN (Q9Y3R4)    , NEUR2_MOUSE (Q9JMH3)    ,
+NEUR2_RAT   (Q64627)    , NEUR3_BOVIN (O97859)    , NEUR3_HUMAN (Q9UQ49)    ,
+NEUR3_MOUSE (Q9JMH7)    , NEUR3_RAT   (Q99PW5)    , NEUR4_HUMAN (Q8WWR8)    ,
+NEUR4_MOUSE (Q8BZL1)    , SIA_ARTBC   (D4B4P1)    , SIA_ASPFU   (Q4WQS0)    ,
+TCNA_TRYCR  (P23253)    
+
+
+=========
+Family 34
+=========
+
+Description: Influenza neuraminidases (sialidases) (EC 3.2.1.18).
+PROSITE: None
+3D structure status: Available
+Reaction stereochemical outcome: Retained anomeric configuration
+Catalytic nucleophile/base: Tyr+Glu
+Catalytic proton donor: ?
+Clan: GH-E
+Known taxonomic range: viridae.
+
+NRAM_I000F  (P18881)    , NRAM_I00A0  (Q8QPK2)    , NRAM_I00A1  (Q289M4)    ,
+NRAM_I01A0  (Q809V0)    , NRAM_I01A1  (Q809V4)    , NRAM_I01A2  (Q809V2)    ,
+NRAM_I01A3  (Q809U7)    , NRAM_I02A1  (Q6DPK2)    , NRAM_I02A2  (Q6DPK1)    ,
+NRAM_I02A3  (Q6DPK0)    , NRAM_I02A4  (Q6DPJ9)    , NRAM_I02A5  (Q6J8D5)    ,
+NRAM_I02A6  (Q6DPJ8)    , NRAM_I02A7  (Q6DPI6)    , NRAM_I03A0  (Q6J8E4)    ,
+NRAM_I03A1  (Q6DPH9)    , NRAM_I04A1  (Q6DPL2)    , NRAM_I05A1  (Q2LFV4)    ,
+NRAM_I06A0  (B4URD9)    , NRAM_I07A0  (A8C8J7)    , NRAM_I18A0  (Q9IGQ6)    ,
+NRAM_I33A0  (P03470)    , NRAM_I34A0  (Q64968)    , NRAM_I34A1  (P03468)    ,
+NRAM_I35A3  (A4GCM2)    , NRAM_I36A0  (A4GCI9)    , NRAM_I40A0  (Q0HD57)    ,
+NRAM_I43A0  (A4GCL1)    , NRAM_I45A0  (A4U6V5)    , NRAM_I47A0  (Q8JSD9)    ,
+NRAM_I49A1  (P03480)    , NRAM_I51A0  (A4U7A9)    , NRAM_I54A0  (P31349)    ,
+NRAM_I54A2  (A4K146)    , NRAM_I56A1  (A3KF10)    , NRAM_I56A2  (Q6XV27)    ,
+NRAM_I56A3  (P88838)    , NRAM_I57A0  (Q1K9Q1)    , NRAM_I57A1  (Q67212)    ,
+NRAM_I57A2  (Q67214)    , NRAM_I57A4  (P03484)    , NRAM_I57A5  (Q6XUE4)    ,
+NRAM_I59A0  (Q710U6)    , NRAM_I60A0  (Q6XUD6)    , NRAM_I61A0  (Q6XV52)    ,
+NRAM_I61A1  (B3EUQ9)    , NRAM_I63A1  (Q595Z2)    , NRAM_I63A2  (Q07579)    ,
+NRAM_I63A3  (Q07599)    , NRAM_I65A0  (Q07584)    , NRAM_I66A1  (Q0A456)    ,
+NRAM_I67A0  (P06820)    , NRAM_I67A2  (A8C8W6)    , NRAM_I68A0  (Q75VQ4)    ,
+NRAM_I68A3  (P03477)    , NRAM_I68A4  (Q91MA2)    , NRAM_I68A5  (Q6XUA7)    ,
+NRAM_I68A6  (P03473)    , NRAM_I69A0  (Q6XTN2)    , NRAM_I69A2  (Q07581)    ,
+NRAM_I70A0  (Q6XTM7)    , NRAM_I71A1  (P03471)    , NRAM_I71A2  (P03476)    ,
+NRAM_I72A0  (Q07576)    , NRAM_I72A1  (Q07571)    , NRAM_I72A2  (P0DOF6)    ,
+NRAM_I72A3  (P03475)    , NRAM_I72A4  (Q2ICQ7)    , NRAM_I72A5  (P03478)    ,
+NRAM_I72A8  (P0DOF9)    , NRAM_I73A0  (P06819)    , NRAM_I73A5  (Q1PUD6)    ,
+NRAM_I74A1  (P08327)    , NRAM_I74A2  (Q07573)    , NRAM_I75A0  (Q30NP8)    ,
+NRAM_I75A3  (P03482)    , NRAM_I75A5  (P03472)    , NRAM_I76A1  (P03479)    ,
+NRAM_I76A6  (Q2RFA3)    , NRAM_I76A7  (Q76WJ1)    , NRAM_I76A9  (Q09104)    ,
+NRAM_I76AB  (Q09105)    , NRAM_I76AI  (Q9IGQ0)    , NRAM_I76AK  (Q6XV26)    ,
+NRAM_I77A4  (Q9EA42)    , NRAM_I77AA  (A4GBY0)    , NRAM_I77AB  (P03469)    ,
+NRAM_I77AF  (Q6XV23)    , NRAM_I77AG  (Q6XV28)    , NRAM_I77AH  (Q75VQ0)    ,
+NRAM_I78A0  (P03481)    , NRAM_I78A7  (Q2VNF0)    , NRAM_I78A8  (Q2VND0)    ,
+NRAM_I78AB  (Q09106)    , NRAM_I78AC  (Q07585)    , NRAM_I79A0  (P06818)    ,
+NRAM_I79A4  (P31348)    , NRAM_I79A6  (Q07580)    , NRAM_I79A7  (Q6XV43)    ,
+NRAM_I80A2  (Q2VC95)    , NRAM_I80A4  (Q2RCH3)    , NRAM_I80A6  (Q07572)    ,
+NRAM_I80A8  (Q20NP0)    , NRAM_I80AA  (A4GCK0)    , NRAM_I80AD  (Q20NV8)    ,
+NRAM_I81A2  (P08326)    , NRAM_I82A2  (P26143)    , NRAM_I82A7  (Q67344)    ,
+NRAM_I83A1  (P11485)    , NRAM_I83A4  (Q0A2G2)    , NRAM_I83A5  (Q0A2I4)    ,
+NRAM_I83A6  (P09573)    , NRAM_I83A7  (P09574)    , NRAM_I83A8  (Q38SQ5)    ,
+NRAM_I84A0  (Q07574)    , NRAM_I84A1  (P05803)    , NRAM_I84A4  (Q6XV24)    ,
+NRAM_I85A3  (Q0A2R1)    , NRAM_I85A5  (Q6TXB9)    , NRAM_I85A8  (P31510)    ,
+NRAM_I86A3  (Q07582)    , NRAM_I88A1  (Q07570)    , NRAM_I88A4  (Q07577)    ,
+NRAM_I89A7  (Q07578)    , NRAM_I90A1  (Q07583)    , NRAM_I91A0  (Q07575)    ,
+NRAM_I93A0  (O91744)    , NRAM_I96A0  (Q9Q0U7)    , NRAM_I96A1  (O91745)    ,
+NRAM_I96A2  (A3DRP3)    , NRAM_I96A3  (Q07FI2)    , NRAM_I97A0  (Q9WAA1)    ,
+NRAM_I97A1  (Q9W7Y7)    , NRAM_INBBE  (P27907)    , NRAM_INBHK  (P16191)    ,
+NRAM_INBLE  (P03474)    , NRAM_INBLN  (P67923)    , NRAM_INBMD  (P16195)    ,
+NRAM_INBME  (P67907)    , NRAM_INBMF  (P16199)    , NRAM_INBOR  (P16201)    ,
+NRAM_INBSI  (P16203)    , NRAM_INBUS  (P16205)    , NRAM_INBVI  (P16207)    ,
+NRAM_INBYB  (Q90021)    
+
+
+=========
+Family 35
+=========
+
+Description: Beta-galactosidases (EC 3.2.1.23).
+PROSITE: PDOC00910
+3D structure status: Not available
+Reaction stereochemical outcome: Retained anomeric configuration (probable)
+Catalytic nucleophile/base: Glu (inferred)
+Catalytic proton donor: Glu (inferred)
+Clan: GH-A
+Known taxonomic range: eukaryota, bacteria.
+
+BGA10_ARATH (Q9FN08)    , BGA10_ORYSJ (Q67VU7)    , BGA11_ARATH (Q9SCV1)    ,
+BGA11_ORYSJ (Q6ZJJ0)    , BGA12_ARATH (Q9SCV0)    , BGA12_ORYSJ (Q0IZZ8)    ,
+BGA13_ARATH (Q9SCU9)    , BGA13_ORYSJ (Q7G3T8)    , BGA14_ARATH (Q9SCU8)    ,
+BGA14_ORYSJ (Q7XFK2)    , BGA15_ARATH (Q9C6W4)    , BGA15_ORYSJ (Q0INM3)    ,
+BGA16_ARATH (Q8GX69)    , BGA17_ARATH (Q93Z24)    , BGAL1_ARATH (Q9SCW1)    ,
+BGAL1_DICDI (Q54GE1)    , BGAL1_ORYSJ (Q8RUV9)    , BGAL2_ARATH (Q9LFA6)    ,
+BGAL2_DICDI (Q54MV6)    , BGAL2_ORYSJ (Q8W0A1)    , BGAL3_ARATH (Q9SCV9)    ,
+BGAL3_ORYSJ (Q5N8X6)    , BGAL4_ARATH (Q9SCV8)    , BGAL4_ORYSI (A2X2H7)    ,
+BGAL4_ORYSJ (Q6Z6K4)    , BGAL5_ARATH (Q9MAJ7)    , BGAL5_ORYSJ (Q10RB4)    ,
+BGAL6_ARATH (Q9FFN4)    , BGAL6_ORYSJ (Q10NX8)    , BGAL7_ARATH (Q9SCV5)    ,
+BGAL7_ORYSJ (Q75HQ3)    , BGAL8_ARATH (Q9SCV4)    , BGAL8_ORYSJ (Q0DGD7)    ,
+BGAL9_ARATH (Q9SCV3)    , BGAL9_ORYSJ (Q5Z7L0)    , BGALA_ASPFC (B0XMP7)    ,
+BGALA_ASPFN (B8N6V7)    , BGALA_ASPFU (Q4WS33)    , BGALA_ASPNC (A2QAN3)    ,
+BGALA_ASPOR (Q2UCU3)    , BGALA_ASPPH (Q4ZHV7)    , BGALA_EMENI (Q5BFC4)    ,
+BGALA_NEOFI (A1D1Z9)    , BGALA_PENEN (B8QGZ3)    , BGALA_PENSQ (Q700S9)    ,
+BGALB_ASPFC (B0XNY2)    , BGALB_ASPFN (B8NKI4)    , BGALB_ASPFU (Q4WRD3)    ,
+BGALB_ASPNC (A2QA64)    , BGALB_ASPOR (Q2U6P1)    , BGALB_ASPTN (Q0CMF3)    ,
+BGALB_BOTFB (A6RPN7)    , BGALB_EMENI (Q5BEQ0)    , BGALB_NEOFI (A1D199)    ,
+BGALB_PENRW (B6GW04)    , BGALB_PYRTR (B2W791)    , BGALB_SCLS1 (A7EBU5)    ,
+BGALB_TALMQ (B6QLF0)    , BGALC_ASPCL (A1CE56)    , BGALC_ASPFC (B0Y752)    ,
+BGALC_ASPFN (B8N2I5)    , BGALC_ASPFU (Q4WNE4)    , BGALC_ASPNC (A2QL84)    ,
+BGALC_ASPOR (Q2UMD5)    , BGALC_NEOFI (A1DM65)    , BGALC_PENRW (B6H5X9)    ,
+BGALC_SCLS1 (A7EZS5)    , BGALC_TALMQ (B6QHA9)    , BGALE_ASPFC (B0XXE7)    ,
+BGALE_ASPFU (Q4WG05)    , BGALE_NEOFI (A1DJ58)    , BGAL_ASPNG  (P29853)    ,
+BGAL_ASPOF  (P45582)    , BGAL_BOVIN  (Q58D55)    , BGAL_BRAOL  (P49676)    ,
+BGAL_CANLF  (Q9TRY9)    , BGAL_DIACA  (Q00662)    , BGAL_FELCA  (O19015)    ,
+BGAL_HORVU  (P83252)    , BGAL_HUMAN  (P16278)    , BGAL_MACFA  (Q60HF6)    ,
+BGAL_MALDO  (P48981)    , BGAL_MOUSE  (P23780)    , BGAL_PHODC  (P85412)    ,
+BGAL_PINPS  (P81669)    , BGAL_PONAB  (Q5R7P4)    , BGAL_SOLLC  (P48980)    ,
+BGAL_XANMN  (P48982)    , GLB1L_HUMAN (Q6UWU2)    , GLB1L_MACFA (Q95LV1)    ,
+GLB1L_MOUSE (Q8VC60)    , GLBL2_HUMAN (Q8IW92)    , GLBL2_MOUSE (Q3UPY5)    ,
+GLBL3_HUMAN (Q8NCI6)    , GLBL3_MOUSE (A2RSQ1)    , GLBL3_RAT   (Q5XIL5)    ,
+GLMA_PYRHO  (O58247)    , GLMA_THEKO  (Q76HN4)    
+
+
+=========
+Family 36
+=========
+
+Description: Alpha-galactosidases (EC 3.2.1.22).
+PROSITE: None
+3D structure status: Not available
+Reaction stereochemical outcome: Not known
+Catalytic nucleophile/base: ?
+Catalytic proton donor: ?
+Clan: GH-D
+Known taxonomic range: eukaryota, bacteria.
+
+AGAA_GEOSE  (Q9ALJ4)    , AGAL1_PEDPE (P43467)    , AGAL2_PEDPE (P43469)    ,
+AGALC_ASPFN (B8NWY6)    , AGALC_ASPNG (Q9UUZ4)    , AGALC_ASPOR (Q2TW69)    ,
+AGALC_ASPTN (Q0CVH2)    , AGALC_EMENI (Q5AU92)    , AGALG_ASPTN (Q0CEF5)    ,
+AGALG_EMENI (Q5ARP5)    , AGAL_FLAPL  (P0DTR5)    , AGAL_SACS2  (Q97U94)    ,
+AGAL_STRMU  (P27756)    , AGAL_THEMA  (G4FEF4)    , MELA_LACAC  (G1UB44)    ,
+RAFA_ECOLX  (P16551)    
+
+
+=========
+Family 37
+=========
+
+Description: Trehalases (EC 3.2.1.28).
+PROSITE: PDOC00717
+3D structure status: Not available
+Reaction stereochemical outcome: Inverted anomeric configuration
+Catalytic nucleophile/base: ?
+Catalytic proton donor: ?
+Clan: GH-G
+Known taxonomic range: eukaryota, bacteria.
+
+TRE1_ARATH  (Q9SU50)    , TREA_APIME  (A8J4S9)    , TREA_BEAB2  (J5K1E2)    ,
+TREA_BOMMO  (P32358)    , TREA_BOTFB  (A0A384JRP0), TREA_CANAX  (P52494)    ,
+TREA_CITK8  (A8AFT6)    , TREA_DICDI  (Q54QZ5)    , TREA_DROME  (Q9W2M2)    ,
+TREA_ECO24  (A7ZKW9)    , TREA_ECO27  (B7UQ86)    , TREA_ECO45  (B7MK99)    ,
+TREA_ECO55  (B7LGV7)    , TREA_ECO57  (Q8XDH7)    , TREA_ECO7I  (B7NUW3)    ,
+TREA_ECO8A  (B7LXB1)    , TREA_ECOBW  (C4ZTN8)    , TREA_ECODH  (B1XAN8)    ,
+TREA_ECOHS  (A7ZZD1)    , TREA_ECOK1  (A1AAC5)    , TREA_ECOL5  (Q0TIH3)    ,
+TREA_ECOL6  (Q8CW46)    , TREA_ECOLC  (B1IU96)    , TREA_ECOLI  (P13482)    ,
+TREA_ECOLU  (B7N408)    , TREA_ECOSE  (B6I9Q8)    , TREA_ECOSM  (B1LHA4)    ,
+TREA_ECOUT  (Q1RCP3)    , TREA_HUMAN  (O43280)    , TREA_KLULA  (P49381)    ,
+TREA_MOUSE  (Q9JLT2)    , TREA_PIMHY  (Q8MMG9)    , TREA_PSEAE  (Q9I165)    ,
+TREA_RABIT  (P19813)    , TREA_RALN1  (Q8XT38)    , TREA_SALA4  (B5F4F0)    ,
+TREA_SALCH  (Q57NL6)    , TREA_SALDC  (B5FTN7)    , TREA_SALEP  (B5R2X4)    ,
+TREA_SALG2  (B5R904)    , TREA_SALNS  (B4SUI9)    , TREA_SALPA  (Q5PI73)    ,
+TREA_SALPB  (A9MVX4)    , TREA_SALPC  (C0Q337)    , TREA_SALPK  (B5BI56)    ,
+TREA_SALSV  (B4TXW7)    , TREA_SALTI  (P59765)    , TREA_SALTY  (Q8ZP20)    ,
+TREA_SCHPO  (O42893)    , TREA_SHIDS  (Q32H09)    , TREA_SHIF8  (Q0T5J8)    ,
+TREA_SHIFL  (Q83RP6)    , TREA_TENMO  (P32359)    , TREA_XANAC  (Q8PPT1)    ,
+TREA_XANC8  (Q4UZ12)    , TREA_XANCB  (B0RNH1)    , TREA_XANCP  (Q8P519)    ,
+TREA_XANOM  (Q2NYS3)    , TREA_YEAST  (P32356)    , TREB_EMENI  (O42777)    ,
+TREB_EREGS  (Q757L1)    , TREB_NEUCR  (O42783)    , TREB_PYRO7  (O42622)    ,
+TREB_YEAST  (P35172)    , TREF_ECO24  (A7ZT60)    , TREF_ECO27  (B7UL72)    ,
+TREF_ECO45  (B7MEM1)    , TREF_ECO55  (B7L603)    , TREF_ECO57  (P62602)    ,
+TREF_ECO5E  (B5YVG5)    , TREF_ECO7I  (B7NNF3)    , TREF_ECO81  (B7N1V9)    ,
+TREF_ECO8A  (B7M3D0)    , TREF_ECOBW  (C4ZW66)    , TREF_ECODH  (B1X7X4)    ,
+TREF_ECOHS  (A8A5X9)    , TREF_ECOK1  (A1AH61)    , TREF_ECOL5  (Q0TBT4)    ,
+TREF_ECOL6  (Q8FCI4)    , TREF_ECOLC  (B1J0B4)    , TREF_ECOLI  (P62601)    ,
+TREF_ECOLU  (B7NEG2)    , TREF_ECOSE  (B6I385)    , TREF_ECOSM  (B1LJ63)    ,
+TREF_ECOUT  (Q1R584)    , TREF_ESCF3  (B7LSZ0)    , TREF_SALA4  (B5F9H0)    ,
+TREF_SALAR  (A9MLK7)    , TREF_SALCH  (Q57IL9)    , TREF_SALDC  (B5FKM4)    ,
+TREF_SALEP  (B5R404)    , TREF_SALG2  (B5RGS3)    , TREF_SALHS  (B4T8D8)    ,
+TREF_SALNS  (B4SWF1)    , TREF_SALPC  (C0Q162)    , TREF_SALSV  (B4TZ02)    ,
+TREF_SALTI  (Q8Z277)    , TREF_SALTY  (Q8ZLC8)    , TREF_SHIB3  (B2U4I7)    ,
+TREF_SHIBS  (Q31VA6)    , TREF_SHIF8  (Q0SZB4)    , TREF_SHIFL  (Q83PS8)    ,
+TREF_SHISS  (Q3YWJ3)    , TRE_ORYSJ   (Q9FWC1)    
+
+
+=========
+Family 38
+=========
+
+Description: Alpha-mannosidases (EC 3.2.1.24 / EC 3.2.1.114).
+PROSITE: None
+3D structure status: Not available
+Reaction stereochemical outcome: Retained anomeric configuration
+Catalytic nucleophile/base: Asp
+Catalytic proton donor: ?
+Clan: None
+Known taxonomic range: eukaryota.
+
+GMAN2_ARATH (Q9LFR0)    , MA2A1_HUMAN (Q16706)    , MA2A1_MOUSE (P27046)    ,
+MA2A1_RAT   (P28494)    , MA2A2_HUMAN (P49641)    , MA2A2_MOUSE (Q8BRK9)    ,
+MA2B1_BOVIN (Q29451)    , MA2B1_CAVPO (Q8VHC8)    , MA2B1_FELCA (O46432)    ,
+MA2B1_HUMAN (O00754)    , MA2B1_MACFA (Q60HE9)    , MA2B1_MOUSE (O09159)    ,
+MA2B2_HUMAN (Q9Y2E5)    , MA2B2_MOUSE (O54782)    , MA2B2_PIG   (Q28949)    ,
+MA2B2_PONAB (Q5RDJ3)    , MA2C1_HUMAN (Q9NTJ4)    , MA2C1_MOUSE (Q91W89)    ,
+MA2C1_RAT   (P21139)    , MAN1_SCHPO  (Q9UT61)    , MAN1_YEAST  (P22855)    ,
+MAN2_DROME  (Q24451)    , MAN2_SPOFR  (O18497)    , MANA1_ARATH (P94078)    ,
+MANA2_ARATH (Q8LPJ3)    , MANA3_ARATH (Q9FKW9)    , MANA_CANEN  (C0HJB3)    ,
+MANA_DICDI  (P34098)    , MANA_LABPU  (C0HJW7)    , MANB_DICDI  (Q54YF7)    ,
+MANC_DICDI  (Q55ER0)    , MAND_DICDI  (Q54YC4)    , MANE_DICDI  (Q1ZXI8)    ,
+MANF_DICDI  (Q54KN4)    , MANG_DICDI  (Q54K67)    , MNGB_ECOLI  (P54746)    ,
+MNGB_HALH5  (Q9KER1)    
+
+
+=========
+Family 39
+=========
+
+Description: Mammalian alpha-L-iduronidases (EC 3.2.1.76), and some bacterial
+             beta-xylosidases (EC 3.2.1.37).
+PROSITE: PDOC00787
+3D structure status: Not available
+Reaction stereochemical outcome: Retained anomeric configuration
+Catalytic nucleophile/base: Glu (inferred)
+Catalytic proton donor: Glu (experimental)
+Clan: GH-A
+Known taxonomic range: eukaryota, bacteria.
+
+IDUA_CANLF  (Q01634)    , IDUA_DROME  (Q9VKJ8)    , IDUA_HUMAN  (P35475)    ,
+IDUA_MOUSE  (P48441)    , PLH31_FORAG (T2KM23)    , XYNB_CALSA  (P23552)    ,
+XYNB_GEOSE  (Q9ZFM2)    , XYNB_THESA  (P36906)    , XYNB_THESW  (O30360)    
+
+
+=========
+Family 40
+=========
+
+Description: DELETED.
+Note: corresponds to the plant oncogene rolB from Agrobacterium which was
+      first thought to release indoles from indoxyl-beta-glucosides. More
+      recently rolB has been shown (Nature 379:499-500(1996) to have
+      tyrosine phosphatase activity.
+
+
+
+
+=========
+Family 41
+=========
+
+Description: DELETED.
+Note: corresponds to Agrobacterium rolC, was characterized along with rolB
+      which has now been shown (see family 40) not to be a glycosyl hydrolase.
+
+
+
+
+=========
+Family 42
+=========
+
+Description: Beta-galactosidases (EC 3.2.1.23).
+PROSITE: None
+3D structure status: Not available
+Reaction stereochemical outcome: Retained anomeric configuration (probable)
+Catalytic nucleophile/base: Glu
+Catalytic proton donor: Glu
+Clan: GH-A
+Known taxonomic range: eukaryota, bacteria.
+
+BGAL1_ARTSP (Q44233)    , BGAL1_BACLD (Q65KX8)    , BGAL1_BACSU (O31529)    ,
+BGAL1_LACAC (Q5FJ41)    , BGAL1_THESP (Q8GEA9)    , BGAL2_ARTSP (C7ASJ5)    ,
+BGAL2_BACLD (Q65CX4)    , BGAL2_BACSU (O07012)    , BGAL2_LACAI (C6H178)    ,
+BGAL2_THESP (O54315)    , BGAL_ALIAD  (C8WV58)    , BGAL_BIFAA  (A1A399)    ,
+BGAL_BIFB1  (D4QFE7)    , BGAL_BIFLI  (Q93GI5)    , BGAL_CARML  (Q9RFN0)    ,
+BGAL_CLOC7  (D9SM34)    , BGAL_CLOP1  (Q0TUR6)    , BGAL_GEOKU  (P19668)    ,
+BGAL_GEOSY  (C9S0R2)    , BGAL_HALL2  (P94804)    , BGAL_HALLT  (B9LW38)    ,
+BGAL_HEYCO  (D5JGG0)    , BGAL_PLASL  (Q09HN2)    , BGAL_PLASS  (Q9KI47)    ,
+BGAL_THEBO  (Q9X6C6)    , BGAL_THETH  (O69315)    
+
+
+=========
+Family 43
+=========
+
+Description: Mainly bifunctional beta-xylosidases (EC 3.2.1.37) / alpha-L-
+             arabinofuranosidases (EC 3.2.1.55).
+PROSITE: None
+3D structure status: Not available
+Reaction stereochemical outcome: Inverted anomeric configuration
+Catalytic nucleophile/base: ?
+Catalytic proton donor: ?
+Clan: GH-F.
+Known taxonomic range: eukaryota, bacteria.
+
+ABFB_PYRO7  (G4MMH2)    , ABNA_ASPAC  (Q9HFS9)    , ABNA_ASPCL  (A1CLG4)    ,
+ABNA_ASPFC  (B0XZW5)    , ABNA_ASPFN  (B8NDL1)    , ABNA_ASPFU  (Q4WYX7)    ,
+ABNA_ASPNC  (A2QT85)    , ABNA_ASPNG  (P42256)    , ABNA_ASPOR  (Q2U8C6)    ,
+ABNA_ASPTN  (Q0CS14)    , ABNA_EMENI  (Q5BA96)    , ABNA_NEOFI  (A1D5W1)    ,
+ABNB_ASPFC  (B0XTS5)    , ABNB_ASPFN  (B8N803)    , ABNB_ASPFU  (Q4X0A5)    ,
+ABNB_ASPOR  (Q2UI74)    , ABNB_ASPTN  (Q0CY27)    , ABNB_EMENI  (Q5AZC8)    ,
+ABNB_NEOFI  (A1DHW8)    , ABNC_ASPCL  (A1CN18)    , ABNC_ASPFC  (B0YDT3)    ,
+ABNC_ASPFN  (B8NMD3)    , ABNC_ASPFU  (Q4W930)    , ABNC_ASPNC  (A5AAG2)    ,
+ABNC_ASPOR  (Q2U1X8)    , ABNC_ASPTN  (Q0CRJ6)    , ABNC_EMENI  (Q5AUM3)    ,
+ABNC_NEOFI  (A1DKY5)    , ABND_EMENI  (Q5B8T6)    , ARAFA_BIFL2 (A0A3R0A696),
+ARBA_CELJU  (P95470)    , BDGF_ASPNC  (A2QVZ0)    , EABN1_BACSU (P94522)    ,
+EABN2_BACSU (P42293)    , EABN_THEP1  (A5IKD4)    , GH43A_BACO1 (A7LXT8)    ,
+GH43B_BACO1 (A7LXU0)    , IABF_STRAW  (Q82P90)    , IABF_STRCX  (P82594)    ,
+IABN_GEOSE  (B3EYM8)    , IABN_GEOTD  (Q93HT9)    , PLH27_FORAG (T2KN85)    ,
+XLOA_VIBSX  (A9ZND1)    , XYLA_THEST  (P48790)    , XYLB_BACOV  (P49943)    ,
+XYLB_BUTFI  (P45982)    , XYLO_PRERU  (Q9WXE8)    , XYNB_BACPU  (P07129)    ,
+XYNB_BACSU  (P94489)    , XYNB_PRERU  (P48791)    , XYND_BACSU  (Q45071)    ,
+XYND_PAEPO  (P45796)    , YAGH_ECOLI  (P77713)    
+
+
+=========
+Family 44
+=========
+
+Description: Endoglucanases (EC 3.2.1.4).
+PROSITE: None
+3D structure status: Not available
+Reaction stereochemical outcome: Inverted anomeric configuration
+Catalytic nucleophile/base: ?
+Catalytic proton donor: ?
+Clan: None
+Known taxonomic range: bacteria.
+Note: formerly known as cellulase family J.
+
+GUNA_PAELA  (P29719)    
+
+
+=========
+Family 45
+=========
+
+Description: Endoglucanases (EC 3.2.1.4).
+PROSITE: PDOC00877
+3D structure status: Available
+Reaction stereochemical outcome: Inverted anomeric configuration
+Catalytic nucleophile/base: Asp (experimental)
+Catalytic proton donor: Asp (experimental).
+Clan: None
+Known taxonomic range: eukaryota, bacteria.
+Note: formerly known as cellulase family K.
+
+GUN1_USTMA  (P54424)    , GUN5_HUMIN  (P43316)    , GUN5_HYPJE  (P43317)    ,
+GUNB_CELJU  (P18126)    , GUNK_FUSOX  (P45699)    , GUN_CRYAT   (D3GDK4)    ,
+GUN_MYTED   (P82186)    , GUN_PHACE   (O97401)    
+
+
+=========
+Family 46
+=========
+
+Description: Chitosanases (EC 3.2.1.132).
+PROSITE: None
+3D structure status: Available
+Reaction stereochemical outcome: Inverted anomeric configuration
+Catalytic nucleophile/base: Asp (experimental)
+Catalytic proton donor: Glu (experimental)
+Clan: None
+Known taxonomic range: bacteria.
+
+CHIS_BACSU  (O07921)    , CHIS_NIACI  (P33673)    , CHIS_NOCSP  (P48846)    ,
+CHIS_STRSN  (P33665)    
+
+
+=========
+Family 47
+=========
+
+Description: Alpha-mannosidases (EC 3.2.1.113).
+PROSITE: None
+3D structure status: Available
+Reaction stereochemical outcome: Inverted anomeric configuration
+Catalytic nucleophile/base: ?
+Catalytic proton donor: ?
+Clan: None
+Known taxonomic range: eukaryota.
+
+EDEM1_HUMAN (Q92611)    , EDEM1_MOUSE (Q925U4)    , EDEM2_HUMAN (Q9BV94)    ,
+EDEM2_MOUSE (Q8BJT9)    , EDEM3_HUMAN (Q9BZQ6)    , EDEM3_MOUSE (Q2HXL6)    ,
+EDEM3_XENLA (Q6GQB9)    , MA1A1_DROME (P53624)    , MA1A1_HUMAN (P33908)    ,
+MA1A1_MOUSE (P45700)    , MA1A1_PIG   (O02773)    , MA1A1_RABIT (P45701)    ,
+MA1A1_SPOFR (O18498)    , MA1A2_HUMAN (O60476)    , MA1A2_MOUSE (P39098)    ,
+MA1B1_HUMAN (Q9UKM7)    , MA1B1_MOUSE (A2AJ15)    , MA1B1_RAT   (B2GUY0)    ,
+MA1C1_HUMAN (Q9NR34)    , MAN12_CAEEL (Q18788)    , MAN12_PENCI (P31723)    ,
+MNL1_SCHPO  (O94726)    , MNL1_YEAST  (P38888)    , MNL2_YEAST  (Q12205)    ,
+MNS1B_ARTBC (D4AV26)    , MNS1B_ASPCL (A1CP08)    , MNS1B_ASPFC (B0XMT4)    ,
+MNS1B_ASPFN (B8N417)    , MNS1B_ASPFU (Q4WRZ5)    , MNS1B_ASPNC (A2QAS2)    ,
+MNS1B_ASPOR (Q2ULB2)    , MNS1B_ASPPH (Q12563)    , MNS1B_ASPTN (Q0D076)    ,
+MNS1B_COCPS (E9CXX8)    , MNS1B_EMENI (Q5BF93)    , MNS1B_NEOFI (A1D1W1)    ,
+MNS1_ARATH  (Q9C512)    , MNS1_CANAX  (Q8J0Q0)    , MNS1_SCHPO  (Q9P7C3)    ,
+MNS1_YEAST  (P32906)    , MNS2_ARATH  (Q8H116)    , MNS3_ARATH  (Q93Y37)    ,
+MNS4_ARATH  (Q9FG93)    , MNS5_ARATH  (Q9SXC9)    
+
+
+=========
+Family 48
+=========
+
+Description: Endoglucanases (EC 3.2.1.4) and cellobiohydrolases (EC 3.2.1.91).
+PROSITE: None
+3D structure status: Available
+Reaction stereochemical outcome: Inverted anomeric configuration
+Catalytic nucleophile/base: ?
+Catalytic proton donor: ?
+Clan: None
+Known taxonomic range: bacteria.
+Note: formerly known as cellulase family L.
+
+GUNF_RUMCH  (P37698)    , GUNS_ACET2  (A3DH67)    , GUNS_ACETH  (P0C2S5)    ,
+GUX2_THES1  (P50900)    , GUXB_CELFA  (P50899)    
+
+
+=========
+Family 49
+=========
+
+Description: Dextranases (EC 3.2.1.11).
+PROSITE: None
+3D structure status: Not available
+Reaction stereochemical outcome: Not known
+Catalytic nucleophile/base: ?
+Catalytic proton donor: ?
+Clan: None
+Known taxonomic range: eukaryota, bacteria.
+
+DEXT_ARTGO  (P70744)    , DEXT_ARTSD  (P39652)    , DEXT_TALMI  (P48845)    
+
+
+=========
+Family 50
+=========
+
+Description: Agarases (EC 3.2.1.81).
+PROSITE: None
+3D structure status: Not available
+Reaction stereochemical outcome: Not known
+Catalytic nucleophile/base: ?
+Catalytic proton donor: ?
+Clan: None
+Known taxonomic range: bacteria.
+
+AGAA_VIBS7  (P48839)    , AGAB_VIBS7  (P48840)    
+
+
+=========
+Family 51
+=========
+
+Description: Alpha-L-arabinofuranosidases (EC 3.2.1.55).
+PROSITE: None
+3D structure status: Not available
+Reaction stereochemical outcome: Retained anomeric configuration
+Catalytic nucleophile/base: Glu (inferred)
+Catalytic proton donor: Glu (inferred)
+Clan: GH-A.
+Known taxonomic range: eukaryota, bacteria.
+
+16ABF_BIFLN (E7CY70)    , ABFA_ASPAW  (Q96X54)    , ABFA_ASPFN  (B8NKA3)    ,
+ABFA_ASPKW  (Q8NK90)    , ABFA_ASPNC  (A2Q7E0)    , ABFA_ASPNG  (P42254)    ,
+ABFA_ASPOR  (Q2U790)    , ABFA_ASPTN  (Q0CTV2)    , ABFA_EMENI  (Q5BA89)    ,
+ABFA_PENCN  (U6A629)    , ABFC_ASPCL  (A1CQC3)    , ABFC_ASPFC  (B0XQB2)    ,
+ABFC_ASPFN  (B8NIX4)    , ABFC_ASPFU  (Q4WTB3)    , ABFC_ASPNC  (A2QQ94)    ,
+ABFC_ASPTN  (Q0D1I6)    , ABFC_EMENI  (Q5BDV3)    , ASD1_ARATH  (Q9SG80)    ,
+ASD2_ARATH  (Q8VZR2)    , EABF_STRCX  (P82593)    , IABF1_BACSU (P94531)    ,
+IABF2_BACSU (P94552)    , IABF_ACET2  (A3DIH0)    , IABF_BACOV  (Q59219)    ,
+IABF_BIFLN  (Q841V6)    , IABF_GEOSE  (Q9XBQ3)    , IABF_HALH5  (Q9KBR4)    ,
+IABF_STRLI  (P53627)    
+
+
+=========
+Family 52
+=========
+
+Description: Beta-xylosidases (EC 3.2.1.37).
+PROSITE: None
+3D structure status: Not available
+Reaction stereochemical outcome: Not known
+Catalytic nucleophile/base: ?
+Catalytic proton donor: ?
+Clan: None
+Known taxonomic range: bacteria.
+
+XYLA1_GEOSE (P45702)    , XYLA2_GEOSE (P45704)    
+
+
+=========
+Family 53
+=========
+
+Description: Endo-1,4-beta-galactanases (EC 3.2.1.89).
+PROSITE: None
+3D structure status: Not available
+Reaction stereochemical outcome: Retained anomeric configuration
+Catalytic nucleophile/base: Glu (experimental)
+Catalytic proton donor: Glu (experimental)
+Clan: GH-A
+Known taxonomic range: eukaryota, bacteria.
+
+GANA_ASPAC  (P48842)    , GANA_ASPFC  (B0XPR3)    , GANA_ASPFN  (B8NNI2)    ,
+GANA_ASPFU  (Q4WJ80)    , GANA_ASPNC  (A2RB93)    , GANA_ASPNG  (Q8X168)    ,
+GANA_ASPOR  (Q2UN61)    , GANA_ASPTN  (Q0CTQ7)    , GANA_ASPTU  (Q9Y7F8)    ,
+GANA_CELJU  (P48841)    , GANA_EMENI  (Q5B153)    , GANA_HUMIN  (P83691)    ,
+GANA_NEOFI  (A1D3T4)    , GANA_THETO  (P83692)    , GANB_BACLD  (Q65CX5)    ,
+GANB_BACSU  (O07013)    , YBAB_NIACI  (P48843)    
+
+
+=========
+Family 54
+=========
+
+Description: Alpha-L-arabinofuranosidases (EC 3.2.1.55).
+PROSITE: None
+3D structure status: Available
+Reaction stereochemical outcome: Retained anomeric configuration
+Catalytic nucleophile/base: ?
+Catalytic proton donor: ?
+Clan: None
+Known taxonomic range: eukaryota.
+
+ABF1_HYPJE  (Q92455)    , ABFB_ASPAW  (Q9C4B1)    , ABFB_ASPCL  (A1CGD1)    ,
+ABFB_ASPFN  (B8N7I7)    , ABFB_ASPFU  (Q4WL66)    , ABFB_ASPKW  (Q8NK89)    ,
+ABFB_ASPNC  (A2R511)    , ABFB_ASPNG  (P42255)    , ABFB_ASPOR  (Q2UIM2)    ,
+ABFB_ASPTN  (Q0CEE5)    , ABFB_EMENI  (O74288)    , ABFB_PENCN  (U6BLZ9)    ,
+XYL1_TRIKO  (P48792)    
+
+
+=========
+Family 55
+=========
+
+Description: Exo- and endo-1,3-glucanases (EC 3.2.1.58 and EC 3.2.1.39).
+PROSITE: None
+3D structure status: Not available
+Reaction stereochemical outcome: Not known
+Catalytic nucleophile/base: ?
+Catalytic proton donor: ?
+Clan: None
+Known taxonomic range: eukaryota.
+
+E13B_ARTBC  (D4B0V1)    , E13B_TRIHA  (P53626)    , EXG1_COCCA  (P49426)    ,
+LAM55_STREK (G2NFJ9)    
+
+
+=========
+Family 56
+=========
+
+Description: Hyaluronidases (EC 3.2.1.35).
+PROSITE: None
+3D structure status: Available
+Reaction stereochemical outcome: Retained anomeric configuration
+Catalytic nucleophile/base: Carbonyl oxygen of C-2 acetamido group of substrate 
+Catalytic proton donor: Glu
+Clan: None
+Known taxonomic range: eukaryota.
+
+HUGAA_VESVU (P49370)    , HUGAB_VESVE (C0HLL5)    , HUGAB_VESVU (Q5D7H4)    ,
+HUGA_APIME  (Q08169)    , HUGA_DOLMA  (P49371)    , HUGA_POLAN  (Q9U6V9)    ,
+HUGA_POLPI  (P86687)    , HUGA_TABYA  (E0XKJ9)    , HUGA_VESMC  (P0CH89)    ,
+HUGA_VESMG  (P86875)    , HUGA_VESVE  (C0HLL4)    , HYAL1_BITAR (A3QVN9)    ,
+HYAL1_BOVIN (Q5E985)    , HYAL1_CERCE (A3QVN3)    , HYAL1_HUMAN (Q12794)    ,
+HYAL1_MESMA (P86100)    , HYAL1_MOUSE (Q91ZJ9)    , HYAL1_PIG   (Q6RHW4)    ,
+HYAL1_RAT   (Q76HN1)    , HYAL1_TITSE (P85841)    , HYAL2_BITAR (A3QVP0)    ,
+HYAL2_BOVIN (Q8SQG8)    , HYAL2_HUMAN (Q12891)    , HYAL2_MOUSE (O35632)    ,
+HYAL2_RAT   (Q9Z2Q3)    , HYAL2_SHEEP (Q8SQG7)    , HYAL2_TITSE (W0HFN9)    ,
+HYAL3_CERCE (A3QVN4)    , HYAL3_HUMAN (O43820)    , HYAL3_MOUSE (Q8VEI3)    ,
+HYAL3_PIG   (Q6RHW2)    , HYAL3_PONAB (Q5REQ1)    , HYAL3_RAT   (Q76HM9)    ,
+HYAL4_CERCE (A3QVN5)    , HYAL4_HUMAN (Q2M3T9)    , HYAL4_MOUSE (Q05A56)    ,
+HYAL5_MOUSE (Q812F3)    , HYALP_CAVPO (P23613)    , HYALP_HUMAN (P38567)    ,
+HYALP_MACFA (P38568)    , HYALP_MOUSE (P48794)    , HYALP_RABIT (P38566)    ,
+HYALP_RAT   (Q62803)    , HYAL_CONAQ  (I0CME8)    , HYAL_CONCN  (I0CME7)    ,
+HYAL_CONPU  (C0HKM3)    , HYAL_CROAD  (J3S820)    , HYAL_CRODU  (B3EWP2)    ,
+HYAL_ECHOC  (A3QVN2)    , HYAL_ECHPL  (A3QVN6)    , HYAL_LOXIN  (R4J7Z9)    ,
+HYAL_PHOKE  (P86274)    
+
+
+=========
+Family 57
+=========
+
+Description: Alpha-amylases (EC 3.2.1.1).
+PROSITE: None
+3D structure status: Available
+Reaction stereochemical outcome: Retained anomeric configuration
+Catalytic nucleophile/base: Glu
+Catalytic proton donor: ?
+Clan: None
+Known taxonomic range: bacteria, archaea.
+
+AMY1_DICT6  (P09961)    , AMYA_METJA  (Q59006)    , AMYA_PYRAB  (Q9V298)    ,
+AMYA_PYRFU  (P49067)    , AMYA_PYRHO  (O57932)    , BE_MYCTO    (P9WQ26)    ,
+BE_MYCTU    (P9WQ27)    , BE_THEKO    (Q5JDJ7)    , BE_THET8    (Q5SH28)    ,
+MALQ_THEKO  (O32450)    , MALQ_THELN  (O32462)    
+
+
+=========
+Family 58
+=========
+
+Description: Endo-N-acetylneuraminidase (EC 3.2.1.129).
+PROSITE: None
+3D structure status: Available
+Reaction stereochemical outcome: Not known
+Catalytic nucleophile/base: ?
+Catalytic proton donor: ?
+Clan: None
+Known taxonomic range: viridae.
+
+FIBER_BPK1E (P49714)    , FIBER_BPK1F (Q04830)    
+
+
+=========
+Family 59
+=========
+
+Description: Galactocerebrosidases (EC 3.2.1.46)
+PROSITE: None
+3D structure status: Not available
+Reaction stereochemical outcome: Retained anomeric configuration
+Catalytic nucleophile/base: Glu
+Catalytic proton donor: Glu
+Clan: GH-A
+Known taxonomic range: eukaryota.
+
+GALC_CAEEL  (Q95QT2)    , GALC_CANLF  (P54804)    , GALC_DANRE  (Q5SNX7)    ,
+GALC_HUMAN  (P54803)    , GALC_MACMU  (O02791)    , GALC_MOUSE  (P54818)    ,
+GALC_SALSA  (B5X3C1)    , GALC_XENLA  (Q498K0)    , GALC_XENTR  (Q0VA39)    
+
+
+=========
+Family 60
+=========
+
+Description: DELETED.
+Note: corresponds to peptidase family M42; was incorrectly thought to
+      be a family of glycosyl hydrolase.
+
+
+
+
+=========
+Family 61
+=========
+
+Description: Endoglucanases (EC 3.2.1.4).
+3D structure status: Not available
+Reaction stereochemical outcome: not known
+Catalytic nucleophile/base: ?
+Catalytic proton donor: ?
+Clan: None
+Known taxonomic range: eukaryota.
+
+CEL1_AGABI  (Q00023)    , CEL61_THET4 (G2Q9T3)    , EGLD_ASPCL  (A1C4H2)    ,
+EGLD_ASPFC  (B0Y9G4)    , EGLD_ASPFN  (B8MXJ7)    , EGLD_ASPFU  (Q4WBU0)    ,
+EGLD_ASPKW  (Q96WQ9)    , EGLD_ASPNC  (A2R5N0)    , EGLD_ASPOR  (Q2US83)    ,
+EGLD_ASPTN  (Q0CEU4)    , EGLD_EMENI  (Q5BCX8)    , EGLD_NEOFI  (A1DBS6)    ,
+GUN4_HYPJE  (O14405)    , GUN7_HYPJQ  (Q7Z9M7)    
+
+
+=========
+Family 62
+=========
+
+Description: Alpha-L-arabinofuranosidases (EC 3.2.1.55).
+3D structure status: Not available
+Reaction stereochemical outcome: not known
+Catalytic nucleophile/base: ?
+Catalytic proton donor: ?
+Clan: GH-F.
+Known taxonomic range: eukaryota, bacteria.
+
+AXHA1_EMENI (Q5B9Z8)    , AXHA2_EMENI (Q5AUX2)    , AXHA_ASPNC  (A2QFV9)    ,
+AXHA_ASPNG  (P79019)    , AXHA_ASPOR  (Q2U7D2)    , AXHA_ASPSO  (Q9UVX6)    ,
+AXHA_ASPTN  (Q0C8B3)    , AXHA_ASPTU  (P79021)    , EABF_STRLI  (P96463)    ,
+XYNC_CELJU  (P23031)    
+
+
+=========
+Family 63
+=========
+
+Description: Mannosyl-oligosaccharide glucosidases (EC 3.2.1.106).
+3D structure status: Not available
+Reaction stereochemical outcome: not known
+Catalytic nucleophile/base: ?
+Catalytic proton donor: ?
+Clan: GH-G.
+Known taxonomic range: eukaryota, bacteria.
+
+CWH41_YEAST (P53008)    , GCS1_ARATH  (F4HTM3)    , GCS1_SCHPO  (O14255)    ,
+GCS2_ARATH  (Q84M89)    , GGH_MYCHD   (K5BDL0)    , MGH1_SELML  (D8QTR2)    ,
+MGH2_SELML  (D8T3S4)    , MOGS1_CAEEL (Q19426)    , MOGS_HUMAN  (Q13724)    ,
+MOGS_MOUSE  (Q80UM7)    , MOGS_RAT    (O88941)    , YGJK_ECOLI  (P42592)    
+
+
+=========
+Family 64
+=========
+
+Description: Endo-1,3-glucanases (EC 3.2.1.39).
+PROSITE: None
+3D structure status: Not available
+Reaction stereochemical outcome: Inverted anomeric configuration
+Catalytic nucleophile/base: ?
+Catalytic proton donor: ?
+Clan: None
+Known taxonomic range: bacteria.
+
+E13B1_PAPLA (P85203)    , E13B_ARTSW  (Q59146)    , E13B_CELCE  (P22222)    
+
+
+=========
+Family 65
+=========
+
+Description: Trehalases (EC 3.2.1.28).
+PROSITE: None
+3D structure status: Available
+Reaction stereochemical outcome: Inverted anomeric configuration
+Catalytic nucleophile/base: Phosphate
+Catalytic proton donor: Glu
+Clan: GH-L
+Known taxonomic range: eukaryota, bacteria.
+
+3OAGR_LACP7 (A9KM56)    , ATC1_ARTBC  (D4B5H9)    , ATC1_CANAL  (Q5AAU5)    ,
+ATH1_CANGB  (M1RNJ8)    , ATH1_YEASC  (N1P212)    , ATH1_YEAST  (P48016)    ,
+GGP_BACIE   (D6XZ22)    , KOJP_CALS4  (Q8RBL8)    , KOJP_ECOLI  (P77154)    ,
+KOJP_THEBR  (Q8L163)    , MALPY_BACSU (O06993)    , MALPY_ENTFT (E6ENP7)    ,
+NIGP_LACP7  (A9KT32)    , PGGHG_CHICK (F1NZI4)    , PGGHG_DANRE (A0JMP0)    ,
+PGGHG_DICDI (Q54KX5)    , PGGHG_HUMAN (Q32M88)    , PGGHG_MOUSE (Q8BP56)    ,
+TREA_EMENI  (P78617)    , TREPP_LACLA (Q9CID5)    , TREP_GEOSE  (Q8GRC3)    ,
+TREP_THEBR  (Q8L164)    , Y3401_MYCTO (P9WN12)    , Y3401_MYCTU (P9WN13)    ,
+Y392_MYCLE  (Q49736)    
+
+
+=========
+Family 66
+=========
+
+Description: Dextranases (EC 3.2.1.11) and cycloisomaltooligosaccharide
+             glucanotransferase (EC 2.4.1.-).
+PROSITE: None
+3D structure status: Not available
+Reaction stereochemical outcome: Retained anomeric configuration
+Catalytic nucleophile/base: ?
+Catalytic proton donor: ?
+Clan: None
+Known taxonomic range: bacteria.
+
+CTA1_NIACI  (P94286)    , CTA2_NIACI  (P70873)    , DEXT_STRDO  (P39653)    ,
+DEXT_STRMU  (Q54443)    , DEXT_STRSL  (Q59979)    
+
+
+=========
+Family 67
+=========
+
+Description: Alpha-glucuronidases (EC 3.2.1.139).
+PROSITE: None
+3D structure status: Available
+Reaction stereochemical outcome: Inverted anomeric configuration
+Catalytic nucleophile/base: ?
+Catalytic proton donor: Glu
+Clan: None
+Known taxonomic range: eukaryota, bacteria.
+
+AGUA_ASPCL  (A1CC12)    , AGUA_ASPFC  (B0Y2K1)    , AGUA_ASPFN  (B8NGU1)    ,
+AGUA_ASPFU  (Q4WW45)    , AGUA_ASPNC  (A2R3X3)    , AGUA_ASPNG  (Q96WX9)    ,
+AGUA_ASPOR  (Q2UFP4)    , AGUA_ASPTN  (Q0CJP9)    , AGUA_ASPTU  (O42814)    ,
+AGUA_CELJU  (B3PC73)    , AGUA_EMENI  (Q5AQZ4)    , AGUA_GEOSE  (Q09LY5)    ,
+AGUA_HYPJE  (Q99024)    , AGUA_NEOFI  (A1DD80)    , AGUA_THEMA  (P96105)    
+
+
+=========
+Family 68
+=========
+
+Description: Levansucrases (EC 2.4.1.10), invertases (EC 3.2.1.26).
+PROSITE: None
+3D structure status: Available
+Reaction stereochemical outcome: Retained anomeric configuration
+Catalytic nucleophile/base: Asp
+Catalytic proton donor: Glu
+Clan: GH-J
+Known taxonomic range: bacteria.
+
+INUS_LACGS  (D3WYV9)    , INUS_LACJO  (Q74K42)    , INVB_ZYMMA  (F8DT27)    ,
+INVB_ZYMMO  (P0DJA4)    , LEVS_FRUSA  (Q70XJ9)    , LEVS_LACGS  (D3WYW0)    ,
+SACB_BACAM  (P21130)    , SACB_BACSU  (P05655)    , SACB_ERWAM  (Q46654)    ,
+SACB_GEOSE  (P94468)    , SACB_GLUDI  (Q43998)    , SACB_PSESG  (O52408)    ,
+SACB_PSESH  (O68609)    , SACB_RAHAC  (O54435)    , SACB_STRMU  (P11701)    ,
+SACB_STRSL  (Q55242)    , SACB_ZYMMA  (F8DT26)    , SACB_ZYMMO  (P0DJA3)    
+
+
+=========
+Family 69
+=========
+
+Description: Hyaluronidases (EC 3.2.1.35).
+PROSITE: None
+3D structure status: Not available
+Reaction stereochemical outcome: Not known
+Catalytic nucleophile/base: ?
+Catalytic proton donor: ?
+Clan: None
+Known taxonomic range: viridae.
+
+HYLP1_BPH44 (P15316)    , HYLP2_BPH45 (Q54699)    
+
+
+=========
+Family 70
+=========
+
+Description: Dextransucrases (EC 2.4.1.5).
+PROSITE: None
+3D structure status: Not available
+Reaction stereochemical outcome: Retained anomeric configuration
+Catalytic nucleophile/base: Asp
+Catalytic proton donor: Glu
+Clan: GH-H
+Known taxonomic range: bacteria.
+
+GTF1_LEUME  (B2MUU6)    , GTF1_STRDO  (P11001)    , GTF2_LEUME  (P85089)    ,
+GTF2_STRDO  (P27470)    , GTF3_LEUME  (P85080)    , GTF4_LEUME  (P86897)    ,
+GTFB_STRMU  (P08987)    , GTFC_STRMU  (P13470)    , GTFD_STRMU  (P49331)    ,
+GTFS_STRDO  (P29336)    
+
+
+=========
+Family 71
+=========
+
+Description: Glucan endo-1,3-alpha-glucosidases (EC 3.2.1.59).
+PROSITE: None
+3D structure status: Not available
+Reaction stereochemical outcome: ?
+Catalytic nucleophile/base: ?
+Catalytic proton donor: ?
+Clan: None
+Known taxonomic range: eukaryota
+
+AGN1_SCHPO  (O13716)    , AGN2_SCHPO  (O94510)    , MU71A_PENRW (B6GX22)    
+
+
+=========
+Family 72
+=========
+
+EPD1_CANMA  (P56092)    , EPD2_CANMA  (O74137)    , GAS1_ARTBC  (D4ATC3)    ,
+GAS1_SCHPO  (Q9P378)    , GAS1_YEAST  (P22146)    , GAS2_SCHPO  (Q9USU5)    ,
+GAS2_YEAST  (Q06135)    , GAS3_YEAST  (Q03655)    , GAS4_SCHPO  (Q9Y7Y7)    ,
+GAS4_YEAST  (Q08271)    , GAS5_SCHPO  (O13692)    , GAS5_YEAST  (Q08193)    ,
+GEL1_ASPFC  (B0XT72)    , GEL1_ASPFU  (P0C7S9)    , GEL2_ASPFC  (B0Y8H9)    ,
+GEL2_ASPFU  (P0C954)    , GEL3_ASPFC  (B0XT09)    , GEL3_ASPFU  (P0C955)    ,
+GEL4_ASPFC  (B0XVI5)    , GEL4_ASPFU  (P0C956)    , PGA4_CANAL  (Q5AJY5)    ,
+PGA5_CANAL  (Q59VW6)    , PHR1_CANAL  (P43076)    , PHR2_CANAL  (O13318)    
+
+
+=========
+Family 73
+=========
+
+Description: Autolysins (EC 3.2.1.-).
+PROSITE: None
+3D structure status: Not available
+Reaction stereochemical outcome: Not known
+Catalytic nucleophile/base: ?
+Catalytic proton donor: ?
+Clan: GH-H
+Known taxonomic range: bacteria.
+
+ACMA_LACLA  (Q9CIT4)    , ACMA_LACLC  (P0C2T5)    , ACMA_LACLM  (A2RHZ5)    ,
+ALYS_ENTFA  (P37710)    , LYTB_STRPN  (P59205)    , LYTB_STRR6  (P59206)    ,
+LYTD_BACSU  (P39848)    , LYTG_BACSU  (O32083)    , MUR2_ENTHA  (P39046)    
+
+
+=========
+Family 74
+=========
+
+CBHRE_GEOS1 (Q8J0D2)    , XG74_ACET2  (A3DFA0)    , XG74_ACETH  (Q70DK5)    ,
+XG74_HYPJQ  (Q7Z9M8)    , XG74_PAESP  (Q3MUH7)    , XGCA_EMENI  (Q5BD38)    ,
+XGCA_NEOFI  (A1DAU0)    
+
+
+=========
+Family 75
+=========
+
+CSNB_ASPOR  (Q2U1H5)    , CSNB_ASPOZ  (Q8NK76)    , CSNC_ASPOR  (Q2U5P1)    ,
+CSNC_ASPOZ  (Q75R32)    , CSN_ASPFM   (Q875I9)    , CSN_ASPFU   (Q4WB37)    ,
+CSN_ASPOR   (Q2U3M5)    , CSN_ASPOZ   (Q9P961)    
+
+
+=========
+Family 76
+=========
+
+Description: Mannan endo-1,6-alpha-mannosidase (EC 3.2.1.101).
+PROSITE: None
+3D structure status: Not available
+Reaction stereochemical outcome: Not known
+Catalytic nucleophile/base: ?
+Catalytic proton donor: ?
+Clan: None
+Known taxonomic range: eukaryota, bacteria.
+
+DCW1_CANAL  (Q5AD78)    , DCW1_CANGA  (Q6FLP9)    , DCW1_EREGS  (Q75DG6)    ,
+DCW1_YEAST  (P36091)    , DFG5_CANAL  (Q5ACZ2)    , DFG5_YEAST  (Q05031)    ,
+YCZ2_SCHPO  (O74556)    , YHG6_SCHPO  (Q9P6I4)    , YHG7_SCHPO  (Q9P6I3)    
+
+
+=========
+Family 78
+=========
+
+PLH20_FORAG (T2KNB2)    , PLH28_FORAG (T2KPL4)    , RHA78_ALTSL (P9WF03)    ,
+RHA78_STRAW (Q82PP4)    
+
+
+=========
+Family 79
+=========
+
+BAGLU_SCUBA (Q9LRC8)    , GUS79_ASPNC (A2QEQ6)    , GUS79_NEUCR (Q7SFB0)    ,
+HPSE1_ARATH (Q9FF10)    , HPSE2_ARATH (Q8L608)    , HPSE2_HUMAN (Q8WWQ2)    ,
+HPSE2_MOUSE (B2RY83)    , HPSE3_ARATH (Q9FZP1)    , HPSE_BOVIN  (Q9MYY0)    ,
+HPSE_CHICK  (Q90YK5)    , HPSE_HUMAN  (Q9Y251)    , HPSE_MOUSE  (Q6YGZ1)    ,
+HPSE_RAT    (Q71RP1)    , LHYAL_HIRNI (X4Y2L4)    
+
+
+=========
+Family 81
+=========
+
+Description: Endo-1,3(4)-beta-glucanases (EC 3.2.1.6).
+PROSITE: None
+3D structure status: Not available
+Reaction stereochemical outcome: Inverting
+Catalytic nucleophile/base: ?
+Catalytic proton donor: ?
+Clan: None
+Known taxonomic range: eukaryota, bacteria.
+
+ENG1_ACET2  (A3DD66)    , ENG1_ARTBC  (D4AZ24)    , ENG1_CANAL  (Q5AIR7)    ,
+ENG1_HALH5  (Q9KG76)    , ENG1_RHIMI  (A0A023I7E1), ENG1_SCHPO  (Q9UT45)    ,
+ENG1_SOYBN  (P93159)    , ENG1_THEFY  (Q47N06)    , ENG1_YEAST  (P53753)    ,
+ENG2_SCHPO  (Q09850)    , ENG2_YEAST  (Q12168)    
+
+
+=========
+Family 82
+=========
+
+CGIA_ALTMA  (Q9F5I8)    , CGIA_ZOBGA  (Q9F284)    
+
+
+=========
+Family 84
+=========
+
+Decription: N-acetyl -glucosaminidases (EC 3.2.1.52), hyaluronidases (EC 3.2.1.35)
+PROSITE: None
+3D structure status: Not available
+Reaction stereochemical outcome: Retaining
+Catalytic nucleophile/base: Carbonyl oxygen of C-2 acetamido group of substrate
+Catalytic proton donor: Asp
+Clan: None
+Known taxonomic range: eukaryota, archaea, bacteria.
+
+NAGH_CLOPE  (P26831)    , OGA_BACTN   (Q89ZI2)    , OGA_CLOP1   (Q0TR53)    ,
+OGA_CLOPE   (Q8XL08)    , OGA_HUMAN   (O60502)    , OGA_MOUSE   (Q9EQQ9)    ,
+OGA_OCEGH   (Q2CEE3)    , OGA_RAT     (Q8VIJ5)    
+
+
+=========
+Family 85
+=========
+
+Decription: Endo-beta-N-acetylglucosaminidases (EC 3.2.1.96).
+PROSITE: None
+3D structure status: Not available
+Reaction stereochemical outcome: Retaining
+Catalytic nucleophile/base: Carbonyl oxygen of C-2 acetamido group of substrate
+Catalytic proton donor: Glu
+Clan: GH-K
+Known taxonomic range: eukaryota, bacteria.
+
+ENAS1_ARATH (F4JZC2)    , ENAS2_ARATH (Q9SRL4)    , ENASE_CHICK (P0C7A1)    ,
+ENASE_DANRE (A1L251)    , ENASE_HUMAN (Q8NFI3)    , ENASE_MOUSE (Q8BX80)    
+
+
+=========
+Family 86
+=========
+
+AGAR_PSEAF  (P13734)    , PORA_PHOPM  (B5CY96)    
+
+
+=========
+Family 88
+=========
+
+Description: Unsaturated glucuronyl hydrolases (EC 3.2.1.-).
+PROSITE: None
+3D structure status: Available
+Reaction stereochemical outcome: Not known
+Catalytic nucleophile/base: Asp
+Catalytic proton donor: Asp
+Clan: None
+Known taxonomic range: bacteria.
+
+PIC1_AGRFC  (P0A3U6)    , PIC1_RHIRD  (P0A3U7)    , PLH1_FORAG  (T2KLZ3)    ,
+UCDH_STRA3  (Q8E372)    , UCDH_STRP1  (Q9A0T3)    , UCDH_STRR6  (Q8DR77)    ,
+UGL_BACGL   (Q9RC92)    
+
+
+=========
+Family 89
+=========
+
+ANAG_HUMAN  (P54802)    , NAGLU_ARATH (Q9FNA3)    
+
+
+=========
+Family 92
+=========
+
+A7629_ARTBC (D4ATR3)    , Y584_MYCTU  (O86365)    
+
+
+=========
+Family 94
+=========
+
+12OLP_LISIN (Q92AT0)    , CBPA_THENN  (B9K7M6)    , CELAP_NEUCR (Q7S0S2)    ,
+CELAP_XANCP (Q8P3J4)    , CHBP_VIBFU  (Q9F8X1)    , CHBP_VIBPR  (Q76IQ9)    
+
+
+=========
+Family 95
+=========
+
+AFCA_ASPNC  (A2R797)    , AFCA_ASPOR  (Q2USL3)    , AFCA_EMENI  (Q5AU81)    ,
+FUCO2_ARATH (Q8L7W8)    
+
+
+=========
+Family 96
+=========
+
+AAGAR_ALTAG (Q9LAP7)    , AAGAR_THASX (A1IGV8)    
+
+
+=========
+Family 97
+=========
+
+AGAL_BACTN  (Q8A6L0)    , AGAL_STRBB  (D7CFN7)    , SUSB_BACTN  (G8JZS4)    
+
+
+=========
+Family 98
+=========
+
+EABC_CLOPF  (Q6RUF5)    
+
+
+=========
+Family 99
+=========
+
+Description: Glycoprotein endo--1,2-mannosidase (EC 3.2.1.130).
+PROSITE: None
+3D structure status: Not available
+Reaction stereochemical outcome: Not known
+Catalytic nucleophile/base: Not known
+Catalytic proton donor: Not known
+Clan: None
+Known taxonomic range: eukaryota, bacteria.
+
+MANEA_HUMAN (Q5SRI9)    , MANEA_MOUSE (Q6NXH2)    , MANEA_PONAB (Q5RD93)    ,
+MANEA_RAT   (Q5GF25)    , MANEA_XENLA (Q6DE40)    , MANEL_DANRE (Q1L8D2)    ,
+MANEL_HUMAN (Q5VSG8)    , MANEL_MOUSE (Q6P1J0)    
+
+
+==========
+Family 100
+==========
+
+CINV1_ARATH (Q9LQF2)    , CINV1_ORYSJ (Q69T31)    , CINV2_ARATH (Q67XD9)    ,
+INVA_ARATH  (Q9FXA8)    , INVB_ARATH  (Q9SW48)    , INVC_ARATH  (B9DFA8)    ,
+INVD_ARATH  (F4I2X9)    , INVE_ARATH  (Q9FK88)    , INVF_ARATH  (Q9C560)    ,
+INVH_ARATH  (Q84JL5)    , NIN1_ORYSJ  (Q10MC0)    , NIN3_ORYSJ  (Q6H6N5)    
+
+
+==========
+Family 101
+==========
+
+GH101_RENSM (A9WNA0)    , GH101_STRPN (Q2MGH6)    , GH101_STRR6 (Q8DR60)    
+
+
+==========
+Family 105
+==========
+
+PLH33_FORAG (T2KPL9)    , UH105_ALTSL (P9WF04)    , UH105_NONUL (L7P9J4)    ,
+URHG1_BACSU (O31521)    , URHG2_BACSU (O34559)    
+
+
+==========
+Family 110
+==========
+
+GLAA_AKKM8  (B2UL12)    , GLAA_BACFN  (Q5L7M8)    , GLAA_BACFR  (Q64MU6)    ,
+GLAA_BACTN  (Q8A2Z5)    , GLAA_PETGR  (B1V8K7)    , GLAA_SHEWM  (B1KD83)    ,
+GLAA_STRAW  (Q826C5)    , GLAB1_PHOV8 (A6KWM0)    , GLAB2_PHOV8 (A6L2M8)    ,
+GLAB_AKKM8  (B2UNU8)    , GLAB_BACFN  (Q5LGZ8)    , GLAB_BACFR  (Q64XV2)    ,
+GLAB_BACTN  (Q89ZX0)    , GLAB_PARD8  (A6LFT2)    
+
+
+==========
+Family 119
+==========
+
+AAMY_NIACI  (A0P8X0)    
+
+
+==========
+Family 121
+==========
+
+HYBA2_BIFL2 (E8MGH9)    
+
+
+==========
+Family 127
+==========
+
+HYBA1_BIFL2 (E8MGH8)    
+
+
+==========
+Family 130
+==========
+
+BMAGP_BACTN (Q8A8Y4)    , BMBP_LISIN  (Q92DF6)    , BMBP_THEPX  (B0K2C3)    ,
+BOLMP_THEPX (B0K2C2)    , MGP_BACFN   (Q5LH68)    , MGP_RUMA7   (E6UIS7)    ,
+MOSP_RUMA7  (E6UBR9)    
+
+
+==========
+Family 136
+==========
+
+LNBX_BIFL2  (P0DW93)    
+
+
+==========
+Family 170
+==========
+
+MUPG_STAA3  (A0A0H2XHV5)
+
+
+======================
+Non-classified enzymes
+======================
+
+ADG3_SCHPO  (O74851)    , ADPRH_STAAC (Q5HIW9)    , ADPRH_STAAM (P67343)    ,
+ADPRH_STAAN (P67344)    , ADPRH_STAAR (Q6GJZ1)    , ADPRH_STAAS (Q6GCE6)    ,
+ADPRH_STAAW (Q8NYB7)    , ADPRH_STRP1 (Q99ZI6)    , ADPRH_STRP3 (P0DC28)    ,
+ADPRH_STRP6 (Q5XC09)    , ADPRH_STRP8 (Q8P0X2)    , ADPRH_STRPG (P0DN70)    ,
+ADPRH_STRPQ (P0DC29)    , ADPRH_TREMD (Q93RG0)    , ADPRS_BOVIN (Q3SYV9)    ,
+ADPRS_CHICK (Q5ZI51)    , ADPRS_DANRE (Q66HT8)    , ADPRS_HUMAN (Q9NX46)    ,
+ADPRS_LATCH (H3BCW1)    , ADPRS_MOUSE (Q8CG72)    , ADPRS_XENTR (Q28FQ6)    ,
+AGI_URTDI   (P11218)    , AH1_PRUSE   (P29259)    , AH2_PRUSE   (P29260)    ,
+AH3_PRUSE   (P29261)    , AH4_PRUSE   (P29262)    , ALL13_OLEEU (E3SU11)    ,
+ALYS_MYCPH  (P81528)    , AMI_LISMG   (O33983)    , AMYG_BACLI  (C0HJE2)    ,
+AMY_BACSP   (P86331)    , BDGAL_MYCTU (O86372)    , BGAM_LACAC  (O07685)    ,
+BGAM_LACHE  (Q7WTB3)    , BGAM_LATSK  (Q48847)    , BGAM_LEULA  (Q02604)    ,
+BGL1_PASFU  (P85516)    , BGL2_PASFU  (P85517)    , C3390_DROME (Q7KT91)    ,
+CEIP2_DANRE (A3KPQ7)    , CEIP2_MOUSE (Q5FWI3)    , CELL_ASPVE  (C0HJH0)    ,
+CEMIP_HUMAN (Q8WUJ3)    , CEMIP_MOUSE (Q8BI06)    , CGLA_PSEAS  (Q05JY7)    ,
+CGLA_PSEVC  (Q0JRK4)    , CHIGU_GLUUR (C0HLT5)    , CHIT_STRVO  (P86977)    ,
+CHXI_ASPFL  (P83488)    , CLP_ORYSJ   (Q8S1V1)    , CWLQ_BACSU  (O31608)    ,
+CWLT_BACSU  (P96645)    , DEXT_BACLI  (C0HJE3)    , DIGH_ECO57  (P64427)    ,
+DIGH_ECOL6  (Q8CW29)    , DIGH_ECOLI  (P64426)    , DIGH_SHIFL  (P64428)    ,
+E134_MAIZE  (Q9ZT66)    , E13B2_PAPLA (P85238)    , EABF_STRCO  (O54161)    ,
+EXLYS_BPKMV (Q7Y2C9)    , FIBER_BPE15 (Q858F5)    , FIBER_BPP22 (P12528)    ,
+FIBER_BPSFV (Q9XJP3)    , FLGJ_ECO57  (P58231)    , FLGJ_ECOLI  (P75942)    ,
+FLGJ_PSEAE  (Q9I4P4)    , FLGJ_SALTY  (P15931)    , FLGJ_VIBCH  (Q9KQ15)    ,
+FLGJ_VIBPA  (Q9X9J3)    , FUCO3_ARATH (Q9FXE5)    , G1091_AKKM8 (B2UL75)    ,
+G1091_BACFN (Q5LGZ0)    , G1091_BACFR (P0C863)    , G1091_BACTN (Q89ZX8)    ,
+G1091_PHOV8 (A6KX96)    , G1091_SHESA (A0KV43)    , G1091_SHESM (Q0HKG4)    ,
+G1091_SHESR (Q0HWR6)    , G1092_AKKM8 (B2UQL7)    , G1092_BACFN (Q5LGW9)    ,
+G1092_BACFR (Q64XS1)    , G1092_BACTN (Q89ZW9)    , G1092_PHOV8 (A6KY05)    ,
+G1092_SHESA (A0KYQ9)    , G1092_SHESM (Q0HH61)    , G1092_SHESR (Q0HTG8)    ,
+G1093_PHOV8 (A6KYY1)    , G1094_PHOV8 (A6KWM1)    , G1095_PHOV8 (A6L1Z2)    ,
+GBA2_HUMAN  (Q9HCG7)    , GBA2_MOUSE  (Q69ZF3)    , GBA2_RAT    (Q5M868)    ,
+GH109_ELIME (A4Q8F7)    , GH109_PARD8 (A6LB54)    , GH109_PORGI (Q7MWF4)    ,
+GH109_SACEN (A4FN60)    , GH109_SHEAM (A1S4U5)    , GH109_SHEB5 (A3D6B7)    ,
+GH109_SHEB8 (A6WQ58)    , GH109_SHEB9 (A9KUT1)    , GH109_SHEON (Q8ECL7)    ,
+GH109_SHEPA (A8H2K3)    , GH109_SHEPC (A4Y8C8)    , GH109_SHESW (A1RI61)    ,
+GH109_SHEWM (B1KNF7)    , GH109_SOLUE (Q01S58)    , GH109_STRCO (Q9RK81)    ,
+GH109_STRFL (Q50EA3)    , GH109_STRGG (B1W5J7)    , GH109_STRMK (B2FLK4)    ,
+GH109_STRNV (Q50HM6)    , GH109_TANFO (A4Q8G1)    , GHL3_BACTN  (Q8A1R4)    ,
+GHL3_MONBE  (A9US33)    , GUN1_HYPRU  (P85218)    , GUN1_RUMJO  (P17877)    ,
+GUN1_SCLSC  (P21833)    , GUN2_SCLSC  (P21834)    , GUNA_CALSA  (P22534)    ,
+GUNE_RUMFL  (Q05622)    , GUNH_ACET2  (P16218)    , GUNX_ACETH  (P15329)    ,
+HEMO_PIG    (P50828)    , HEXL_LUPAL  (B3EWR5)    , HN_MUMP1    (P19762)    ,
+HN_MUMPM    (P11235)    , HN_MUMPR    (P10866)    , HN_NDVA     (P12554)    ,
+HN_NDVB     (P32884)    , HN_NDVB1    (Q91UL0)    , HN_NDVC     (P35740)    ,
+HN_NDVD     (P12555)    , HN_NDVH3    (P35741)    , HN_NDVH4    (P12559)    ,
+HN_NDVI     (P12556)    , HN_NDVJ     (P35742)    , HN_NDVK     (Q9Q2W5)    ,
+HN_NDVL     (P35743)    , HN_NDVM     (P12557)    , HN_NDVQ     (P13850)    ,
+HN_NDVTG    (P12553)    , HN_NDVU     (P12558)    , HN_PI1HW    (P16071)    ,
+HN_PI2H     (P25465)    , HN_PI2HT    (P25466)    , HN_PI3B     (P06167)    ,
+HN_PI3H4    (P08492)    , HN_PI3HA    (P12561)    , HN_PI3HT    (P12562)    ,
+HN_PI3HU    (P12563)    , HN_PI3HV    (P12564)    , HN_PI3HW    (P12565)    ,
+HN_PI3HX    (P12566)    , HN_PI4HA    (P21526)    , HN_PIV5     (P04850)    ,
+HN_PIV5C    (P28883)    , HN_PIV5D    (P28884)    , HN_PIV5L    (P28885)    ,
+HN_SENDA    (Q783Y1)    , HN_SENDF    (P19758)    , HN_SENDH    (P03425)    ,
+HN_SENDO    (Q88261)    , HN_SENDZ    (P04853)    , HN_SV41     (P25180)    ,
+HYAL_TITST  (P0C8X3)    , IPLAA_MORAL (P86799)    , IPLAB_MORAL (P86800)    ,
+IPUA_ASPNG  (O00105)    , LYB_BACIU   (P10773)    , LYS1_LYSSX  (P85152)    ,
+LYS25_MYCTU (I6XEI5)    , LYSA_DICDI  (Q8T1G4)    , LYSB_DICDI  (Q8T1G6)    ,
+LYSC_DICDI  (Q8T1G5)    , LYSD_DICDI  (Q556Y7)    , LY_BPSF6    (P21270)    ,
+MVL_MICVR   (Q9RHG4)    , NAMZ_BACSU  (P40407)    , NEUCH_CAMJE (Q0P8T0)    ,
+NEUCH_LEGPH (Q5ZXH8)    , NP24_SOLLC  (P12670)    , PARG1_ARATH (Q9SKB3)    ,
+PARG1_CAEEL (Q867X0)    , PARG2_ARATH (Q8VYA1)    , PARG2_CAEEL (Q9N5L4)    ,
+PARG_BOVIN  (O02776)    , PARG_DROME  (O46043)    , PARG_HUMAN  (Q86W56)    ,
+PARG_MOUSE  (O88622)    , PARG_RAT    (Q9QYM2)    , PGA52_ARTBC (D4AQ83)    ,
+PGA52_CANAL (Q59L72)    , PGLR_DIAAB  (P81179)    , PH1_PRUSE   (P29263)    ,
+PH2_PRUSE   (P29264)    , PH3_PRUSE   (P29265)    , PLYCA_BPSC1 (Q7Y3F1)    ,
+PR5X_SOLLC  (Q8LPU1)    , PSU1_SCHPO  (Q9UR09)    , ROC1_RHIRH  (P20403)    ,
+ROC2_RHIRH  (P49408)    , ROLC1_LINVU (H6QW39)    , ROLC1_PANGI (B2ZCQ0)    ,
+ROLC2_LINVU (I6LJ77)    , ROLC2_PANGI (B2ZCQ1)    , ROLC3_PANGI (B2ZCQ2)    ,
+ROLC4_PANGI (B2ZCQ3)    , ROLC_CATRO  (C6EN00)    , ROLC_NICGL  (P07051)    ,
+ROLC_TOBAC  (Q43592)    , RSGI6_ACET2 (A3DH97)    , SIAA_NEIMB  (H2VFI5)    ,
+SIM1_YEAST  (P40472)    , SOL1_ALTSO  (D7UQ44)    , SOPH_PARD8  (A6LGF6)    ,
+SUN1_ASPFU  (Q4WGL5)    , SUN41_ARTBC (D4AM57)    , SUN41_CANAL (Q59NP5)    ,
+SUN4_YEAST  (P53616)    , TLP1A_MANZA (B3EWS0)    , TLP1_MANZA  (G5DC91)    ,
+TLP_PRUAV   (P50694)    , TOH1_YEAST  (P46992)    , TOS1_CANAL  (A0A1D8PJA8),
+TOS1_YEAST  (P38288)    , TPM1_SOLLC  (Q01591)    , TSE3_PSEAE  (Q9HYC5)    ,
+TUBE1_BPK32 (D1L2W4)    , TUBE1_BPK34 (D1L2Y9)    , UTH1_CANAL  (Q5AKU5)    ,
+UTH1_YEAS1  (B3LRC2)    , UTH1_YEAS6  (B5VMJ0)    , UTH1_YEAS7  (A7A003)    ,
+UTH1_YEAST  (P36135)    , VGRG3_VIBCH (Q9KN42)    , XILA_PENCR  (A0A9P5GG56),
+XILA_PENRW  (B6H999)    , XYNA_RUMFL  (P29126)    , Y2006_MYCTO (P9WN14)    ,
+Y2006_MYCTU (P9WN15)    , YBOH_SCHPO  (O43015)    , YH6B_SCHPO  (Q9P7X4)    ,
+YNGK_BACSU  (O35015)    
+
+--------------------------------------------------------------------------------
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution (CC BY 4.0) License
+--------------------------------------------------------------------------------
