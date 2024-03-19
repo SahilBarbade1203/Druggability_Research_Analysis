@@ -1,0 +1,54 @@
+{
+    "P02795": {
+        "subdiv" : "m2",
+        "family" : "Family 1: vertebrate MTs"
+    },
+    "P04731": {
+        "subdiv" : "m1",
+        "family" : "Family 1: vertebrate MTs"
+    },
+    "P04732": {
+        "subdiv" : "m1",
+        "family" : "Family 1: vertebrate MTs"
+    },
+    "P04733": {
+        "subdiv" : "m1",
+        "family" : "Family 1: vertebrate MTs"
+    },
+    "P05106": {
+        "subdiv" : "Not Given",
+        "family" : "Family 14: prokaryota MTs"
+    },
+    "P07438": {
+        "subdiv" : "m1",
+        "family" : "Family 1: vertebrate MTs"
+    },
+    "P13640": {
+        "subdiv" : "m1",
+        "family" : "Family 1: vertebrate MTs"
+    },
+    "P25713": {
+        "subdiv" : "m3",
+        "family" : "Family 1: vertebrate MTs"
+    },
+    "P80294": {
+        "subdiv" : "m1",
+        "family" : "Family 1: vertebrate MTs"
+    },
+    "P80297": {
+        "subdiv" : "m1",
+        "family" : "Family 1: vertebrate MTs"
+    },
+    "Q8N339": {
+        "subdiv" : "m1",
+        "family" : "Family 1: vertebrate MTs"
+    },
+    "P47944": {
+        "subdiv" : "m4",
+        "family" : "Family 1: vertebrate MTs"
+    },
+    "Q93083": {
+        "subdiv" : "m1",
+        "family" : "Family 1: vertebrate MTs"
+    }
+}
