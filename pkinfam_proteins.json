@@ -1,0 +1,2058 @@
+{
+    "A0A0B4J2F2": {
+        "kinase": "SIK1B",
+        "family": "CAMK Ser/Thr protein kinase family"
+    },
+    "O00141": {
+        "kinase": "SGK1",
+        "family": "AGC Ser/Thr protein kinase family"
+    },
+    "O00238": {
+        "kinase": "BMPR1B",
+        "family": "TKL Ser/Thr protein kinase family"
+    },
+    "O00311": {
+        "kinase": "CDC7",
+        "family": "Other"
+    },
+    "O00329": {
+        "kinase": "PIK3CD",
+        "family": "Atypical: PI3/PI4-kinase family"
+    },
+    "O00418": {
+        "kinase": "EEF2K",
+        "family": "Atypical: Alpha-type protein kinase family"
+    },
+    "O00443": {
+        "kinase": "PIK3C2A",
+        "family": "Atypical: PI3/PI4-kinase family"
+    },
+    "O00444": {
+        "kinase": "PLK4",
+        "family": "Other"
+    },
+    "O00506": {
+        "kinase": "STK25",
+        "family": "STE Ser/Thr protein kinase family"
+    },
+    "O14578": {
+        "kinase": "CIT",
+        "family": "AGC Ser/Thr protein kinase family"
+    },
+    "O14730": {
+        "kinase": "RIOK3",
+        "family": "Atypical: RIO-type Ser/Thr kinase family"
+    },
+    "O14733": {
+        "kinase": "MAP2K7",
+        "family": "STE Ser/Thr protein kinase family"
+    },
+    "O14757": {
+        "kinase": "CHEK1",
+        "family": "CAMK Ser/Thr protein kinase family"
+    },
+    "O14874": {
+        "kinase": "BCKDK",
+        "family": "Atypical: PDK/BCKDK protein kinase family"
+    },
+    "O14920": {
+        "kinase": "IKBKB",
+        "family": "Other"
+    },
+    "O14936": {
+        "kinase": "CASK",
+        "family": "CAMK Ser/Thr protein kinase family"
+    },
+    "O14965": {
+        "kinase": "AURKA",
+        "family": "Other"
+    },
+    "O14976": {
+        "kinase": "GAK",
+        "family": "Other"
+    },
+    "O15021": {
+        "kinase": "MAST4",
+        "family": "AGC Ser/Thr protein kinase family"
+    },
+    "O15075": {
+        "kinase": "DCLK1",
+        "family": "CAMK Ser/Thr protein kinase family"
+    },
+    "O15111": {
+        "kinase": "CHUK",
+        "family": "Other"
+    },
+    "O15146": {
+        "kinase": "MUSK",
+        "family": "Tyr protein kinase family"
+    },
+    "O15197": {
+        "kinase": "EPHB6",
+        "family": "Tyr protein kinase family"
+    },
+    "O15264": {
+        "kinase": "MAPK13",
+        "family": "CMGC Ser/Thr protein kinase family"
+    },
+    "O15530": {
+        "kinase": "PDPK1",
+        "family": "AGC Ser/Thr protein kinase family"
+    },
+    "O43187": {
+        "kinase": "IRAK2",
+        "family": "TKL Ser/Thr protein kinase family"
+    },
+    "O43283": {
+        "kinase": "MAP3K13",
+        "family": "STE Ser/Thr protein kinase family"
+    },
+    "O43293": {
+        "kinase": "DAPK3",
+        "family": "CAMK Ser/Thr protein kinase family"
+    },
+    "O43318": {
+        "kinase": "MAP3K7",
+        "family": "STE Ser/Thr protein kinase family"
+    },
+    "O43353": {
+        "kinase": "RIPK2",
+        "family": "TKL Ser/Thr protein kinase family"
+    },
+    "O43683": {
+        "kinase": "BUB1",
+        "family": "Other"
+    },
+    "O43781": {
+        "kinase": "DYRK3",
+        "family": "CMGC Ser/Thr protein kinase family"
+    },
+    "O60229": {
+        "kinase": "KALRN",
+        "family": "CAMK Ser/Thr protein kinase family"
+    },
+    "O60285": {
+        "kinase": "NUAK1",
+        "family": "CAMK Ser/Thr protein kinase family"
+    },
+    "O60307": {
+        "kinase": "MAST3",
+        "family": "AGC Ser/Thr protein kinase family"
+    },
+    "O60566": {
+        "kinase": "BUB1B",
+        "family": "Other"
+    },
+    "O60674": {
+        "kinase": "JAK2",
+        "family": "Tyr protein kinase family"
+    },
+    "O75116": {
+        "kinase": "ROCK2",
+        "family": "AGC Ser/Thr protein kinase family"
+    },
+    "O75385": {
+        "kinase": "ULK1",
+        "family": "Other"
+    },
+    "O75460": {
+        "kinase": "ERN1",
+        "family": "Other"
+    },
+    "O75582": {
+        "kinase": "RPS6KA5",
+        "family": "AGC Ser/Thr protein kinase family"
+    },
+    "O75676": {
+        "kinase": "RPS6KA4",
+        "family": "AGC Ser/Thr protein kinase family"
+    },
+    "O75716": {
+        "kinase": "STK16",
+        "family": "Other"
+    },
+    "O75914": {
+        "kinase": "PAK3",
+        "family": "STE Ser/Thr protein kinase family"
+    },
+    "O75962": {
+        "kinase": "TRIO",
+        "family": "CAMK Ser/Thr protein kinase family"
+    },
+    "O76039": {
+        "kinase": "CDKL5",
+        "family": "CMGC Ser/Thr protein kinase family"
+    },
+    "O94768": {
+        "kinase": "STK17B",
+        "family": "CAMK Ser/Thr protein kinase family"
+    },
+    "O94804": {
+        "kinase": "STK10",
+        "family": "STE Ser/Thr protein kinase family"
+    },
+    "O94806": {
+        "kinase": "PRKD3",
+        "family": "CAMK Ser/Thr protein kinase family"
+    },
+    "O94921": {
+        "kinase": "CDK14",
+        "family": "CMGC Ser/Thr protein kinase family"
+    },
+    "O95382": {
+        "kinase": "MAP3K6",
+        "family": "STE Ser/Thr protein kinase family"
+    },
+    "O95747": {
+        "kinase": "OXSR1",
+        "family": "STE Ser/Thr protein kinase family"
+    },
+    "O95819": {
+        "kinase": "MAP4K4",
+        "family": "STE Ser/Thr protein kinase family"
+    },
+    "O95835": {
+        "kinase": "LATS1",
+        "family": "AGC Ser/Thr protein kinase family"
+    },
+    "O96013": {
+        "kinase": "PAK4",
+        "family": "STE Ser/Thr protein kinase family"
+    },
+    "O96017": {
+        "kinase": "CHEK2",
+        "family": "CAMK Ser/Thr protein kinase family"
+    },
+    "P00519": {
+        "kinase": "ABL1",
+        "family": "Tyr protein kinase family"
+    },
+    "P00533": {
+        "kinase": "EGFR",
+        "family": "Tyr protein kinase family"
+    },
+    "P00540": {
+        "kinase": "MOS",
+        "family": "Other"
+    },
+    "P04049": {
+        "kinase": "RAF1",
+        "family": "TKL Ser/Thr protein kinase family"
+    },
+    "P04626": {
+        "kinase": "ERBB2",
+        "family": "Tyr protein kinase family"
+    },
+    "P04629": {
+        "kinase": "NTRK1",
+        "family": "Tyr protein kinase family"
+    },
+    "P05129": {
+        "kinase": "PRKCG",
+        "family": "AGC Ser/Thr protein kinase family"
+    },
+    "P05771": {
+        "kinase": "PRKCB",
+        "family": "AGC Ser/Thr protein kinase family"
+    },
+    "P06213": {
+        "kinase": "INSR",
+        "family": "Tyr protein kinase family"
+    },
+    "P06239": {
+        "kinase": "LCK",
+        "family": "Tyr protein kinase family"
+    },
+    "P06241": {
+        "kinase": "FYN",
+        "family": "Tyr protein kinase family"
+    },
+    "P06493": {
+        "kinase": "CDK1",
+        "family": "CMGC Ser/Thr protein kinase family"
+    },
+    "P07332": {
+        "kinase": "FES",
+        "family": "Tyr protein kinase family"
+    },
+    "P07333": {
+        "kinase": "CSF1R",
+        "family": "Tyr protein kinase family"
+    },
+    "P07947": {
+        "kinase": "YES1",
+        "family": "Tyr protein kinase family"
+    },
+    "P07948": {
+        "kinase": "LYN",
+        "family": "Tyr protein kinase family"
+    },
+    "P07949": {
+        "kinase": "RET",
+        "family": "Tyr protein kinase family"
+    },
+    "P08069": {
+        "kinase": "IGF1R",
+        "family": "Tyr protein kinase family"
+    },
+    "P08581": {
+        "kinase": "MET",
+        "family": "Tyr protein kinase family"
+    },
+    "P08631": {
+        "kinase": "HCK",
+        "family": "Tyr protein kinase family"
+    },
+    "P08922": {
+        "kinase": "ROS1",
+        "family": "Tyr protein kinase family"
+    },
+    "P09619": {
+        "kinase": "PDGFRB",
+        "family": "Tyr protein kinase family"
+    },
+    "P09769": {
+        "kinase": "FGR",
+        "family": "Tyr protein kinase family"
+    },
+    "P0C1S8": {
+        "kinase": "WEE2",
+        "family": "Other"
+    },
+    "P0C264": {
+        "kinase": "SBK3",
+        "family": "Other"
+    },
+    "P10398": {
+        "kinase": "ARAF",
+        "family": "TKL Ser/Thr protein kinase family"
+    },
+    "P10721": {
+        "kinase": "KIT",
+        "family": "Tyr protein kinase family"
+    },
+    "P11309": {
+        "kinase": "PIM1",
+        "family": "CAMK Ser/Thr protein kinase family"
+    },
+    "P11362": {
+        "kinase": "FGFR1",
+        "family": "Tyr protein kinase family"
+    },
+    "P11801": {
+        "kinase": "PSKH1",
+        "family": "CAMK Ser/Thr protein kinase family"
+    },
+    "P11802": {
+        "kinase": "CDK4",
+        "family": "CMGC Ser/Thr protein kinase family"
+    },
+    "P12931": {
+        "kinase": "SRC",
+        "family": "Tyr protein kinase family"
+    },
+    "P14616": {
+        "kinase": "INSRR",
+        "family": "Tyr protein kinase family"
+    },
+    "P15056": {
+        "kinase": "BRAF",
+        "family": "TKL Ser/Thr protein kinase family"
+    },
+    "P15735": {
+        "kinase": "PHKG2",
+        "family": "CAMK Ser/Thr protein kinase family"
+    },
+    "P16066": {
+        "kinase": "NPR1",
+        "family": "RGC kinase: adenylyl cyclase class-4/guanylyl cyclase"
+    },
+    "P16234": {
+        "kinase": "PDGFRA",
+        "family": "Tyr protein kinase family"
+    },
+    "P16591": {
+        "kinase": "FER",
+        "family": "Tyr protein kinase family"
+    },
+    "P17252": {
+        "kinase": "PRKCA",
+        "family": "AGC Ser/Thr protein kinase family"
+    },
+    "P17612": {
+        "kinase": "PRKACA",
+        "family": "AGC Ser/Thr protein kinase family"
+    },
+    "P17948": {
+        "kinase": "FLT1",
+        "family": "Tyr protein kinase family"
+    },
+    "P19525": {
+        "kinase": "EIF2AK2",
+        "family": "Other"
+    },
+    "P19784": {
+        "kinase": "CSNK2A2",
+        "family": "Other"
+    },
+    "P20594": {
+        "kinase": "NPR2",
+        "family": "RGC kinase: adenylyl cyclase class-4/guanylyl cyclase"
+    },
+    "P20794": {
+        "kinase": "MAK",
+        "family": "CMGC Ser/Thr protein kinase family"
+    },
+    "P21127": {
+        "kinase": "CDK11B",
+        "family": "CMGC Ser/Thr protein kinase family"
+    },
+    "P21709": {
+        "kinase": "EPHA1",
+        "family": "Tyr protein kinase family"
+    },
+    "P21802": {
+        "kinase": "FGFR2",
+        "family": "Tyr protein kinase family"
+    },
+    "P21860": {
+        "kinase": "ERBB3",
+        "family": "Tyr protein kinase family"
+    },
+    "P22455": {
+        "kinase": "FGFR4",
+        "family": "Tyr protein kinase family"
+    },
+    "P22607": {
+        "kinase": "FGFR3",
+        "family": "Tyr protein kinase family"
+    },
+    "P22612": {
+        "kinase": "PRKACG",
+        "family": "AGC Ser/Thr protein kinase family"
+    },
+    "P22694": {
+        "kinase": "PRKACB",
+        "family": "AGC Ser/Thr protein kinase family"
+    },
+    "P23443": {
+        "kinase": "RPS6KB1",
+        "family": "AGC Ser/Thr protein kinase family"
+    },
+    "P23458": {
+        "kinase": "JAK1",
+        "family": "Tyr protein kinase family"
+    },
+    "P24723": {
+        "kinase": "PRKCH",
+        "family": "AGC Ser/Thr protein kinase family"
+    },
+    "P24941": {
+        "kinase": "CDK2",
+        "family": "CMGC Ser/Thr protein kinase family"
+    },
+    "P25092": {
+        "kinase": "GUCY2C",
+        "family": "RGC kinase: adenylyl cyclase class-4/guanylyl cyclase"
+    },
+    "P25098": {
+        "kinase": "GRK2",
+        "family": "AGC Ser/Thr protein kinase family"
+    },
+    "P27037": {
+        "kinase": "ACVR2A",
+        "family": "TKL Ser/Thr protein kinase family"
+    },
+    "P27361": {
+        "kinase": "MAPK3",
+        "family": "CMGC Ser/Thr protein kinase family"
+    },
+    "P27448": {
+        "kinase": "MARK3",
+        "family": "CAMK Ser/Thr protein kinase family"
+    },
+    "P28482": {
+        "kinase": "MAPK1",
+        "family": "CMGC Ser/Thr protein kinase family"
+    },
+    "P29317": {
+        "kinase": "EPHA2",
+        "family": "Tyr protein kinase family"
+    },
+    "P29320": {
+        "kinase": "EPHA3",
+        "family": "Tyr protein kinase family"
+    },
+    "P29322": {
+        "kinase": "EPHA8",
+        "family": "Tyr protein kinase family"
+    },
+    "P29323": {
+        "kinase": "EPHB2",
+        "family": "Tyr protein kinase family"
+    },
+    "P29376": {
+        "kinase": "LTK",
+        "family": "Tyr protein kinase family"
+    },
+    "P29597": {
+        "kinase": "TYK2",
+        "family": "Tyr protein kinase family"
+    },
+    "P30291": {
+        "kinase": "WEE1",
+        "family": "Other"
+    },
+    "P30530": {
+        "kinase": "AXL",
+        "family": "Tyr protein kinase family"
+    },
+    "P31152": {
+        "kinase": "MAPK4",
+        "family": "CMGC Ser/Thr protein kinase family"
+    },
+    "P31749": {
+        "kinase": "AKT1",
+        "family": "AGC Ser/Thr protein kinase family"
+    },
+    "P31751": {
+        "kinase": "AKT2",
+        "family": "AGC Ser/Thr protein kinase family"
+    },
+    "P32298": {
+        "kinase": "GRK4",
+        "family": "AGC Ser/Thr protein kinase family"
+    },
+    "P33981": {
+        "kinase": "TTK",
+        "family": "Other"
+    },
+    "P34925": {
+        "kinase": "RYK",
+        "family": "Tyr protein kinase family"
+    },
+    "P34947": {
+        "kinase": "GRK5",
+        "family": "AGC Ser/Thr protein kinase family"
+    },
+    "P35590": {
+        "kinase": "TIE1",
+        "family": "Tyr protein kinase family"
+    },
+    "P35626": {
+        "kinase": "GRK3",
+        "family": "AGC Ser/Thr protein kinase family"
+    },
+    "P35916": {
+        "kinase": "FLT4",
+        "family": "Tyr protein kinase family"
+    },
+    "P35968": {
+        "kinase": "KDR",
+        "family": "Tyr protein kinase family"
+    },
+    "P36507": {
+        "kinase": "MAP2K2",
+        "family": "STE Ser/Thr protein kinase family"
+    },
+    "P36888": {
+        "kinase": "FLT3",
+        "family": "Tyr protein kinase family"
+    },
+    "P36894": {
+        "kinase": "BMPR1A",
+        "family": "TKL Ser/Thr protein kinase family"
+    },
+    "P36896": {
+        "kinase": "ACVR1B",
+        "family": "TKL Ser/Thr protein kinase family"
+    },
+    "P36897": {
+        "kinase": "TGFBR1",
+        "family": "TKL Ser/Thr protein kinase family"
+    },
+    "P37023": {
+        "kinase": "ACVRL1",
+        "family": "TKL Ser/Thr protein kinase family"
+    },
+    "P37173": {
+        "kinase": "TGFBR2",
+        "family": "TKL Ser/Thr protein kinase family"
+    },
+    "P41240": {
+        "kinase": "CSK",
+        "family": "Tyr protein kinase family"
+    },
+    "P41279": {
+        "kinase": "MAP3K8",
+        "family": "STE Ser/Thr protein kinase family"
+    },
+    "P41743": {
+        "kinase": "PRKCI",
+        "family": "AGC Ser/Thr protein kinase family"
+    },
+    "P42336": {
+        "kinase": "PIK3CA",
+        "family": "Atypical: PI3/PI4-kinase family"
+    },
+    "P42338": {
+        "kinase": "PIK3CB",
+        "family": "Atypical: PI3/PI4-kinase family"
+    },
+    "P42345": {
+        "kinase": "MTOR",
+        "family": "Atypical: PI3/PI4-kinase family"
+    },
+    "P42679": {
+        "kinase": "MATK",
+        "family": "Tyr protein kinase family"
+    },
+    "P42680": {
+        "kinase": "TEC",
+        "family": "Tyr protein kinase family"
+    },
+    "P42681": {
+        "kinase": "TXK",
+        "family": "Tyr protein kinase family"
+    },
+    "P42684": {
+        "kinase": "ABL2",
+        "family": "Tyr protein kinase family"
+    },
+    "P42685": {
+        "kinase": "FRK",
+        "family": "Tyr protein kinase family"
+    },
+    "P43250": {
+        "kinase": "GRK6",
+        "family": "AGC Ser/Thr protein kinase family"
+    },
+    "P43403": {
+        "kinase": "ZAP70",
+        "family": "Tyr protein kinase family"
+    },
+    "P43405": {
+        "kinase": "SYK",
+        "family": "Tyr protein kinase family"
+    },
+    "P45983": {
+        "kinase": "MAPK8",
+        "family": "CMGC Ser/Thr protein kinase family"
+    },
+    "P45984": {
+        "kinase": "MAPK9",
+        "family": "CMGC Ser/Thr protein kinase family"
+    },
+    "P45985": {
+        "kinase": "MAP2K4",
+        "family": "STE Ser/Thr protein kinase family"
+    },
+    "P46734": {
+        "kinase": "MAP2K3",
+        "family": "STE Ser/Thr protein kinase family"
+    },
+    "P48729": {
+        "kinase": "CSNK1A1",
+        "family": "CK1 Ser/Thr protein kinase family"
+    },
+    "P48730": {
+        "kinase": "CSNK1D",
+        "family": "CK1 Ser/Thr protein kinase family"
+    },
+    "P48736": {
+        "kinase": "PIK3CG",
+        "family": "Atypical: PI3/PI4-kinase family"
+    },
+    "P49137": {
+        "kinase": "MAPKAPK2",
+        "family": "CAMK Ser/Thr protein kinase family"
+    },
+    "P49336": {
+        "kinase": "CDK8",
+        "family": "CMGC Ser/Thr protein kinase family"
+    },
+    "P49674": {
+        "kinase": "CSNK1E",
+        "family": "CK1 Ser/Thr protein kinase family"
+    },
+    "P49759": {
+        "kinase": "CLK1",
+        "family": "CMGC Ser/Thr protein kinase family"
+    },
+    "P49760": {
+        "kinase": "CLK2",
+        "family": "CMGC Ser/Thr protein kinase family"
+    },
+    "P49761": {
+        "kinase": "CLK3",
+        "family": "CMGC Ser/Thr protein kinase family"
+    },
+    "P49840": {
+        "kinase": "GSK3A",
+        "family": "CMGC Ser/Thr protein kinase family"
+    },
+    "P49841": {
+        "kinase": "GSK3B",
+        "family": "CMGC Ser/Thr protein kinase family"
+    },
+    "P50613": {
+        "kinase": "CDK7",
+        "family": "CMGC Ser/Thr protein kinase family"
+    },
+    "P50750": {
+        "kinase": "CDK9",
+        "family": "CMGC Ser/Thr protein kinase family"
+    },
+    "P51451": {
+        "kinase": "BLK",
+        "family": "Tyr protein kinase family"
+    },
+    "P51617": {
+        "kinase": "IRAK1",
+        "family": "TKL Ser/Thr protein kinase family"
+    },
+    "P51812": {
+        "kinase": "RPS6KA3",
+        "family": "AGC Ser/Thr protein kinase family"
+    },
+    "P51813": {
+        "kinase": "BMX",
+        "family": "Tyr protein kinase family"
+    },
+    "P51817": {
+        "kinase": "PRKX",
+        "family": "AGC Ser/Thr protein kinase family"
+    },
+    "P51841": {
+        "kinase": "GUCY2F",
+        "family": "RGC kinase: adenylyl cyclase class-4/guanylyl cyclase"
+    },
+    "P51955": {
+        "kinase": "NEK2",
+        "family": "NEK Ser/Thr protein kinase family"
+    },
+    "P51956": {
+        "kinase": "NEK3",
+        "family": "NEK Ser/Thr protein kinase family"
+    },
+    "P51957": {
+        "kinase": "NEK4",
+        "family": "NEK Ser/Thr protein kinase family"
+    },
+    "P52333": {
+        "kinase": "JAK3",
+        "family": "Tyr protein kinase family"
+    },
+    "P52564": {
+        "kinase": "MAP2K6",
+        "family": "STE Ser/Thr protein kinase family"
+    },
+    "P53350": {
+        "kinase": "PLK1",
+        "family": "Other"
+    },
+    "P53355": {
+        "kinase": "DAPK1",
+        "family": "CAMK Ser/Thr protein kinase family"
+    },
+    "P53667": {
+        "kinase": "LIMK1",
+        "family": "TKL Ser/Thr protein kinase family"
+    },
+    "P53671": {
+        "kinase": "LIMK2",
+        "family": "TKL Ser/Thr protein kinase family"
+    },
+    "P53778": {
+        "kinase": "MAPK12",
+        "family": "CMGC Ser/Thr protein kinase family"
+    },
+    "P53779": {
+        "kinase": "MAPK10",
+        "family": "CMGC Ser/Thr protein kinase family"
+    },
+    "P54646": {
+        "kinase": "PRKAA2",
+        "family": "CAMK Ser/Thr protein kinase family"
+    },
+    "P54753": {
+        "kinase": "EPHB3",
+        "family": "Tyr protein kinase family"
+    },
+    "P54756": {
+        "kinase": "EPHA5",
+        "family": "Tyr protein kinase family"
+    },
+    "P54760": {
+        "kinase": "EPHB4",
+        "family": "Tyr protein kinase family"
+    },
+    "P54762": {
+        "kinase": "EPHB1",
+        "family": "Tyr protein kinase family"
+    },
+    "P54764": {
+        "kinase": "EPHA4",
+        "family": "Tyr protein kinase family"
+    },
+    "P57059": {
+        "kinase": "SIK1",
+        "family": "CAMK Ser/Thr protein kinase family"
+    },
+    "P57078": {
+        "kinase": "RIPK4",
+        "family": "TKL Ser/Thr protein kinase family"
+    },
+    "P68400": {
+        "kinase": "CSNK2A1",
+        "family": "Other"
+    },
+    "P78362": {
+        "kinase": "SRPK2",
+        "family": "CMGC Ser/Thr protein kinase family"
+    },
+    "P78368": {
+        "kinase": "CSNK1G2",
+        "family": "CK1 Ser/Thr protein kinase family"
+    },
+    "P78527": {
+        "kinase": "PRKDC",
+        "family": "Atypical: PI3/PI4-kinase family"
+    },
+    "P80192": {
+        "kinase": "MAP3K9",
+        "family": "STE Ser/Thr protein kinase family"
+    },
+    "Q00526": {
+        "kinase": "CDK3",
+        "family": "CMGC Ser/Thr protein kinase family"
+    },
+    "Q00532": {
+        "kinase": "CDKL1",
+        "family": "CMGC Ser/Thr protein kinase family"
+    },
+    "Q00534": {
+        "kinase": "CDK6",
+        "family": "CMGC Ser/Thr protein kinase family"
+    },
+    "Q00535": {
+        "kinase": "CDK5",
+        "family": "CMGC Ser/Thr protein kinase family"
+    },
+    "Q00536": {
+        "kinase": "CDK16",
+        "family": "CMGC Ser/Thr protein kinase family"
+    },
+    "Q00537": {
+        "kinase": "CDK17",
+        "family": "CMGC Ser/Thr protein kinase family"
+    },
+    "Q01973": {
+        "kinase": "ROR1",
+        "family": "Tyr protein kinase family"
+    },
+    "Q01974": {
+        "kinase": "ROR2",
+        "family": "Tyr protein kinase family"
+    },
+    "Q02156": {
+        "kinase": "PRKCE",
+        "family": "AGC Ser/Thr protein kinase family"
+    },
+    "Q02750": {
+        "kinase": "MAP2K1",
+        "family": "STE Ser/Thr protein kinase family"
+    },
+    "Q02763": {
+        "kinase": "TEK",
+        "family": "Tyr protein kinase family"
+    },
+    "Q02779": {
+        "kinase": "MAP3K10",
+        "family": "STE Ser/Thr protein kinase family"
+    },
+    "Q02846": {
+        "kinase": "GUCY2D",
+        "family": "RGC kinase: adenylyl cyclase class-4/guanylyl cyclase"
+    },
+    "Q04759": {
+        "kinase": "PRKCQ",
+        "family": "AGC Ser/Thr protein kinase family"
+    },
+    "Q04771": {
+        "kinase": "ACVR1",
+        "family": "TKL Ser/Thr protein kinase family"
+    },
+    "Q04912": {
+        "kinase": "MST1R",
+        "family": "Tyr protein kinase family"
+    },
+    "Q05397": {
+        "kinase": "PTK2",
+        "family": "Tyr protein kinase family"
+    },
+    "Q05513": {
+        "kinase": "PRKCZ",
+        "family": "AGC Ser/Thr protein kinase family"
+    },
+    "Q05655": {
+        "kinase": "PRKCD",
+        "family": "AGC Ser/Thr protein kinase family"
+    },
+    "Q05823": {
+        "kinase": "RNASEL",
+        "family": "Other"
+    },
+    "Q06187": {
+        "kinase": "BTK",
+        "family": "Tyr protein kinase family"
+    },
+    "Q06418": {
+        "kinase": "TYRO3",
+        "family": "Tyr protein kinase family"
+    },
+    "Q07002": {
+        "kinase": "CDK18",
+        "family": "CMGC Ser/Thr protein kinase family"
+    },
+    "Q07912": {
+        "kinase": "TNK2",
+        "family": "Tyr protein kinase family"
+    },
+    "Q08345": {
+        "kinase": "DDR1",
+        "family": "Tyr protein kinase family"
+    },
+    "Q08881": {
+        "kinase": "ITK",
+        "family": "Tyr protein kinase family"
+    },
+    "Q09013": {
+        "kinase": "DMPK",
+        "family": "AGC Ser/Thr protein kinase family"
+    },
+    "Q12851": {
+        "kinase": "MAP4K2",
+        "family": "STE Ser/Thr protein kinase family"
+    },
+    "Q12852": {
+        "kinase": "MAP3K12",
+        "family": "STE Ser/Thr protein kinase family"
+    },
+    "Q12866": {
+        "kinase": "MERTK",
+        "family": "Tyr protein kinase family"
+    },
+    "Q13043": {
+        "kinase": "STK4",
+        "family": "STE Ser/Thr protein kinase family"
+    },
+    "Q13131": {
+        "kinase": "PRKAA1",
+        "family": "CAMK Ser/Thr protein kinase family"
+    },
+    "Q13153": {
+        "kinase": "PAK1",
+        "family": "STE Ser/Thr protein kinase family"
+    },
+    "Q13163": {
+        "kinase": "MAP2K5",
+        "family": "STE Ser/Thr protein kinase family"
+    },
+    "Q13164": {
+        "kinase": "MAPK7",
+        "family": "CMGC Ser/Thr protein kinase family"
+    },
+    "Q13177": {
+        "kinase": "PAK2",
+        "family": "STE Ser/Thr protein kinase family"
+    },
+    "Q13188": {
+        "kinase": "STK3",
+        "family": "STE Ser/Thr protein kinase family"
+    },
+    "Q13233": {
+        "kinase": "MAP3K1",
+        "family": "STE Ser/Thr protein kinase family"
+    },
+    "Q13237": {
+        "kinase": "PRKG2",
+        "family": "AGC Ser/Thr protein kinase family"
+    },
+    "Q13308": {
+        "kinase": "PTK7",
+        "family": "Tyr protein kinase family"
+    },
+    "Q13315": {
+        "kinase": "ATM",
+        "family": "Atypical: PI3/PI4-kinase family"
+    },
+    "Q13418": {
+        "kinase": "ILK",
+        "family": "TKL Ser/Thr protein kinase family"
+    },
+    "Q13464": {
+        "kinase": "ROCK1",
+        "family": "AGC Ser/Thr protein kinase family"
+    },
+    "Q13470": {
+        "kinase": "TNK1",
+        "family": "Tyr protein kinase family"
+    },
+    "Q13523": {
+        "kinase": "PRPF4B",
+        "family": "CMGC Ser/Thr protein kinase family"
+    },
+    "Q13535": {
+        "kinase": "ATR",
+        "family": "Atypical: PI3/PI4-kinase family"
+    },
+    "Q13546": {
+        "kinase": "RIPK1",
+        "family": "TKL Ser/Thr protein kinase family"
+    },
+    "Q13554": {
+        "kinase": "CAMK2B",
+        "family": "CAMK Ser/Thr protein kinase family"
+    },
+    "Q13555": {
+        "kinase": "CAMK2G",
+        "family": "CAMK Ser/Thr protein kinase family"
+    },
+    "Q13557": {
+        "kinase": "CAMK2D",
+        "family": "CAMK Ser/Thr protein kinase family"
+    },
+    "Q13627": {
+        "kinase": "DYRK1A",
+        "family": "CMGC Ser/Thr protein kinase family"
+    },
+    "Q13705": {
+        "kinase": "ACVR2B",
+        "family": "TKL Ser/Thr protein kinase family"
+    },
+    "Q13873": {
+        "kinase": "BMPR2",
+        "family": "TKL Ser/Thr protein kinase family"
+    },
+    "Q13882": {
+        "kinase": "PTK6",
+        "family": "Tyr protein kinase family"
+    },
+    "Q13976": {
+        "kinase": "PRKG1",
+        "family": "AGC Ser/Thr protein kinase family"
+    },
+    "Q14004": {
+        "kinase": "CDK13",
+        "family": "CMGC Ser/Thr protein kinase family"
+    },
+    "Q14012": {
+        "kinase": "CAMK1",
+        "family": "CAMK Ser/Thr protein kinase family"
+    },
+    "Q14164": {
+        "kinase": "IKBKE",
+        "family": "Other"
+    },
+    "Q14289": {
+        "kinase": "PTK2B",
+        "family": "Tyr protein kinase family"
+    },
+    "Q14296": {
+        "kinase": "FASTK",
+        "family": "Atypical: FAST protein kinase family"
+    },
+    "Q14680": {
+        "kinase": "MELK",
+        "family": "CAMK Ser/Thr protein kinase family"
+    },
+    "Q15118": {
+        "kinase": "PDK1",
+        "family": "Atypical: PDK/BCKDK protein kinase family"
+    },
+    "Q15119": {
+        "kinase": "PDK2",
+        "family": "Atypical: PDK/BCKDK protein kinase family"
+    },
+    "Q15120": {
+        "kinase": "PDK3",
+        "family": "Atypical: PDK/BCKDK protein kinase family"
+    },
+    "Q15131": {
+        "kinase": "CDK10",
+        "family": "CMGC Ser/Thr protein kinase family"
+    },
+    "Q15139": {
+        "kinase": "PRKD1",
+        "family": "CAMK Ser/Thr protein kinase family"
+    },
+    "Q15208": {
+        "kinase": "STK38",
+        "family": "AGC Ser/Thr protein kinase family"
+    },
+    "Q15303": {
+        "kinase": "ERBB4",
+        "family": "Tyr protein kinase family"
+    },
+    "Q15349": {
+        "kinase": "RPS6KA2",
+        "family": "AGC Ser/Thr protein kinase family"
+    },
+    "Q15375": {
+        "kinase": "EPHA7",
+        "family": "Tyr protein kinase family"
+    },
+    "Q15418": {
+        "kinase": "RPS6KA1",
+        "family": "AGC Ser/Thr protein kinase family"
+    },
+    "Q15569": {
+        "kinase": "TESK1",
+        "family": "TKL Ser/Thr protein kinase family"
+    },
+    "Q15746": {
+        "kinase": "MYLK",
+        "family": "CAMK Ser/Thr protein kinase family"
+    },
+    "Q15759": {
+        "kinase": "MAPK11",
+        "family": "CMGC Ser/Thr protein kinase family"
+    },
+    "Q15772": {
+        "kinase": "SPEG",
+        "family": "CAMK Ser/Thr protein kinase family"
+    },
+    "Q15831": {
+        "kinase": "STK11",
+        "family": "CAMK Ser/Thr protein kinase family"
+    },
+    "Q15835": {
+        "kinase": "GRK1",
+        "family": "AGC Ser/Thr protein kinase family"
+    },
+    "Q16288": {
+        "kinase": "NTRK3",
+        "family": "Tyr protein kinase family"
+    },
+    "Q16512": {
+        "kinase": "PKN1",
+        "family": "AGC Ser/Thr protein kinase family"
+    },
+    "Q16513": {
+        "kinase": "PKN2",
+        "family": "AGC Ser/Thr protein kinase family"
+    },
+    "Q16539": {
+        "kinase": "MAPK14",
+        "family": "CMGC Ser/Thr protein kinase family"
+    },
+    "Q16566": {
+        "kinase": "CAMK4",
+        "family": "CAMK Ser/Thr protein kinase family"
+    },
+    "Q16584": {
+        "kinase": "MAP3K11",
+        "family": "STE Ser/Thr protein kinase family"
+    },
+    "Q16620": {
+        "kinase": "NTRK2",
+        "family": "Tyr protein kinase family"
+    },
+    "Q16644": {
+        "kinase": "MAPKAPK3",
+        "family": "CAMK Ser/Thr protein kinase family"
+    },
+    "Q16654": {
+        "kinase": "PDK4",
+        "family": "Atypical: PDK/BCKDK protein kinase family"
+    },
+    "Q16659": {
+        "kinase": "MAPK6",
+        "family": "CMGC Ser/Thr protein kinase family"
+    },
+    "Q16671": {
+        "kinase": "AMHR2",
+        "family": "TKL Ser/Thr protein kinase family"
+    },
+    "Q16816": {
+        "kinase": "PHKG1",
+        "family": "CAMK Ser/Thr protein kinase family"
+    },
+    "Q16832": {
+        "kinase": "DDR2",
+        "family": "Tyr protein kinase family"
+    },
+    "Q2M2I8": {
+        "kinase": "AAK1",
+        "family": "Other"
+    },
+    "Q32MK0": {
+        "kinase": "MYLK3",
+        "family": "CAMK Ser/Thr protein kinase family"
+    },
+    "Q38SD2": {
+        "kinase": "LRRK1",
+        "family": "TKL Ser/Thr protein kinase family"
+    },
+    "Q496M5": {
+        "kinase": "PLK5",
+        "family": "Other"
+    },
+    "Q504Y2": {
+        "kinase": "PKDCC",
+        "family": "Other"
+    },
+    "Q56UN5": {
+        "kinase": "MAP3K19",
+        "family": "STE Ser/Thr protein kinase family"
+    },
+    "Q58A45": {
+        "kinase": "PAN3",
+        "family": "Other"
+    },
+    "Q59H18": {
+        "kinase": "TNNI3K",
+        "family": "TKL Ser/Thr protein kinase family"
+    },
+    "Q5JZY3": {
+        "kinase": "EPHA10",
+        "family": "Tyr protein kinase family"
+    },
+    "Q5S007": {
+        "kinase": "LRRK2",
+        "family": "TKL Ser/Thr protein kinase family"
+    },
+    "Q5TCX8": {
+        "kinase": "MAP3K21",
+        "family": "STE Ser/Thr protein kinase family"
+    },
+    "Q5TCY1": {
+        "kinase": "TTBK1",
+        "family": "CK1 Ser/Thr protein kinase family"
+    },
+    "Q5VST9": {
+        "kinase": "OBSCN",
+        "family": "CAMK Ser/Thr protein kinase family"
+    },
+    "Q5VT25": {
+        "kinase": "CDC42BPA",
+        "family": "AGC Ser/Thr protein kinase family"
+    },
+    "Q6DT37": {
+        "kinase": "CDC42BPG",
+        "family": "AGC Ser/Thr protein kinase family"
+    },
+    "Q6IQ55": {
+        "kinase": "TTBK2",
+        "family": "CK1 Ser/Thr protein kinase family"
+    },
+    "Q6J9G0": {
+        "kinase": "STYK1",
+        "family": "Tyr protein kinase family"
+    },
+    "Q6P0Q8": {
+        "kinase": "MAST2",
+        "family": "AGC Ser/Thr protein kinase family"
+    },
+    "Q6P2M8": {
+        "kinase": "PNCK",
+        "family": "CAMK Ser/Thr protein kinase family"
+    },
+    "Q6P3W7": {
+        "kinase": "SCYL2",
+        "family": "Other"
+    },
+    "Q6P5Z2": {
+        "kinase": "PKN3",
+        "family": "AGC Ser/Thr protein kinase family"
+    },
+    "Q6PHR2": {
+        "kinase": "ULK3",
+        "family": "Other"
+    },
+    "Q6SA08": {
+        "kinase": "TSSK4",
+        "family": "CAMK Ser/Thr protein kinase family"
+    },
+    "Q6VAB6": {
+        "kinase": "KSR2",
+        "family": "TKL Ser/Thr protein kinase family"
+    },
+    "Q6XUX3": {
+        "kinase": "DSTYK",
+        "family": "Other"
+    },
+    "Q6ZMQ8": {
+        "kinase": "AATK",
+        "family": "Tyr protein kinase family"
+    },
+    "Q6ZN16": {
+        "kinase": "MAP3K15",
+        "family": "STE Ser/Thr protein kinase family"
+    },
+    "Q6ZWH5": {
+        "kinase": "NEK10",
+        "family": "NEK Ser/Thr protein kinase family"
+    },
+    "Q76MJ5": {
+        "kinase": "ERN2",
+        "family": "Other"
+    },
+    "Q7KZI7": {
+        "kinase": "MARK2",
+        "family": "CAMK Ser/Thr protein kinase family"
+    },
+    "Q7L7X3": {
+        "kinase": "TAOK1",
+        "family": "STE Ser/Thr protein kinase family"
+    },
+    "Q7RTN6": {
+        "kinase": "STRADA",
+        "family": "STE Ser/Thr protein kinase family"
+    },
+    "Q7Z2Y5": {
+        "kinase": "NRK",
+        "family": "STE Ser/Thr protein kinase family"
+    },
+    "Q7Z695": {
+        "kinase": "ADCK2",
+        "family": "Atypical: ADCK protein kinase family"
+    },
+    "Q7Z7A4": {
+        "kinase": "PXK",
+        "family": "Other"
+    },
+    "Q86SG6": {
+        "kinase": "NEK8",
+        "family": "NEK Ser/Thr protein kinase family"
+    },
+    "Q86TB3": {
+        "kinase": "ALPK2",
+        "family": "Atypical: Alpha-type protein kinase family"
+    },
+    "Q86TW2": {
+        "kinase": "ADCK1",
+        "family": "Atypical: ADCK protein kinase family"
+    },
+    "Q86UE8": {
+        "kinase": "TLK2",
+        "family": "Other"
+    },
+    "Q86UX6": {
+        "kinase": "STK32C",
+        "family": "Other"
+    },
+    "Q86V86": {
+        "kinase": "PIM3",
+        "family": "CAMK Ser/Thr protein kinase family"
+    },
+    "Q86Y07": {
+        "kinase": "VRK2",
+        "family": "CK1 Ser/Thr protein kinase family"
+    },
+    "Q86YV5": {
+        "kinase": "PRAG1",
+        "family": "Other"
+    },
+    "Q86Z02": {
+        "kinase": "HIPK1",
+        "family": "CMGC Ser/Thr protein kinase family"
+    },
+    "Q8IU85": {
+        "kinase": "CAMK1D",
+        "family": "CAMK Ser/Thr protein kinase family"
+    },
+    "Q8IV63": {
+        "kinase": "VRK3",
+        "family": "CK1 Ser/Thr protein kinase family"
+    },
+    "Q8IVH8": {
+        "kinase": "MAP4K3",
+        "family": "STE Ser/Thr protein kinase family"
+    },
+    "Q8IVT5": {
+        "kinase": "KSR1",
+        "family": "TKL Ser/Thr protein kinase family"
+    },
+    "Q8IVW4": {
+        "kinase": "CDKL3",
+        "family": "CMGC Ser/Thr protein kinase family"
+    },
+    "Q8IW41": {
+        "kinase": "MAPKAPK5",
+        "family": "CAMK Ser/Thr protein kinase family"
+    },
+    "Q8IWB6": {
+        "kinase": "TEX14",
+        "family": "Other"
+    },
+    "Q8IWQ3": {
+        "kinase": "BRSK2",
+        "family": "CAMK Ser/Thr protein kinase family"
+    },
+    "Q8IWU2": {
+        "kinase": "LMTK2",
+        "family": "Tyr protein kinase family"
+    },
+    "Q8IY84": {
+        "kinase": "NIM1K",
+        "family": "CAMK Ser/Thr protein kinase family"
+    },
+    "Q8IYT8": {
+        "kinase": "ULK2",
+        "family": "Other"
+    },
+    "Q8IZE3": {
+        "kinase": "SCYL3",
+        "family": "Other"
+    },
+    "Q8IZL9": {
+        "kinase": "CDK20",
+        "family": "CMGC Ser/Thr protein kinase family"
+    },
+    "Q8N2I9": {
+        "kinase": "STK40",
+        "family": "CAMK Ser/Thr protein kinase family"
+    },
+    "Q8N4C8": {
+        "kinase": "MINK1",
+        "family": "STE Ser/Thr protein kinase family"
+    },
+    "Q8N568": {
+        "kinase": "DCLK2",
+        "family": "CAMK Ser/Thr protein kinase family"
+    },
+    "Q8N5S9": {
+        "kinase": "CAMKK1",
+        "family": "Other"
+    },
+    "Q8N752": {
+        "kinase": "CSNK1A1L",
+        "family": "CK1 Ser/Thr protein kinase family"
+    },
+    "Q8NB16": {
+        "kinase": "MLKL",
+        "family": "Other"
+    },
+    "Q8NCB2": {
+        "kinase": "CAMKV",
+        "family": "CAMK Ser/Thr protein kinase family"
+    },
+    "Q8NE63": {
+        "kinase": "HIPK4",
+        "family": "CMGC Ser/Thr protein kinase family"
+    },
+    "Q8NER5": {
+        "kinase": "ACVR1C",
+        "family": "TKL Ser/Thr protein kinase family"
+    },
+    "Q8NEV1": {
+        "kinase": "CSNK2A3",
+        "family": "Other"
+    },
+    "Q8NEV4": {
+        "kinase": "MYO3A",
+        "family": "STE Ser/Thr protein kinase family"
+    },
+    "Q8NFD2": {
+        "kinase": "ANKK1",
+        "family": "TKL Ser/Thr protein kinase family"
+    },
+    "Q8NG66": {
+        "kinase": "NEK11",
+        "family": "NEK Ser/Thr protein kinase family"
+    },
+    "Q8NI60": {
+        "kinase": "COQ8A",
+        "family": "Atypical: ADCK protein kinase family"
+    },
+    "Q8TAS1": {
+        "kinase": "UHMK1",
+        "family": "Other"
+    },
+    "Q8TD08": {
+        "kinase": "MAPK15",
+        "family": "CMGC Ser/Thr protein kinase family"
+    },
+    "Q8TD19": {
+        "kinase": "NEK9",
+        "family": "NEK Ser/Thr protein kinase family"
+    },
+    "Q8TDC3": {
+        "kinase": "BRSK1",
+        "family": "CAMK Ser/Thr protein kinase family"
+    },
+    "Q8TDR2": {
+        "kinase": "STK35",
+        "family": "Other"
+    },
+    "Q8TDX7": {
+        "kinase": "NEK7",
+        "family": "NEK Ser/Thr protein kinase family"
+    },
+    "Q8TEA7": {
+        "kinase": "TBCK",
+        "family": "Other"
+    },
+    "Q8TF76": {
+        "kinase": "HASPIN",
+        "family": "Other"
+    },
+    "Q8WTQ7": {
+        "kinase": "GRK7",
+        "family": "AGC Ser/Thr protein kinase family"
+    },
+    "Q8WU08": {
+        "kinase": "STK32A",
+        "family": "Other"
+    },
+    "Q8WXR4": {
+        "kinase": "MYO3B",
+        "family": "STE Ser/Thr protein kinase family"
+    },
+    "Q8WZ42": {
+        "kinase": "TTN",
+        "family": "CAMK Ser/Thr protein kinase family"
+    },
+    "Q92519": {
+        "kinase": "TRIB2",
+        "family": "CAMK Ser/Thr protein kinase family"
+    },
+    "Q92630": {
+        "kinase": "DYRK2",
+        "family": "CMGC Ser/Thr protein kinase family"
+    },
+    "Q92772": {
+        "kinase": "CDKL2",
+        "family": "CMGC Ser/Thr protein kinase family"
+    },
+    "Q92918": {
+        "kinase": "MAP4K1",
+        "family": "STE Ser/Thr protein kinase family"
+    },
+    "Q96BR1": {
+        "kinase": "SGK3",
+        "family": "AGC Ser/Thr protein kinase family"
+    },
+    "Q96C45": {
+        "kinase": "ULK4",
+        "family": "Other"
+    },
+    "Q96D53": {
+        "kinase": "COQ8B",
+        "family": "Atypical: ADCK protein kinase family"
+    },
+    "Q96GD4": {
+        "kinase": "AURKB",
+        "family": "Other"
+    },
+    "Q96GX5": {
+        "kinase": "MASTL",
+        "family": "AGC Ser/Thr protein kinase family"
+    },
+    "Q96J92": {
+        "kinase": "WNK4",
+        "family": "Other"
+    },
+    "Q96KB5": {
+        "kinase": "PBK",
+        "family": "STE Ser/Thr protein kinase family"
+    },
+    "Q96KG9": {
+        "kinase": "SCYL1",
+        "family": "Other"
+    },
+    "Q96L34": {
+        "kinase": "MARK4",
+        "family": "CAMK Ser/Thr protein kinase family"
+    },
+    "Q96L96": {
+        "kinase": "ALPK3",
+        "family": "Atypical: Alpha-type protein kinase family"
+    },
+    "Q96NX5": {
+        "kinase": "CAMK1G",
+        "family": "CAMK Ser/Thr protein kinase family"
+    },
+    "Q96PF2": {
+        "kinase": "TSSK2",
+        "family": "CAMK Ser/Thr protein kinase family"
+    },
+    "Q96PN8": {
+        "kinase": "TSSK3",
+        "family": "CAMK Ser/Thr protein kinase family"
+    },
+    "Q96PY6": {
+        "kinase": "NEK1",
+        "family": "NEK Ser/Thr protein kinase family"
+    },
+    "Q96Q04": {
+        "kinase": "LMTK3",
+        "family": "Tyr protein kinase family"
+    },
+    "Q96Q15": {
+        "kinase": "SMG1",
+        "family": "Atypical: PI3/PI4-kinase family"
+    },
+    "Q96Q40": {
+        "kinase": "CDK15",
+        "family": "CMGC Ser/Thr protein kinase family"
+    },
+    "Q96QP1": {
+        "kinase": "ALPK1",
+        "family": "Atypical: Alpha-type protein kinase family"
+    },
+    "Q96QS6": {
+        "kinase": "PSKH2",
+        "family": "CAMK Ser/Thr protein kinase family"
+    },
+    "Q96QT4": {
+        "kinase": "TRPM7",
+        "family": "Atypical: Alpha-type protein kinase family"
+    },
+    "Q96RG2": {
+        "kinase": "PASK",
+        "family": "CAMK Ser/Thr protein kinase family"
+    },
+    "Q96RR4": {
+        "kinase": "CAMKK2",
+        "family": "Other"
+    },
+    "Q96RU7": {
+        "kinase": "TRIB3",
+        "family": "CAMK Ser/Thr protein kinase family"
+    },
+    "Q96RU8": {
+        "kinase": "TRIB1",
+        "family": "CAMK Ser/Thr protein kinase family"
+    },
+    "Q96S38": {
+        "kinase": "RPS6KC1",
+        "family": "Other"
+    },
+    "Q96S44": {
+        "kinase": "TP53RK",
+        "family": "Other"
+    },
+    "Q96S53": {
+        "kinase": "TESK2",
+        "family": "TKL Ser/Thr protein kinase family"
+    },
+    "Q96SB4": {
+        "kinase": "SRPK1",
+        "family": "CMGC Ser/Thr protein kinase family"
+    },
+    "Q99558": {
+        "kinase": "MAP3K14",
+        "family": "STE Ser/Thr protein kinase family"
+    },
+    "Q99570": {
+        "kinase": "PIK3R4",
+        "family": "Other"
+    },
+    "Q99640": {
+        "kinase": "PKMYT1",
+        "family": "Other"
+    },
+    "Q99683": {
+        "kinase": "MAP3K5",
+        "family": "STE Ser/Thr protein kinase family"
+    },
+    "Q99759": {
+        "kinase": "MAP3K3",
+        "family": "STE Ser/Thr protein kinase family"
+    },
+    "Q99986": {
+        "kinase": "VRK1",
+        "family": "CK1 Ser/Thr protein kinase family"
+    },
+    "Q9BQI3": {
+        "kinase": "EIF2AK1",
+        "family": "Other"
+    },
+    "Q9BRS2": {
+        "kinase": "RIOK1",
+        "family": "Atypical: RIO-type Ser/Thr kinase family"
+    },
+    "Q9BUB5": {
+        "kinase": "MKNK1",
+        "family": "CAMK Ser/Thr protein kinase family"
+    },
+    "Q9BVS4": {
+        "kinase": "RIOK2",
+        "family": "Atypical: RIO-type Ser/Thr kinase family"
+    },
+    "Q9BWU1": {
+        "kinase": "CDK19",
+        "family": "CMGC Ser/Thr protein kinase family"
+    },
+    "Q9BX84": {
+        "kinase": "TRPM6",
+        "family": "Atypical: Alpha-type protein kinase family"
+    },
+    "Q9BXA6": {
+        "kinase": "TSSK6",
+        "family": "CAMK Ser/Thr protein kinase family"
+    },
+    "Q9BXA7": {
+        "kinase": "TSSK1B",
+        "family": "CAMK Ser/Thr protein kinase family"
+    },
+    "Q9BXM7": {
+        "kinase": "PINK1",
+        "family": "Other"
+    },
+    "Q9BXU1": {
+        "kinase": "STK31",
+        "family": "Other"
+    },
+    "Q9BYP7": {
+        "kinase": "WNK3",
+        "family": "Other"
+    },
+    "Q9BYT3": {
+        "kinase": "STK33",
+        "family": "CAMK Ser/Thr protein kinase family"
+    },
+    "Q9BZL6": {
+        "kinase": "PRKD2",
+        "family": "CAMK Ser/Thr protein kinase family"
+    },
+    "Q9C098": {
+        "kinase": "DCLK3",
+        "family": "CAMK Ser/Thr protein kinase family"
+    },
+    "Q9C0K7": {
+        "kinase": "STRADB",
+        "family": "STE Ser/Thr protein kinase family"
+    },
+    "Q9H093": {
+        "kinase": "NUAK2",
+        "family": "CAMK Ser/Thr protein kinase family"
+    },
+    "Q9H0K1": {
+        "kinase": "SIK2",
+        "family": "CAMK Ser/Thr protein kinase family"
+    },
+    "Q9H1R3": {
+        "kinase": "MYLK2",
+        "family": "CAMK Ser/Thr protein kinase family"
+    },
+    "Q9H2G2": {
+        "kinase": "SLK",
+        "family": "STE Ser/Thr protein kinase family"
+    },
+    "Q9H2K8": {
+        "kinase": "TAOK3",
+        "family": "STE Ser/Thr protein kinase family"
+    },
+    "Q9H2X6": {
+        "kinase": "HIPK2",
+        "family": "CMGC Ser/Thr protein kinase family"
+    },
+    "Q9H3Y6": {
+        "kinase": "SRMS",
+        "family": "Tyr protein kinase family"
+    },
+    "Q9H422": {
+        "kinase": "HIPK3",
+        "family": "CMGC Ser/Thr protein kinase family"
+    },
+    "Q9H4A3": {
+        "kinase": "WNK1",
+        "family": "Other"
+    },
+    "Q9H4B4": {
+        "kinase": "PLK3",
+        "family": "Other"
+    },
+    "Q9H5K3": {
+        "kinase": "POMK",
+        "family": "Other"
+    },
+    "Q9H792": {
+        "kinase": "PEAK1",
+        "family": "Other"
+    },
+    "Q9HAZ1": {
+        "kinase": "CLK4",
+        "family": "CMGC Ser/Thr protein kinase family"
+    },
+    "Q9HBH9": {
+        "kinase": "MKNK2",
+        "family": "CAMK Ser/Thr protein kinase family"
+    },
+    "Q9HBY8": {
+        "kinase": "SGK2",
+        "family": "AGC Ser/Thr protein kinase family"
+    },
+    "Q9HC98": {
+        "kinase": "NEK6",
+        "family": "NEK Ser/Thr protein kinase family"
+    },
+    "Q9HCP0": {
+        "kinase": "CSNK1G1",
+        "family": "CK1 Ser/Thr protein kinase family"
+    },
+    "Q9NQU5": {
+        "kinase": "PAK6",
+        "family": "STE Ser/Thr protein kinase family"
+    },
+    "Q9NR20": {
+        "kinase": "DYRK4",
+        "family": "CMGC Ser/Thr protein kinase family"
+    },
+    "Q9NRH2": {
+        "kinase": "SNRK",
+        "family": "CAMK Ser/Thr protein kinase family"
+    },
+    "Q9NRM7": {
+        "kinase": "LATS2",
+        "family": "AGC Ser/Thr protein kinase family"
+    },
+    "Q9NRP7": {
+        "kinase": "STK36",
+        "family": "Other"
+    },
+    "Q9NSY1": {
+        "kinase": "BMP2K",
+        "family": "Other"
+    },
+    "Q9NWZ3": {
+        "kinase": "IRAK4",
+        "family": "TKL Ser/Thr protein kinase family"
+    },
+    "Q9NYL2": {
+        "kinase": "MAP3K20",
+        "family": "STE Ser/Thr protein kinase family"
+    },
+    "Q9NYV4": {
+        "kinase": "CDK12",
+        "family": "CMGC Ser/Thr protein kinase family"
+    },
+    "Q9NYY3": {
+        "kinase": "PLK2",
+        "family": "Other"
+    },
+    "Q9NZJ5": {
+        "kinase": "EIF2AK3",
+        "family": "Other"
+    },
+    "Q9P0L2": {
+        "kinase": "MARK1",
+        "family": "CAMK Ser/Thr protein kinase family"
+    },
+    "Q9P1W9": {
+        "kinase": "PIM2",
+        "family": "CAMK Ser/Thr protein kinase family"
+    },
+    "Q9P286": {
+        "kinase": "PAK5",
+        "family": "STE Ser/Thr protein kinase family"
+    },
+    "Q9P289": {
+        "kinase": "STK26",
+        "family": "STE Ser/Thr protein kinase family"
+    },
+    "Q9P2K8": {
+        "kinase": "EIF2AK4",
+        "family": "Other"
+    },
+    "Q9UBE8": {
+        "kinase": "NLK",
+        "family": "CMGC Ser/Thr protein kinase family"
+    },
+    "Q9UBS0": {
+        "kinase": "RPS6KB2",
+        "family": "AGC Ser/Thr protein kinase family"
+    },
+    "Q9UEE5": {
+        "kinase": "STK17A",
+        "family": "CAMK Ser/Thr protein kinase family"
+    },
+    "Q9UEW8": {
+        "kinase": "STK39",
+        "family": "STE Ser/Thr protein kinase family"
+    },
+    "Q9UF33": {
+        "kinase": "EPHA6",
+        "family": "Tyr protein kinase family"
+    },
+    "Q9UHD2": {
+        "kinase": "TBK1",
+        "family": "Other"
+    },
+    "Q9UHY1": {
+        "kinase": "NRBP1",
+        "family": "Other"
+    },
+    "Q9UIK4": {
+        "kinase": "DAPK2",
+        "family": "CAMK Ser/Thr protein kinase family"
+    },
+    "Q9UK32": {
+        "kinase": "RPS6KA6",
+        "family": "AGC Ser/Thr protein kinase family"
+    },
+    "Q9UKE5": {
+        "kinase": "TNIK",
+        "family": "STE Ser/Thr protein kinase family"
+    },
+    "Q9UKI8": {
+        "kinase": "TLK1",
+        "family": "Other"
+    },
+    "Q9UL54": {
+        "kinase": "TAOK2",
+        "family": "STE Ser/Thr protein kinase family"
+    },
+    "Q9UM73": {
+        "kinase": "ALK",
+        "family": "Tyr protein kinase family"
+    },
+    "Q9UPE1": {
+        "kinase": "SRPK3",
+        "family": "CMGC Ser/Thr protein kinase family"
+    },
+    "Q9UPZ9": {
+        "kinase": "CILK1",
+        "family": "CMGC Ser/Thr protein kinase family"
+    },
+    "Q9UQ07": {
+        "kinase": "MOK",
+        "family": "CMGC Ser/Thr protein kinase family"
+    },
+    "Q9UQ88": {
+        "kinase": "CDK11A",
+        "family": "CMGC Ser/Thr protein kinase family"
+    },
+    "Q9UQB9": {
+        "kinase": "AURKC",
+        "family": "Other"
+    },
+    "Q9UQM7": {
+        "kinase": "CAMK2A",
+        "family": "CAMK Ser/Thr protein kinase family"
+    },
+    "Q9Y243": {
+        "kinase": "AKT3",
+        "family": "AGC Ser/Thr protein kinase family"
+    },
+    "Q9Y2H1": {
+        "kinase": "STK38L",
+        "family": "AGC Ser/Thr protein kinase family"
+    },
+    "Q9Y2H9": {
+        "kinase": "MAST1",
+        "family": "AGC Ser/Thr protein kinase family"
+    },
+    "Q9Y2K2": {
+        "kinase": "SIK3",
+        "family": "CAMK Ser/Thr protein kinase family"
+    },
+    "Q9Y2U5": {
+        "kinase": "MAP3K2",
+        "family": "STE Ser/Thr protein kinase family"
+    },
+    "Q9Y3S1": {
+        "kinase": "WNK2",
+        "family": "Other"
+    },
+    "Q9Y463": {
+        "kinase": "DYRK1B",
+        "family": "CMGC Ser/Thr protein kinase family"
+    },
+    "Q9Y4K4": {
+        "kinase": "MAP4K5",
+        "family": "STE Ser/Thr protein kinase family"
+    },
+    "Q9Y572": {
+        "kinase": "RIPK3",
+        "family": "TKL Ser/Thr protein kinase family"
+    },
+    "Q9Y5S2": {
+        "kinase": "CDC42BPB",
+        "family": "AGC Ser/Thr protein kinase family"
+    },
+    "Q9Y616": {
+        "kinase": "IRAK3",
+        "family": "TKL Ser/Thr protein kinase family"
+    },
+    "Q9Y6E0": {
+        "kinase": "STK24",
+        "family": "STE Ser/Thr protein kinase family"
+    },
+    "Q9Y6M4": {
+        "kinase": "CSNK1G3",
+        "family": "CK1 Ser/Thr protein kinase family"
+    },
+    "Q9Y6R4": {
+        "kinase": "MAP3K4",
+        "family": "STE Ser/Thr protein kinase family"
+    },
+    "O43930": {
+        "kinase": "PRKY",
+        "family": "AGC Ser/Thr protein kinase family"
+    },
+    "P0C263": {
+        "kinase": "SBK2",
+        "family": "Other"
+    },
+    "P57058": {
+        "kinase": "HUNK",
+        "family": "CAMK Ser/Thr protein kinase family"
+    },
+    "Q52WX2": {
+        "kinase": "SBK1",
+        "family": "Other"
+    },
+    "Q5MAI5": {
+        "kinase": "CDKL4",
+        "family": "CMGC Ser/Thr protein kinase family"
+    },
+    "Q6A1A2": {
+        "kinase": "PDPK2P",
+        "family": "AGC Ser/Thr protein kinase family"
+    },
+    "Q6ZS72": {
+        "kinase": "PEAK3",
+        "family": "Other"
+    },
+    "Q86YV6": {
+        "kinase": "MYLK4",
+        "family": "CAMK Ser/Thr protein kinase family"
+    },
+    "Q8N165": {
+        "kinase": "PDIK1L",
+        "family": "Other"
+    },
+    "Q8NE28": {
+        "kinase": "STKLD1",
+        "family": "Other"
+    },
+    "Q96LW2": {
+        "kinase": "RSKR",
+        "family": "Other"
+    },
+    "Q9NSY0": {
+        "kinase": "NRBP2",
+        "family": "Other"
+    },
+    "Q9NY57": {
+        "kinase": "STK32B",
+        "family": "Other"
+    },
+    "Q9Y6S9": {
+        "kinase": "RPS6KL1",
+        "family": "Other"
+    },
+    "Q3MIX3": {
+        "kinase": "ADCK5",
+        "family": "Atypical: ADCK protein kinase family"
+    },
+    "Q6P3R8": {
+        "kinase": "NEK5",
+        "family": "NEK Ser/Thr protein kinase family"
+    }
+}
