@@ -1,2 +1,2 @@
 # Drug_Target_Discovery
-RnD project Collaboration
+RnD project Collaboration with BSBE, IIT Bombay
