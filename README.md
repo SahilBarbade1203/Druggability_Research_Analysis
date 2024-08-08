@@ -1,2 +1,2 @@
-# Drug_Target_Discovery
+# Druggability_Analysis
 RnD project Collaboration with BSBE, IIT Bombay
