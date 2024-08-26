@@ -1,6 +1,6 @@
 # Druggability_Research_Analysis
 
-**Public Repository by Sahil Dhanraj Barbade**
+**R&D Collaboration with BSBE, IIT Bombay**
 
 ## Overview
 
