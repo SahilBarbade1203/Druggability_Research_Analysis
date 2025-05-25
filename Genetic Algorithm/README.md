@@ -36,7 +36,7 @@ GAFeatureSelectionCV(
 
 ## 📊 2. Feature Scores Evaluation
 
-We train custom models—Partition-Level Classifier (PLC) and Partition-Level Ensemble of Classifiers (PLEOC)—on the GA-selected features for each partition.
+We train custom models—Partition-Level Classifier (PLC) and Partition-Leave-One Out Classifier (PLEOC)—on the GA-selected features for each partition.
 
 📄 **Script**:  
 - `ga_feature_scores.py`
